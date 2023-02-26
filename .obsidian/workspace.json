@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - References/_Settings.md",
+                "file": "0 - Atlas/0 - What is a Map of Content.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e8010dd7055bc83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Settings.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 - References/_Settings.md",
+                "file": "Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 - References/_Settings.md",
+                "file": "Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 - References/_Settings.md"
+                "file": "Settings.md"
               }
             }
           }
@@ -166,15 +178,17 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "53eba62dcbd41e27",
+  "active": "7e8010dd7055bc83",
   "lastOpenFiles": [
+    "README.md",
+    "References.md",
+    "0 - Atlas/0 - What is a Map of Content.md",
+    "Settings.md",
     "100 - References/_Attachments.md",
-    "100 - References/_Settings.md",
     "100 - References/_Templates",
     "100 - References/_Attachments",
     "1 - Inbox/1 - Whats is the Inbox folder used for.md",
@@ -182,7 +196,6 @@
     "100 - References",
     "50 - Areas",
     "10 - Projects",
-    "0 - Atlas/0 - What is a Map of Content.md",
     "0 - Atlas",
     "1 - Inbox"
   ]

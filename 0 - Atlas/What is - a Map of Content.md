@@ -1,5 +1,5 @@
 
-Tags: #What_is 
+Tags: #What_is #MoC 
 
 A map of content, also known as a content map or content inventory, is a structured list or visual representation of all the content that exists on a website or other digital platform. It provides an overview of the content that is available, as well as information about the format, structure, and location of each piece of content.
 

@@ -1,3 +1,5 @@
+
+
 # Introduction
 This document contains the setting for this Vault.
 
@@ -25,6 +27,16 @@ This document contains the setting for this Vault.
 
 # Core Plugins
 - Daily Notes = off
+
+- Template
+	- Template Folder Location = '100 - References/_Templates'
+MoC:
+Tags: 
+
+
+MoC:
+Tags: 
+
 
 
 # Community Plugins

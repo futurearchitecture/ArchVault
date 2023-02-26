@@ -17,6 +17,10 @@ This Vault has been specifically design with mulitple users in mind that share t
 The Markdown written in this Vault is intended for use in Obsidian and not GitHub and so features such as bi-directional links will not work.
 
 
+## What are the 'What is' files?
+The 'What is' files are used to explain what certain parts of the Vault are used for.
+
+
 
 ## Folders
 ### Root Folders

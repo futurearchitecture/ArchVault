@@ -1,4 +1,4 @@
-MoC: [[Technical Reference Model - MoC]]
+MoC: [[MoC - Technical Reference Model]]
 Tags: #What_is #TRM
 
 A Technical Reference Model (TRM) is a type of reference architecture that provides a framework for designing and implementing technology solutions. It is a high-level blueprint or conceptual model that describes the various technology layers, components, and services that are necessary to build a comprehensive and integrated technology infrastructure.

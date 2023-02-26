@@ -4,8 +4,10 @@ Architecture Repository Obsidian Vault
 This is a project to create an Obsidian Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
 
 ### Features
-AI Assisted content creation using GTP-3
-
+- AI Assisted content creation using  [[Settings#Text Generator|Text Generator Plugin]] 
+	- **Please Note OpenAI Key is not included**
+	- Here is an [article on how to setup and use the Text Generator Plugin](https://medium.com/os-techblog/obsidians-open-ai-gtp-3-text-generator-980d64e0067f)
+	- Here is a link to the [official instructions](https://github.com/nhaouari/obsidian-textgenerator-plugin)
 
 
 ## Multiple Users

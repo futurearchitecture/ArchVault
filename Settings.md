@@ -30,5 +30,9 @@ This document contains the setting for this Vault.
 # Community Plugins
 
 ## Text Generator
+
 [nhaouari/obsidian-textgenerator-plugin: Text generator is a handy plugin for Obsidian that helps you generate text content using GPT-3 (OpenAI). (github.com)](https://github.com/nhaouari/obsidian-textgenerator-plugin)
+
+*Please note you will need to obtain your own OpenAI Key for this plugin to work*
+
 

@@ -179,11 +179,14 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "7e8010dd7055bc83",
   "lastOpenFiles": [
+    "New Text Document.txt",
     "README.md",
     "References.md",
     "0 - Atlas/0 - What is a Map of Content.md",

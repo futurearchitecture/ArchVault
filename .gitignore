@@ -1,0 +1,2 @@
+# ignoring the data.json file that saves the OpenAPI key
+\.obsidian\plugins\obsidian-textgenerator-plugin\data.json

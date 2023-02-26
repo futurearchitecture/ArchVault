@@ -2,5 +2,6 @@
   "showFrontmatter": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "1 - Inbox",
-  "attachmentFolderPath": "100 - References/_Attachments"
+  "attachmentFolderPath": "100 - References/_Attachments",
+  "alwaysUpdateLinks": true
 }

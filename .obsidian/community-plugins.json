@@ -1,4 +1,6 @@
 [
   "obsidian-textgenerator-plugin",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "dataview",
+  "editing-toolbar"
 ]

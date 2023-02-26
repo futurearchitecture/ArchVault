@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "854b5d327a797cf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Atlas/0 - What is a Map of Content.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfecfc045d399834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Inbox/1 - Whats is the Inbox folder used for.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53eba62dcbd41e27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Atlas/0 - What is a Map of Content.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7e8010dd7055bc83",
             "type": "leaf",
             "state": {
@@ -54,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ddd6042354bfe5c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Settings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Settings.md"
               }
             }
           }
@@ -184,12 +160,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "7e8010dd7055bc83",
+  "active": "5a726330743307b7",
   "lastOpenFiles": [
-    "Settings.md",
+    "200 - Tasks/All Open Tasks.md",
     "README.md",
-    "New Text Document.txt",
+    "Settings.md",
+    "200 - Tasks",
     "References.md",
+    "New Text Document.txt",
     "0 - Atlas/0 - What is a Map of Content.md",
     "100 - References/_Attachments.md",
     "100 - References/_Templates",

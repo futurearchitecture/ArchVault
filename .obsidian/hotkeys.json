@@ -1,1 +1,11 @@
-{}
+{
+  "obsidian-tasks-plugin:toggle-done": [],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ]
+}

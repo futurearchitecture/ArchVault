@@ -36,3 +36,7 @@ This document contains the setting for this Vault.
 *Please note you will need to obtain your own OpenAI Key for this plugin to work*
 
 
+## Tasks
+
+https://obsidian-tasks-group.github.io/obsidian-tasks/
+

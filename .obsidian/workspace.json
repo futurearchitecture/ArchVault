@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Settings.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Settings.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Settings.md"
+                "file": "README.md"
               }
             }
           }
@@ -160,22 +159,22 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "e36f82a1d910b5c1",
+  "active": "7e8010dd7055bc83",
   "lastOpenFiles": [
+    "Settings.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "README.md",
+    "200 - Tasks/All Open Tasks.md",
     "100 - References/The PARA Method.md",
     "50 - Areas/What is - Areas Folder.md",
     "10 - Projects/What is - Projects Folder.md",
-    "Settings.md",
     "References.md",
     "0 - Atlas/MoC - What Is files.md",
     "0 - Atlas/MoC - Technical Reference Model.md",
-    "0 - Atlas/MoC - of MoCs.md",
     "0 - Atlas/What is - the Atlas folder.md",
-    "README.md",
     "1 - Inbox/What is - the Inbox folder used for.md",
     "100 - References/_Technical Reference Model/What is - a Technical Reference Model.md",
     "0 - Atlas/What is - a Map of Content.md",
-    "200 - Tasks/All Open Tasks.md",
     "100 - References/_Templates/Default.md",
     "100 - References/_Technical Reference Model",
     "200 - Tasks",

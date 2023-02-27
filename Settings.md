@@ -30,21 +30,32 @@ This document contains the setting for this Vault.
 
 - Template
 	- Template Folder Location = '100 - References/_Templates'
-MoC:
-Tags: 
 
-
-MoC:
-Tags: 
 
 
 
 # Community Plugins
-
+These are the Plugins that are installed with this Vault. It is recommend to run an update after opening this Vault in Obsidian.
 
 ## Dataview
 
+Dataview is a query the vault using a language very similar to SQL. Dataview is used to generate the content of the Map of Contents
+
 https://github.com/blacksmithgu/obsidian-dataview
+
+
+## Editing Toolbar
+
+Markdown and Obsidian can both have steep learning curves. Having a 'Microsoft Word' style toolbar can help ease these learning curve. 
+
+[GitHub - cumany/obsidian-editing-toolbar: An obsidian toolbar plugin, modified from the Cmenu plugin](https://github.com/cumany/obsidian-editing-toolbar)
+
+
+
+
+## Tasks
+
+https://obsidian-tasks-group.github.io/obsidian-tasks/
 
 
 ## Text Generator
@@ -52,9 +63,4 @@ https://github.com/blacksmithgu/obsidian-dataview
 [nhaouari/obsidian-textgenerator-plugin: Text generator is a handy plugin for Obsidian that helps you generate text content using GPT-3 (OpenAI). (github.com)](https://github.com/nhaouari/obsidian-textgenerator-plugin)
 
 *Please note you will need to obtain your own OpenAI Key for this plugin to work*
-
-
-## Tasks
-
-https://obsidian-tasks-group.github.io/obsidian-tasks/
 

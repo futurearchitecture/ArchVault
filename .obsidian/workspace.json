@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Atlas/MoC - of Tasks.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Atlas/MoC - of Tasks.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0 - Atlas/MoC - of Tasks.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - Atlas/MoC - of Tasks.md"
+                "file": "README.md"
               }
             }
           }
@@ -174,10 +174,16 @@
   },
   "active": "bda43d9c5b7c7d85",
   "lastOpenFiles": [
+    "0 - Atlas/MoC - of MoCs.md",
+    "0 - Atlas/MoC - What Is files.md",
+    "0 - Atlas/MoC - Technical Reference Model.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/What is - the Atlas folder.md",
+    "0 - Atlas/What is - a Map of Content.md",
+    "References.md",
+    "200 - Tasks/How to - Manage Tasks.md",
     "200 - Tasks/All Open Tasks.md",
     "200 - Tasks/All Closed Tasks.md",
-    "200 - Tasks/How to - Manage Tasks.md",
-    "0 - Atlas/MoC - of Tasks.md",
     "Settings.md"
   ]
 }

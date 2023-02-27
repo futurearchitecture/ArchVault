@@ -11,8 +11,12 @@
             "id": "d1e895ef251503ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -139,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d6ea75488813b5b",
+  "active": "d1e895ef251503ba",
   "lastOpenFiles": [
-    "200 - Tasks/How to - Manage Tasks.md",
     "200 - Tasks/Project Example.md",
+    "200 - Tasks/How to - Manage Tasks.md",
     "200 - Tasks/All Open Tasks.md",
     "200 - Tasks/All Closed Tasks.md",
     "Settings.md",

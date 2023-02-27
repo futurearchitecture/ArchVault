@@ -1,7 +1,7 @@
 # Arch Vault
 Knowledge Management for Technical Architects
 
-This is a project to create an Obsidian Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
+This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
 
 The idea is that you can open and use the Vault immediately after downloading it.
 
@@ -18,6 +18,7 @@ The idea is that you can open and use the Vault immediately after downloading it
 	- Using the Dataview Plugin.
 - Tasks can be created anywhere in the Vault and tracked centrally.
 	- Using the Tasks Plugin.
+- Files are automatically moved to the correct folder based on hash tag or file name.
 
 
 ## Multiple Users

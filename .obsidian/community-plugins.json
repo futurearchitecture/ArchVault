@@ -3,5 +3,6 @@
   "obsidian-tasks-plugin",
   "dataview",
   "editing-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "auto-note-mover"
 ]

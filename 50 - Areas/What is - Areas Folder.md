@@ -2,5 +2,6 @@
 Tags: #What_is 
 
 
-Areas is the home for reused components and guidance
 
+
+- [ ] Tidy up the areas folder explanation

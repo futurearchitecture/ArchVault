@@ -1,5 +1,5 @@
 # Arch Vault
-Architecture Repository Obsidian Vault
+Knowledge Management for Technical Architects
 
 This is a project to create an Obsidian Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
 
@@ -9,7 +9,7 @@ The idea is that you can open and use the Vault immediately after downloading it
 
 
 
-### Features
+## Features
 - AI Assisted content creation using  [[Settings#Text Generator|Text Generator Plugin]] 
 	- **Please Note OpenAI Key is not included**
 	- Here is an [article on how to setup and use the Text Generator Plugin](https://medium.com/os-techblog/obsidians-open-ai-gtp-3-text-generator-980d64e0067f)
@@ -29,7 +29,7 @@ The Markdown written in this Vault is intended for use in Obsidian and not GitHu
 
 ## What are the 'What is' files?
 The 'What is' files are used to explain what certain parts of the Vault are used for.
-
+A good place to start is the [[MoC - What Is files]] which is a FAQ of sorts.
 
 ## Folders
 
@@ -39,9 +39,6 @@ Root Folders all have a number before them so they stay in the PARA order.
 ### _ Folders
 Underscores are placed as the first character for some folders as they are used in the configuration of this vault.
 
-## Naming conventions
-- [ ] Create naming conventions ⏫
 
-MoC 
-What is 
-_ [name]
+## Map of Contents / MoC
+MoC - prefix for Map of Content files. The [[What is - a Map of Content]] explains in greater depth.

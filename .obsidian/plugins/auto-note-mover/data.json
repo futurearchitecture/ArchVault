@@ -1,0 +1,38 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "0 - Atlas",
+      "tag": "#MoC",
+      "pattern": ""
+    },
+    {
+      "folder": "1000 - Archives",
+      "tag": "#Archived",
+      "pattern": ""
+    },
+    {
+      "folder": "100 - References",
+      "tag": "#Web_Reference",
+      "pattern": ""
+    },
+    {
+      "folder": "200 - Tasks",
+      "tag": "#Tasks",
+      "pattern": ""
+    },
+    {
+      "folder": "10 - Projects",
+      "tag": "",
+      "pattern": "^Project"
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": ""
+    }
+  ]
+}

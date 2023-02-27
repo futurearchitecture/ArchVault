@@ -1,9 +1,5 @@
-
-
 # Introduction
 This document contains the setting for this Vault.
-
-
 
 # Options
 
@@ -32,10 +28,15 @@ This document contains the setting for this Vault.
 	- Template Folder Location = '100 - References/_Templates'
 
 
-
-
 # Community Plugins
 These are the Plugins that are installed with this Vault. It is recommend to run an update after opening this Vault in Obsidian.
+
+## Auto Note Mover
+
+Once a specific hash tag is applied a note is automatically moved to the appropriate folders.
+
+https://github.com/farux/obsidian-auto-note-mover
+
 
 ## Dataview
 
@@ -51,9 +52,18 @@ Markdown and Obsidian can both have steep learning curves. Having a 'Microsoft W
 [GitHub - cumany/obsidian-editing-toolbar: An obsidian toolbar plugin, modified from the Cmenu plugin](https://github.com/cumany/obsidian-editing-toolbar)
 
 
+## Obsidian Git
+
+This Plugin will save what has changed to a Git Repo.
+
+**Please Note** - that the default settings are in place.
+
+https://github.com/denolehov/obsidian-git
 
 
 ## Tasks
+
+Manage Tasks across the Vault 
 
 https://obsidian-tasks-group.github.io/obsidian-tasks/
 

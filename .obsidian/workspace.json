@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "033207d52155496f",
+        "id": "dd63f9e15042a1f8",
         "type": "tabs",
         "children": [
           {
-            "id": "5c07894451f65900",
+            "id": "d1e895ef251503ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 - Tasks/All Open Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9cc01d1cbc34b62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 - Tasks/All Open Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bda43d9c5b7c7d85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -172,18 +139,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bda43d9c5b7c7d85",
+  "active": "6d6ea75488813b5b",
   "lastOpenFiles": [
-    "0 - Atlas/MoC - of MoCs.md",
+    "200 - Tasks/How to - Manage Tasks.md",
+    "200 - Tasks/Project Example.md",
+    "200 - Tasks/All Open Tasks.md",
+    "200 - Tasks/All Closed Tasks.md",
+    "Settings.md",
+    "README.md",
+    "1000 - Archives/What is - Archives Folder.md",
+    "50 - Areas/What is - Areas Folder.md",
+    "100 - References/What is - a Technical Reference Model.md",
+    "100 - References/What is - the References Folder.md",
+    "100 - References/The PARA Method.md",
+    "10 - Projects/What is - Projects Folder.md",
+    "1 - Inbox/What is - the Inbox folder used for.md",
+    "0 - Atlas/What is - the Atlas folder.md",
+    "0 - Atlas/What is - a Map of Content.md",
     "0 - Atlas/MoC - What Is files.md",
     "0 - Atlas/MoC - Technical Reference Model.md",
     "0 - Atlas/MoC - of Tasks.md",
-    "0 - Atlas/What is - the Atlas folder.md",
-    "0 - Atlas/What is - a Map of Content.md",
-    "References.md",
-    "200 - Tasks/How to - Manage Tasks.md",
-    "200 - Tasks/All Open Tasks.md",
-    "200 - Tasks/All Closed Tasks.md",
-    "Settings.md"
+    "0 - Atlas/MoC - of MoCs.md",
+    "References.md"
   ]
 }

@@ -19,6 +19,7 @@ The idea is that you can open and use the Vault immediately after downloading it
 - Tasks can be created anywhere in the Vault and tracked centrally.
 	- Using the Tasks Plugin.
 - Files are automatically moved to the correct folder based on hash tag or file name.
+- Basic C4 Modelling using the Canvas Feature
 
 
 ## Multiple Users

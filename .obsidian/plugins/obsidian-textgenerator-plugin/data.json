@@ -6,7 +6,7 @@
   "frequency_penalty": 0.5,
   "prompt": "",
   "showStatusBar": true,
-  "promptsPath": "textgenerator/prompts",
+  "promptsPath": "100 - References\\_Templates",
   "context": {
     "includeTitle": false,
     "includeStaredBlocks": true,

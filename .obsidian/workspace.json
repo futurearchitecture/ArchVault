@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "References.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c802d15cc03e3b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 - References/C4 Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23156c1ea6d1f796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 - Atlas/MoC - of MoCs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "0 - Atlas/MoC - of MoCs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "0 - Atlas/MoC - of MoCs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "0 - Atlas/MoC - of MoCs.md"
               }
             }
           }
@@ -147,27 +172,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1e895ef251503ba",
+  "active": "23156c1ea6d1f796",
   "lastOpenFiles": [
+    "0 - Atlas/MoC - What Is files.md",
+    "0 - Atlas/MoC - Technical Reference Model.md",
+    "0 - Atlas/MoC - of Projects.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "0 - Atlas/What is - Map of Content.md",
+    "0 - Atlas/What is - Atlas folder.md",
+    "100 - References/C4 Model.md",
+    "100 - References/PARA Method.md",
+    "References.md",
+    "50 - Areas/What is - Areas Folder.md",
+    "README.md",
+    "50 - Areas/L4 - Code",
+    "50 - Areas/Component",
+    "50 - Areas/L2 - Containers",
+    "50 - Areas/L1 - Context",
+    "50 - Areas/Partners",
+    "50 - Areas/Relationships",
+    "50 - Areas/Data",
+    "50 - Areas/Roles",
+    "50 - Areas/Domains",
+    "50 - Areas/Systems",
     "200 - Tasks/Project Example.md",
     "200 - Tasks/How to - Manage Tasks.md",
     "200 - Tasks/All Open Tasks.md",
     "200 - Tasks/All Closed Tasks.md",
     "Settings.md",
-    "README.md",
     "1000 - Archives/What is - Archives Folder.md",
-    "50 - Areas/What is - Areas Folder.md",
     "100 - References/What is - a Technical Reference Model.md",
-    "100 - References/What is - the References Folder.md",
-    "100 - References/The PARA Method.md",
+    "100 - References/What is - References Folder.md",
     "10 - Projects/What is - Projects Folder.md",
-    "1 - Inbox/What is - the Inbox folder used for.md",
-    "0 - Atlas/What is - the Atlas folder.md",
-    "0 - Atlas/What is - a Map of Content.md",
-    "0 - Atlas/MoC - What Is files.md",
-    "0 - Atlas/MoC - Technical Reference Model.md",
-    "0 - Atlas/MoC - of Tasks.md",
-    "0 - Atlas/MoC - of MoCs.md",
-    "References.md"
+    "1 - Inbox/What is - Inbox folder.md"
   ]
 }

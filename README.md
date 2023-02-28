@@ -42,4 +42,4 @@ Underscores are placed as the first character for some folders as they are used 
 
 
 ## Map of Contents / MoC
-MoC - prefix for Map of Content files. The [[What is - a Map of Content]] explains in greater depth.
+MoC - prefix for Map of Content files. The [[What is - Map of Content]] explains in greater depth.

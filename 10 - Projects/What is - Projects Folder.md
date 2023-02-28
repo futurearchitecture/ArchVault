@@ -1,7 +1,7 @@
 
 Tags: #What_is 
 
-The Project Folder forms part of [[The PARA Method]]. 
+The Project Folder forms part of [[PARA Method]]. 
 
 The Projects folder is a place to store all the information and materials related to your ongoing projects. A project is any task or goal that requires multiple steps or actions to complete, and may involve multiple people, resources, or deadlines.
 

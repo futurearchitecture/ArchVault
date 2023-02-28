@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c802d15cc03e3b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 - References/C4 Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23156c1ea6d1f796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Atlas/MoC - of MoCs.md",
+                "file": "100 - References/_Templates/C4 Template - System Software.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Atlas/MoC - of MoCs.md",
+                "file": "100 - References/_Templates/C4 Template - System Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0 - Atlas/MoC - of MoCs.md",
+                "file": "100 - References/_Templates/C4 Template - System Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - Atlas/MoC - of MoCs.md"
+                "file": "100 - References/_Templates/C4 Template - System Software.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,20 +147,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23156c1ea6d1f796",
+  "active": "d1e895ef251503ba",
   "lastOpenFiles": [
+    "100 - References/_Templates/C4 Template - Relationship.md",
+    "100 - References/_Templates/C4 Template - Person.md",
+    "100 - References/_Templates/C4 Template - Container.md",
+    "100 - References/_Templates/C4 Template - Component.md",
+    "100 - References/_Templates/C4 Template - Code Element.md",
+    "References.md",
+    "100 - References/C4 Model.md",
+    "50 - Areas/L1 - Context/Personal Baking Customer.md",
+    "50 - Areas/L1 - Context/Internet Banking System.md",
+    "10 - Projects/Project AAAA - Functional Requirements.md",
+    "50 - Areas/L2 - Containers/Container Example.md",
+    "50 - Areas/L3 - Components/Component Example.md",
+    "50 - Areas/L4 - Code/Code Example.md",
+    "50 - Areas/L1 - Context/Banking System Context Model.canvas",
+    "50 - Areas/L1 - Context/Relationship 1.md",
+    "1 - Inbox/Untitled.canvas",
+    "100 - References/_Templates/C4 Template - System Software.md",
+    "100 - References/PARA Method.md",
+    "50 - Areas/Data/Database.md",
+    "100 - References/_Templates/Default.md",
+    "100 - References/_Attachments/C4 Model Image.png",
+    "0 - Atlas/MoC - of MoCs.md",
     "0 - Atlas/MoC - What Is files.md",
     "0 - Atlas/MoC - Technical Reference Model.md",
     "0 - Atlas/MoC - of Projects.md",
     "0 - Atlas/MoC - of Tasks.md",
-    "0 - Atlas/MoC - of MoCs.md",
     "0 - Atlas/What is - Map of Content.md",
     "0 - Atlas/What is - Atlas folder.md",
-    "100 - References/C4 Model.md",
-    "100 - References/PARA Method.md",
-    "References.md",
     "50 - Areas/What is - Areas Folder.md",
-    "README.md",
     "50 - Areas/L4 - Code",
     "50 - Areas/Component",
     "50 - Areas/L2 - Containers",
@@ -195,16 +187,6 @@
     "50 - Areas/Data",
     "50 - Areas/Roles",
     "50 - Areas/Domains",
-    "50 - Areas/Systems",
-    "200 - Tasks/Project Example.md",
-    "200 - Tasks/How to - Manage Tasks.md",
-    "200 - Tasks/All Open Tasks.md",
-    "200 - Tasks/All Closed Tasks.md",
-    "Settings.md",
-    "1000 - Archives/What is - Archives Folder.md",
-    "100 - References/What is - a Technical Reference Model.md",
-    "100 - References/What is - References Folder.md",
-    "10 - Projects/What is - Projects Folder.md",
-    "1 - Inbox/What is - Inbox folder.md"
+    "50 - Areas/Systems"
   ]
 }

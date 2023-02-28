@@ -1,4 +1,4 @@
-Tags: #Web_Reference 
+Tags: #Web_Reference #C4 
 Web Reference: https://c4model.com/
 
 
@@ -16,3 +16,6 @@ The C4 model consists of four levels of abstraction:
     
 
 The C4 model is a simple yet powerful way to communicate the architecture of software systems, allowing software development teams to understand and communicate the structure of their systems at different levels of abstraction.
+
+
+![[C4 Model Image.png]]

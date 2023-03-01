@@ -19,3 +19,4 @@ The C4 model is a simple yet powerful way to communicate the architecture of sof
 
 
 ![[C4 Model Image.png]]
+Image courtesy of Simon Brown at [Simon Brown](https://simonbrown.je/)

@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cf954d7a209737a3",
+        "id": "dd63f9e15042a1f8",
         "type": "tabs",
         "children": [
           {
-            "id": "424e9b306b5a2385",
+            "id": "d1e895ef251503ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "References.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ef5eb77aa3d3e8b3",
+            "id": "c802d15cc03e3b3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
+                "file": "0 - Atlas/MoC - of Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
+                "file": "0 - Atlas/MoC - of Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
+                "file": "0 - Atlas/MoC - of Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
@@ -138,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md"
+                "file": "0 - Atlas/MoC - of Tasks.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,46 +160,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d6ea75488813b5b",
+  "active": "c802d15cc03e3b3f",
   "lastOpenFiles": [
-    "100 - References/_Templates/prompts/Text Generator Template 1.md",
-    "100 - References/_Templates/prompts/dalle-2/ligCinematic.md",
-    "100 - References/_Templates/prompts/dalle-2/modArtStation.md",
-    "100 - References/_Templates/prompts/dalle-2/artPencilSketch.md",
-    "100 - References/_Templates/prompts/dalle-2/artModern.md",
-    "100 - References/_Templates/prompts/dalle-2/modPhotorealistic.md",
-    "100 - References/_Templates/prompts/dalle-2/artGraffiti.md",
-    "100 - References/_Templates/prompts/dalle-2/quaTiltShift.md",
-    "100 - References/_Templates/prompts/dalle-2/artCyberpunk.md",
-    "100 - References/_Templates/prompts/dalle-2/artColoringBook.md",
-    "100 - References/_Templates/prompts/dalle-2/artTakashiMurakami.md",
-    "100 - References/_Templates/prompts/dalle-2/qua200mm.md",
-    "100 - References/_Templates/prompts/dalle-2/artSteampunk.md",
-    "100 - References/_Templates/prompts/dalle-2/artVaporwave.md",
-    "100 - References/_Templates/prompts/dalle-2/artWarhol.md",
-    "100 - References/_Templates/prompts/dalle-2/artClaymation.md",
-    "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
-    "100 - References/_Templates/prompts/dalle-2/artLowPoly.md",
-    "100 - References/_Templates/prompts/dalle-2/artSynthwave.md",
-    "100 - References/_Templates/prompts/dalle-2/artCartoon.md",
-    "100 - References/_Templates/prompts/dalle-2/artSalvadorDali.md",
-    "100 - References/_Templates/prompts/dalle-2/artTimBurton.md",
-    "100 - References/_Templates/prompts/dalle-2/quaBokeh.md",
-    "100 - References/_Templates/prompts/dalle-2/ligAmbient.md",
-    "100 - References/_Templates/prompts/dalle-2/artPixel.md",
-    "100 - References/_Templates/prompts/dalle-2/qua15mm.md",
-    "100 - References/_Templates/prompts/dalle-2",
-    "100 - References/_Templates/prompts/default",
-    "100 - References/_Templates/prompts",
-    "textgenerator",
-    "textgenerator/prompts/local",
-    "50 - Areas/L1 - Context/Banking System Context Model.canvas",
-    "1 - Inbox/Untitled.canvas",
-    "100 - References/_Attachments/C4 Model Image.png",
+    "200 - Tasks/How to - Manage Tasks.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/MoC - of Projects.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "50 - Areas/Example Principle.md",
+    "100 - References/C4 Model.md",
+    "50 - Areas/L4 - Code/Code Example.md",
     "50 - Areas/L4 - Code",
-    "50 - Areas/Component",
+    "50 - Areas/L3 - Components/Component Example.md",
+    "50 - Areas/L3 - Components",
+    "50 - Areas/L2 - Containers/Container Example.md",
     "50 - Areas/L2 - Containers",
+    "50 - Areas/L1 - Context/Relationship 1.md",
+    "50 - Areas/L1 - Context/Personal Baking Customer.md",
+    "50 - Areas/L1 - Context/Banking System Context Model.canvas",
+    "50 - Areas/L1 - Context/Internet Banking System.md",
     "50 - Areas/L1 - Context",
-    "50 - Areas/Partners"
+    "50 - Areas/Data/Database.md",
+    "50 - Areas/Data",
+    "100 - References/_Templates/prompts/default/summarize.md",
+    "100 - References/_Templates/prompts/default/simplify.md",
+    "100 - References/_Templates/prompts/default/rewrite.md",
+    "100 - References/_Templates/prompts/default/getTitles.md",
+    "100 - References/_Templates/prompts/default/getTags.md",
+    "100 - References/_Templates/prompts/default/getParagraph.md",
+    "100 - References/_Templates/prompts/default/getOutline.md",
+    "100 - References/_Templates/prompts/default/getIdeas.md",
+    "100 - References/_Templates/prompts/default/getEmailPos.md",
+    "100 - References/_Templates/prompts/default/getEmailNeg.md",
+    "100 - References/_Templates/prompts/default",
+    "100 - References/_Templates/prompts/dalle-2/sitNature.md",
+    "100 - References/_Templates/prompts/dalle-2/quaTiltShift.md",
+    "100 - References/_Templates/prompts/dalle-2/quaMacro.md",
+    "100 - References/_Templates/prompts/dalle-2",
+    "100 - References/_Templates/prompts",
+    "100 - References/_Attachments/C4 Model Image.png",
+    "100 - References/_Attachments",
+    "50 - Areas/Component"
   ]
 }

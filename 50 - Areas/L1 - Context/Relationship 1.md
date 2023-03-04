@@ -1,5 +1,5 @@
 
-Tags: #C4/Relationship
+Tags: #Object/Relationship
 
 Description: View account Balances and make payments
 Technology: [[Internet Browser]]

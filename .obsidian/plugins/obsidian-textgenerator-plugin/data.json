@@ -1,12 +1,12 @@
 {
-  "api_key": "",
+  "api_key": "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",
   "engine": "text-davinci-003",
   "max_tokens": 160,
-  "temperature": 0.7,
+  "temperature": 0.1,
   "frequency_penalty": 0.5,
   "prompt": "",
   "showStatusBar": true,
-  "promptsPath": "100 - References\\_Templates",
+  "promptsPath": "100 - References/_Prompts",
   "context": {
     "includeTitle": false,
     "includeStaredBlocks": true,
@@ -16,5 +16,27 @@
     "includeMentions": false,
     "includeHighlights": true
   },
+  "options": {
+    "generate-text": true,
+    "generate-text-with-metadata": true,
+    "insert-generated-text-From-template": true,
+    "create-generated-text-From-template": false,
+    "insert-text-From-template": false,
+    "create-text-From-template": false,
+    "show-model-From-template": true,
+    "set_max_tokens": true,
+    "set-model": true,
+    "packageManager": true,
+    "create-template": false,
+    "get-title": true,
+    "auto-suggest": false
+  },
+  "autoSuggestOptions": {
+    "status": true,
+    "numberOfSuggestions": 5,
+    "triggerPhrase": "  ",
+    "stop": "."
+  },
+  "displayErrorInEditor": false,
   "models": {}
 }

@@ -1,4 +1,4 @@
-Tags: #C4/Person
+Tags: #Object/Person
 
 
 Name: Personal Banking Custoemr

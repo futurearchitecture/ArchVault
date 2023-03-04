@@ -1,8 +1,9 @@
 [
-  "obsidian-textgenerator-plugin",
   "obsidian-tasks-plugin",
   "dataview",
   "editing-toolbar",
   "obsidian-git",
-  "auto-note-mover"
+  "auto-note-mover",
+  "obsidian-textgenerator-plugin",
+  "tag-wrangler"
 ]

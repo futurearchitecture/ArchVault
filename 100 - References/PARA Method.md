@@ -1,5 +1,5 @@
 
-Tags: #Web_Reference
+Tags: #Reference/Web
 
 Web Reference: https://fortelabs.com/blog/para/
 

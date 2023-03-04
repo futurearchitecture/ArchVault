@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cf954d7a209737a3",
+        "id": "b963de95f25c55f8",
         "type": "tabs",
         "children": [
           {
-            "id": "424e9b306b5a2385",
+            "id": "bd9f1c4d7fbb7675",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef5eb77aa3d3e8b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
+                "file": "50 - Areas/L1 - Context/Relationship 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
+                "file": "50 - Areas/L1 - Context/Relationship 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md"
+                "file": "50 - Areas/L1 - Context/Relationship 1.md"
               }
             }
           }
@@ -151,55 +134,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "6d6ea75488813b5b",
   "lastOpenFiles": [
-    "100 - References/_Templates/prompts/Text Generator Template 1.md",
-    "100 - References/_Templates/prompts/dalle-2/ligCinematic.md",
-    "100 - References/_Templates/prompts/dalle-2/modArtStation.md",
-    "100 - References/_Templates/prompts/dalle-2/artPencilSketch.md",
-    "100 - References/_Templates/prompts/dalle-2/artModern.md",
-    "100 - References/_Templates/prompts/dalle-2/modPhotorealistic.md",
-    "100 - References/_Templates/prompts/dalle-2/artGraffiti.md",
-    "100 - References/_Templates/prompts/dalle-2/quaTiltShift.md",
-    "100 - References/_Templates/prompts/dalle-2/artCyberpunk.md",
-    "100 - References/_Templates/prompts/dalle-2/artColoringBook.md",
-    "100 - References/_Templates/prompts/dalle-2/artTakashiMurakami.md",
-    "100 - References/_Templates/prompts/dalle-2/qua200mm.md",
-    "100 - References/_Templates/prompts/dalle-2/artSteampunk.md",
-    "100 - References/_Templates/prompts/dalle-2/artVaporwave.md",
-    "100 - References/_Templates/prompts/dalle-2/artWarhol.md",
-    "100 - References/_Templates/prompts/dalle-2/artClaymation.md",
-    "100 - References/_Templates/prompts/dalle-2/artChildrenDrawing.md",
-    "100 - References/_Templates/prompts/dalle-2/artLowPoly.md",
-    "100 - References/_Templates/prompts/dalle-2/artSynthwave.md",
-    "100 - References/_Templates/prompts/dalle-2/artCartoon.md",
-    "100 - References/_Templates/prompts/dalle-2/artSalvadorDali.md",
-    "100 - References/_Templates/prompts/dalle-2/artTimBurton.md",
-    "100 - References/_Templates/prompts/dalle-2/quaBokeh.md",
-    "100 - References/_Templates/prompts/dalle-2/ligAmbient.md",
-    "100 - References/_Templates/prompts/dalle-2/artPixel.md",
-    "100 - References/_Templates/prompts/dalle-2/qua15mm.md",
-    "100 - References/_Templates/prompts/dalle-2",
-    "100 - References/_Templates/prompts/default",
-    "100 - References/_Templates/prompts",
-    "textgenerator",
-    "textgenerator/prompts/local",
+    "50 - Areas/L1 - Context/Relationship 1.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
+    "50 - Areas/L1 - Context/Internet Banking System.md",
+    "100 - References/_Templates/Component Object.md",
+    "100 - References/_Templates/C4 Template - System Software.md",
+    "100 - References/_Templates/Context Object.md",
+    "100 - References/_Templates/C4 Template - Code Element.md",
+    "100 - References/_Templates/Default.md",
+    "300 - Landscape/System BBBB.md",
+    "300 - Landscape/System AAAA.md",
+    "1 - Inbox/User Story.md",
+    "1 - Inbox/Test.md",
+    "1 - Inbox/solution architecture document for a banking system.md",
+    "0 - Atlas/MoC - Technical Reference Model.md",
+    "200 - Standards/List of Domains - Technical Reference Model.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/MoC - of Projects.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "0 - Atlas/What is - Map of Content.md",
+    "0 - Atlas/What is - Atlas folder.md",
+    "0 - Atlas/MoC - What Is files.md",
+    "100 - References/GPT 3 Parameters.md",
+    "200 - Standards/Technology Standards.md",
+    "200 - Standards/Application Standards.md",
+    "200 - Standards/What is - a Technical Reference Model.md",
+    "100 - References/C4 Model.md",
+    "100 - References/_Templates/Object Relationship.md",
+    "100 - References/_Prompts/default",
+    "100 - References/_Prompts/local",
+    "100 - References/_Prompts/trash/dalle-2",
+    "100 - References/_Prompts/trash/default",
+    "100 - References/_Prompts/trash",
+    "100 - References/_Prompts",
+    "400 - Logs",
+    "300 - Landscape",
+    "200 - Standards",
+    "100 - References/_Templates/local",
     "1 - Inbox/Untitled.canvas",
-    "100 - References/_Attachments/C4 Model Image.png",
-    "50 - Areas/L4 - Code",
-    "50 - Areas/Component",
-    "50 - Areas/L2 - Containers",
-    "50 - Areas/L1 - Context",
-    "50 - Areas/Partners"
+    "100 - References/_Attachments/C4 Model Image.png"
   ]
 }

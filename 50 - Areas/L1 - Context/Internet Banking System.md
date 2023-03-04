@@ -1,4 +1,4 @@
-Tags: #C4/System-Software
+Tags: #Object/Container 
 
 Name: Internet Banking System
 Description: Allows customers to view information about bank accounts and make payments

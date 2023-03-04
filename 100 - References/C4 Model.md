@@ -1,4 +1,4 @@
-Tags: #Web_Reference #C4 
+Tags: #Reference/Web #Object #Standards/Diagrams
 Web Reference: https://c4model.com/
 
 

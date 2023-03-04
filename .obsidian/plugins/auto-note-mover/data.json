@@ -27,6 +27,11 @@
       "folder": "10 - Projects",
       "tag": "",
       "pattern": "^Project"
+    },
+    {
+      "folder": "200 - Standards",
+      "tag": "#Standards",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,

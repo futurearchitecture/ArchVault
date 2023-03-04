@@ -4,5 +4,5 @@ Tags: #MoC
 
 ```dataview
 LIST file.inlinks
-from #TRM  
+from #Standards/TRM  
 ```

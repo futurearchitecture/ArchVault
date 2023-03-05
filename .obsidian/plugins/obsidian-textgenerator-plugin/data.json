@@ -1,5 +1,5 @@
 {
-  "api_key": "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",
+  "api_key": "",
   "engine": "text-davinci-003",
   "max_tokens": 160,
   "temperature": 0.1,

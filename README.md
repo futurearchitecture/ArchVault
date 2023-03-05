@@ -3,17 +3,17 @@ Knowledge Management for Technical Architects
 
 This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
 
-The idea is that you can open and use the Vault immediately after downloading it.
+The main idea is that this Vault can be open and used immediately after downloading or cloning  it.
 
-**Recommendation** - Please update the Plugins before use.
+**Recommendation** - Please update the Community Plugins before use.
 
-
+**Please note** - Double square brackets < [[]] > are the Obsidian syntax for a bi-directional link and therefore will not work when viewed from GitHub 
 
 ## Features
-- AI Assisted content creation using  [[Settings#Text Generator|Text Generator Plugin]] 
+- AI Assisted content creation using [[Settings#Text Generator|Text Generator Plugin]] and [[Settings#GPT |GPT]]
 	- **Please Note OpenAI Key is not included**
 	- Here is an [article on how to setup and use the Text Generator Plugin](https://medium.com/os-techblog/obsidians-open-ai-gtp-3-text-generator-980d64e0067f)
-	- Here is a link to the [official instructions](https://github.com/nhaouari/obsidian-textgenerator-plugin)
+	- Here is a link to the [official instructions](https://github.com/nhaouari/obsidian-textgenerator-plugin) for the Text Generator Plugin
 - Map of all content
 	- Using the Dataview Plugin.
 - Tasks can be created anywhere in the Vault and tracked centrally.

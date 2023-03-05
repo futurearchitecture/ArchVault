@@ -52,6 +52,13 @@ Markdown and Obsidian can both have steep learning curves. Having a 'Microsoft W
 [GitHub - cumany/obsidian-editing-toolbar: An obsidian toolbar plugin, modified from the Cmenu plugin](https://github.com/cumany/obsidian-editing-toolbar)
 
 
+## GPT 
+
+https://github.com/jmilldotdev/obsidian-gpt
+
+*Please note you will need to obtain your own OpenAI Key for this plugin to work*
+
+
 ## Obsidian Git
 
 This Plugin will save what has changed to a Git Repo.

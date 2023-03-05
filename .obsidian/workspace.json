@@ -11,8 +11,12 @@
             "id": "bd9f1c4d7fbb7675",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Settings.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "50 - Areas/L1 - Context/Relationship 1.md",
+                "file": "Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "50 - Areas/L1 - Context/Relationship 1.md",
+                "file": "Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50 - Areas/L1 - Context/Relationship 1.md"
+                "file": "Settings.md"
               }
+            }
+          },
+          {
+            "id": "b558da76bf527fa9",
+            "type": "leaf",
+            "state": {
+              "type": "gptModelSettings",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,8 +155,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "6d6ea75488813b5b",
+  "active": "bd9f1c4d7fbb7675",
   "lastOpenFiles": [
+    "References.md",
+    "README.md",
+    "1 - Inbox/solution architecture document for a banking system.md",
+    "1 - Inbox/Test AI.md",
+    "Settings.md",
     "50 - Areas/L1 - Context/Relationship 1.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
     "50 - Areas/L1 - Context/Internet Banking System.md",
@@ -157,7 +174,6 @@
     "300 - Landscape/System AAAA.md",
     "1 - Inbox/User Story.md",
     "1 - Inbox/Test.md",
-    "1 - Inbox/solution architecture document for a banking system.md",
     "0 - Atlas/MoC - Technical Reference Model.md",
     "200 - Standards/List of Domains - Technical Reference Model.md",
     "0 - Atlas/MoC - of Tasks.md",
@@ -168,10 +184,6 @@
     "0 - Atlas/MoC - What Is files.md",
     "100 - References/GPT 3 Parameters.md",
     "200 - Standards/Technology Standards.md",
-    "200 - Standards/Application Standards.md",
-    "200 - Standards/What is - a Technical Reference Model.md",
-    "100 - References/C4 Model.md",
-    "100 - References/_Templates/Object Relationship.md",
     "100 - References/_Prompts/default",
     "100 - References/_Prompts/local",
     "100 - References/_Prompts/trash/dalle-2",

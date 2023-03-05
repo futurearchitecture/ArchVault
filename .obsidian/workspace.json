@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -155,7 +155,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "bd9f1c4d7fbb7675",
+  "active": "6d6ea75488813b5b",
   "lastOpenFiles": [
     "References.md",
     "README.md",

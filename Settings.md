@@ -37,6 +37,24 @@ Once a specific hash tag is applied a note is automatically moved to the appropr
 
 https://github.com/farux/obsidian-auto-note-mover
 
+### Settings
+
+The Auto Mover plugin moves files to a specific location when a tag is assigned.
+
+| Tag | Folder | 
+|---|---|
+| #MoC   |0 - Atlas    |
+| #Archived | 1000 - Archives|
+| #Reference/Web | 100 - References |
+| #Tasks| 900 - Tasks |
+|#Standards      | 200 - Standards |
+
+The Auto Mover plugin moves files to a specific location when text in the file name matches.
+
+| File Name | Folder |
+| --- | --- |
+| Project | 10 - Projects | 
+
 
 ## Dataview
 

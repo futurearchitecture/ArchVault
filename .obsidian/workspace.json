@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b963de95f25c55f8",
+        "id": "748461dccd4bd066",
         "type": "tabs",
         "children": [
           {
-            "id": "bd9f1c4d7fbb7675",
+            "id": "b3b66a0e1133f316",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Settings.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Settings.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,35 +147,35 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "6d6ea75488813b5b",
+  "active": "b3b66a0e1133f316",
   "lastOpenFiles": [
+    "0 - Atlas/What is - Map of Content.md",
+    "0 - Atlas/What is - Atlas folder.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "0 - Atlas/MoC - Technical Reference Model.md",
+    "0 - Atlas/MoC - What Is files.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/MoC - of Projects.md",
+    "200 - Standards/What is - Technical Reference Model.md",
+    "200 - Standards/List of Domains - Technical Reference Model.md",
+    "Settings.md",
     "References.md",
     "README.md",
+    "900 - Tasks/All Open Tasks.md",
+    "900 - Tasks/All Closed Tasks.md",
+    "400 - Logs/What is - Architecture Decision Record.md",
+    "400 - Logs/Example - ADR.md",
+    "400 - Logs/Decision Record.md",
     "1 - Inbox/solution architecture document for a banking system.md",
+    "100 - References/TOGAF 10th Edition.md",
+    "100 - References/C4 Model.md",
+    "100 - References/PARA Method.md",
     "1 - Inbox/Test AI.md",
-    "Settings.md",
     "50 - Areas/L1 - Context/Relationship 1.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
     "50 - Areas/L1 - Context/Internet Banking System.md",
     "100 - References/_Templates/Component Object.md",
     "100 - References/_Templates/C4 Template - System Software.md",
-    "100 - References/_Templates/Context Object.md",
-    "100 - References/_Templates/C4 Template - Code Element.md",
-    "100 - References/_Templates/Default.md",
-    "300 - Landscape/System BBBB.md",
-    "300 - Landscape/System AAAA.md",
-    "1 - Inbox/User Story.md",
-    "1 - Inbox/Test.md",
-    "0 - Atlas/MoC - Technical Reference Model.md",
-    "200 - Standards/List of Domains - Technical Reference Model.md",
-    "0 - Atlas/MoC - of Tasks.md",
-    "0 - Atlas/MoC - of Projects.md",
-    "0 - Atlas/MoC - of MoCs.md",
-    "0 - Atlas/What is - Map of Content.md",
-    "0 - Atlas/What is - Atlas folder.md",
-    "0 - Atlas/MoC - What Is files.md",
-    "100 - References/GPT 3 Parameters.md",
-    "200 - Standards/Technology Standards.md",
     "100 - References/_Prompts/default",
     "100 - References/_Prompts/local",
     "100 - References/_Prompts/trash/dalle-2",

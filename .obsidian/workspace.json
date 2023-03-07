@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "100 - References/_Templates/Component Object.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6edcbe8f174d7bff",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccd589abbe354c87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500 - Requirements/List of Functional Requirements.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "500 - Requirements/List of Functional Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "500 - Requirements/List of Functional Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "500 - Requirements/List of Functional Requirements.md"
               }
             }
           },
@@ -155,10 +176,15 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "b3b66a0e1133f316",
+  "active": "ccd589abbe354c87",
   "lastOpenFiles": [
-    "Settings.md",
+    "500 - Requirements/List of Functional Requirements.md",
+    "500 - Requirements",
+    "References.md",
+    "100 - References/_Templates/adr-template.md",
+    "100 - References/_Templates/Component Object.md",
     "README.md",
+    "Settings.md",
     "0 - Atlas/What is - Map of Content.md",
     "0 - Atlas/What is - Atlas folder.md",
     "0 - Atlas/MoC - of MoCs.md",
@@ -168,7 +194,6 @@
     "0 - Atlas/MoC - of Projects.md",
     "200 - Standards/What is - Technical Reference Model.md",
     "200 - Standards/List of Domains - Technical Reference Model.md",
-    "References.md",
     "900 - Tasks/All Open Tasks.md",
     "900 - Tasks/All Closed Tasks.md",
     "400 - Logs/What is - Architecture Decision Record.md",
@@ -181,9 +206,6 @@
     "1 - Inbox/Test AI.md",
     "50 - Areas/L1 - Context/Relationship 1.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
-    "50 - Areas/L1 - Context/Internet Banking System.md",
-    "100 - References/_Templates/Component Object.md",
-    "100 - References/_Templates/C4 Template - System Software.md",
     "100 - References/_Prompts/default",
     "100 - References/_Prompts/local",
     "100 - References/_Prompts/trash/dalle-2",
@@ -193,7 +215,6 @@
     "400 - Logs",
     "300 - Landscape",
     "200 - Standards",
-    "100 - References/_Templates/local",
     "1 - Inbox/Untitled.canvas",
     "100 - References/_Attachments/C4 Model Image.png"
   ]

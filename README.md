@@ -9,8 +9,26 @@ The main idea is that this Vault can be open and used immediately after download
 
 **Please note** - Double square brackets < [[]] > are the Obsidian syntax for a bi-directional link and therefore will not work when viewed from GitHub 
 
+## Installation
+1.  You can either clone this repo or download via one of the releases. The file will be saved to your computer's downloads folder.
+    
+2.  Open the downloads folder on your computer, and locate the downloaded Obsidian vault file. It should be saved as a .zip file.
+    
+3.  Extract the contents of the .zip file to a location of your choice on your computer. You can do this by right-clicking on the file and selecting "Extract all" or using a file compression software like WinZip or 7-Zip.
+    
+4.  After extracting the contents of the .zip file, navigate to the location where the vault was extracted. You should see a folder with the same name as the Obsidian vault.
+    
+5.  Open the Obsidian app on your computer.
+    
+6.  Click on "Open another vault" from the left sidebar menu of the Obsidian app.
+    
+7.  In the "Open Vault" window, navigate to the location where you extracted the vault files, and select the folder with the same name as the Obsidian vault.
+    
+8.  Click "Open" to open the Obsidian vault in the app.
+
+
 ## Features
-- AI Assisted content creation using [[Settings#Text Generator|Text Generator Plugin]] and [[Settings#GPT |GPT]]
+- AI Assisted content creation using [Text Generator Plugin](https://github.com/nhaouari/obsidian-textgenerator-plugin) and [GPT Plugin](https://github.com/jmilldotdev/obsidian-gpt))
 	- **Please Note OpenAI Key is not included**
 	- Here is an [article on how to setup and use the Text Generator Plugin](https://medium.com/os-techblog/obsidians-open-ai-gtp-3-text-generator-980d64e0067f)
 	- Here is a link to the [official instructions](https://github.com/nhaouari/obsidian-textgenerator-plugin) for the Text Generator Plugin

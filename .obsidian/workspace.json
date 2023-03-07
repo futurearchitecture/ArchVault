@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "748461dccd4bd066",
+        "id": "36ff424327974826",
         "type": "tabs",
         "children": [
           {
-            "id": "b3b66a0e1133f316",
+            "id": "0babd4f059654bbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - References/_Templates/Component Object.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6edcbe8f174d7bff",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ccd589abbe354c87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "500 - Requirements/List of Functional Requirements.md",
+                "file": "500 - Requirements/Whats is - Requirements.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500 - Requirements/List of Functional Requirements.md",
+                "file": "500 - Requirements/Whats is - Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500 - Requirements/List of Functional Requirements.md",
+                "file": "500 - Requirements/Whats is - Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500 - Requirements/List of Functional Requirements.md"
+                "file": "500 - Requirements/Whats is - Requirements.md"
               }
             }
           },
@@ -176,35 +155,37 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "ccd589abbe354c87",
+  "active": "0babd4f059654bbb",
   "lastOpenFiles": [
-    "500 - Requirements/List of Functional Requirements.md",
+    "500 - Requirements/eCommerce Website Example - Functional Requirements.md",
+    "0 - Atlas/What is - Atlas folder.md",
+    "400 - Logs/ADR 1 - Hosting Environment.md",
+    "500 - Requirements/Requirement - User Registration.md",
+    "500 - Requirements/Requirement - Shopping Cart.md",
+    "500 - Requirements/Requirement - Product Details.md",
+    "500 - Requirements/Requirement - Checkout Process.md",
+    "500 - Requirements/Requirement - Browse and Search.md",
+    "500 - Requirements/Whats is - Requirements.md",
+    "400 - Logs/ADR 3 - Payment Provider Integration.md",
+    "400 - Logs/ADR 2 - Product Catalog Database.md",
+    "400 - Logs/Example - ADR.md",
+    "400 - Logs/What is - Architecture Decision Record.md",
+    "400 - Logs/Decision Record.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "0 - Atlas/What is - Map of Content.md",
+    "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
+    "600 - Data",
+    "300 - Landscape/eCommerce Website Example - Container Diagram.md",
+    "300 - Landscape/Context Diagram - eCommerce Website.md",
+    "300 - Landscape/Context Diagram - eCommerce Website.html",
+    "100 - References/_Templates/Component Object.md",
     "500 - Requirements",
     "References.md",
     "100 - References/_Templates/adr-template.md",
-    "100 - References/_Templates/Component Object.md",
     "README.md",
     "Settings.md",
-    "0 - Atlas/What is - Map of Content.md",
-    "0 - Atlas/What is - Atlas folder.md",
-    "0 - Atlas/MoC - of MoCs.md",
     "0 - Atlas/MoC - Technical Reference Model.md",
     "0 - Atlas/MoC - What Is files.md",
-    "0 - Atlas/MoC - of Tasks.md",
-    "0 - Atlas/MoC - of Projects.md",
-    "200 - Standards/What is - Technical Reference Model.md",
-    "200 - Standards/List of Domains - Technical Reference Model.md",
-    "900 - Tasks/All Open Tasks.md",
-    "900 - Tasks/All Closed Tasks.md",
-    "400 - Logs/What is - Architecture Decision Record.md",
-    "400 - Logs/Example - ADR.md",
-    "400 - Logs/Decision Record.md",
-    "1 - Inbox/solution architecture document for a banking system.md",
-    "100 - References/TOGAF 10th Edition.md",
-    "100 - References/C4 Model.md",
-    "100 - References/PARA Method.md",
-    "1 - Inbox/Test AI.md",
-    "50 - Areas/L1 - Context/Relationship 1.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
     "100 - References/_Prompts/default",
     "100 - References/_Prompts/local",
@@ -213,8 +194,6 @@
     "100 - References/_Prompts/trash",
     "100 - References/_Prompts",
     "400 - Logs",
-    "300 - Landscape",
-    "200 - Standards",
     "1 - Inbox/Untitled.canvas",
     "100 - References/_Attachments/C4 Model Image.png"
   ]

@@ -1,4 +1,4 @@
-Tags: #Project/AAAA #Functional_Requirements
+Tags: #Project/AAAA #Requirements/Functional
 
 - [ ] Complete Functional Requirements Example
 

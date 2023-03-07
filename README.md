@@ -28,7 +28,7 @@ The main idea is that this Vault can be open and used immediately after download
 
 
 ## Features
-- AI Assisted content creation using [Text Generator Plugin](https://github.com/nhaouari/obsidian-textgenerator-plugin) and [GPT Plugin](https://github.com/jmilldotdev/obsidian-gpt))
+- AI Assisted content creation using [Text Generator Plugin](https://github.com/nhaouari/obsidian-textgenerator-plugin) and [GPT Plugin](https://github.com/jmilldotdev/obsidian-gpt)
 	- **Please Note OpenAI Key is not included**
 	- Here is an [article on how to setup and use the Text Generator Plugin](https://medium.com/os-techblog/obsidians-open-ai-gtp-3-text-generator-980d64e0067f)
 	- Here is a link to the [official instructions](https://github.com/nhaouari/obsidian-textgenerator-plugin) for the Text Generator Plugin

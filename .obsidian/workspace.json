@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "500 - Requirements/Whats is - Requirements.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500 - Requirements/Whats is - Requirements.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "500 - Requirements/Whats is - Requirements.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "500 - Requirements/Whats is - Requirements.md"
+                "file": "README.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "0babd4f059654bbb",
   "lastOpenFiles": [
+    "500 - Requirements/Whats is - Requirements.md",
     "500 - Requirements/eCommerce Website Example - Functional Requirements.md",
     "0 - Atlas/What is - Atlas folder.md",
     "400 - Logs/ADR 1 - Hosting Environment.md",
@@ -165,7 +166,6 @@
     "500 - Requirements/Requirement - Product Details.md",
     "500 - Requirements/Requirement - Checkout Process.md",
     "500 - Requirements/Requirement - Browse and Search.md",
-    "500 - Requirements/Whats is - Requirements.md",
     "400 - Logs/ADR 3 - Payment Provider Integration.md",
     "400 - Logs/ADR 2 - Product Catalog Database.md",
     "400 - Logs/Example - ADR.md",

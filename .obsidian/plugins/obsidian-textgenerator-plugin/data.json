@@ -1,19 +1,20 @@
 {
-  "api_key": "",
+  "api_key": "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",
   "engine": "text-davinci-003",
-  "max_tokens": 160,
-  "temperature": 0.1,
-  "frequency_penalty": 0.5,
+  "max_tokens": 1000,
+  "temperature": 0.9,
+  "frequency_penalty": 0.1,
   "prompt": "",
   "showStatusBar": true,
+  "outputToBlockQuote": false,
   "promptsPath": "100 - References/_Prompts",
   "context": {
     "includeTitle": false,
     "includeStaredBlocks": true,
     "includeFrontmatter": true,
     "includeHeadings": true,
-    "includeChildren": false,
-    "includeMentions": false,
+    "includeChildren": true,
+    "includeMentions": true,
     "includeHighlights": true
   },
   "options": {
@@ -29,13 +30,15 @@
     "packageManager": true,
     "create-template": false,
     "get-title": true,
-    "auto-suggest": false
+    "auto-suggest": true
   },
   "autoSuggestOptions": {
     "status": true,
+    "delay": 300,
     "numberOfSuggestions": 5,
     "triggerPhrase": "  ",
-    "stop": "."
+    "stop": ".",
+    "showStatus": true
   },
   "displayErrorInEditor": false,
   "models": {}

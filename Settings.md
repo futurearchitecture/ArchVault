@@ -77,6 +77,13 @@ https://github.com/jmilldotdev/obsidian-gpt
 *Please note you will need to obtain your own OpenAI Key for this plugin to work*
 
 
+## Natural Language Dates
+
+[argenos/nldates-obsidian: Work with dates in natural language in Obsidian (github.com)](https://github.com/argenos/nldates-obsidian)
+
+
+
+
 ## Obsidian Git
 
 This Plugin will save what has changed to a Git Repo.

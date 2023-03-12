@@ -2,3 +2,7 @@
 .obsidian/plugins/obsidian-textgenerator-plugin/data.json
 .obsidian/plugins/obsidian-gpt/data.json
 .obsidian/workspace.json
+
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections

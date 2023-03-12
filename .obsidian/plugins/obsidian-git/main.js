@@ -7393,11 +7393,11 @@ var require_common2 = __commonJS({
         let enableOverride = null;
         let namespacesCache;
         let enabledCache;
-        function debug2(...args) {
-          if (!debug2.enabled) {
+        function debug3(...args) {
+          if (!debug3.enabled) {
             return;
           }
-          const self3 = debug2;
+          const self3 = debug3;
           const curr = Number(new Date());
           const ms = curr - (prevTime || curr);
           self3.diff = ms;
@@ -7427,12 +7427,12 @@ var require_common2 = __commonJS({
           const logFn = self3.log || createDebug.log;
           logFn.apply(self3, args);
         }
-        debug2.namespace = namespace;
-        debug2.useColors = createDebug.useColors();
-        debug2.color = createDebug.selectColor(namespace);
-        debug2.extend = extend;
-        debug2.destroy = createDebug.destroy;
-        Object.defineProperty(debug2, "enabled", {
+        debug3.namespace = namespace;
+        debug3.useColors = createDebug.useColors();
+        debug3.color = createDebug.selectColor(namespace);
+        debug3.extend = extend;
+        debug3.destroy = createDebug.destroy;
+        Object.defineProperty(debug3, "enabled", {
           enumerable: true,
           configurable: false,
           get: () => {
@@ -7450,9 +7450,9 @@ var require_common2 = __commonJS({
           }
         });
         if (typeof createDebug.init === "function") {
-          createDebug.init(debug2);
+          createDebug.init(debug3);
         }
-        return debug2;
+        return debug3;
       }
       function extend(namespace, delimiter) {
         const newDebug = createDebug(this.namespace + (typeof delimiter === "undefined" ? ":" : delimiter) + namespace);
@@ -7695,12 +7695,12 @@ var require_src = __commonJS({
   "node_modules/.pnpm/@kwsites+file-exists@1.1.1_supports-color@7.2.0/node_modules/@kwsites/file-exists/dist/src/index.js"(exports) {
     init_polyfill_buffer();
     "use strict";
-    var __importDefault = exports && exports.__importDefault || function(mod) {
+    var __importDefault2 = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
     };
     Object.defineProperty(exports, "__esModule", { value: true });
     var fs_1 = require("fs");
-    var debug_1 = __importDefault(require_browser());
+    var debug_1 = __importDefault2(require_browser());
     var log2 = debug_1.default("@kwsites/file-exists");
     function check(path2, isFile, isDirectory) {
       log2(`checking %s`, path2);
@@ -8372,6 +8372,514 @@ var require_hogan = __commonJS({
     Hogan4.Template = require_template().Template;
     Hogan4.template = Hogan4.Template;
     module2.exports = Hogan4;
+  }
+});
+
+// node_modules/.pnpm/tslib@2.5.0/node_modules/tslib/tslib.js
+var require_tslib = __commonJS({
+  "node_modules/.pnpm/tslib@2.5.0/node_modules/tslib/tslib.js"(exports, module2) {
+    init_polyfill_buffer();
+    var __extends2;
+    var __assign7;
+    var __rest2;
+    var __decorate2;
+    var __param2;
+    var __esDecorate2;
+    var __runInitializers2;
+    var __propKey2;
+    var __setFunctionName2;
+    var __metadata2;
+    var __awaiter2;
+    var __generator2;
+    var __exportStar2;
+    var __values2;
+    var __read2;
+    var __spread2;
+    var __spreadArrays2;
+    var __spreadArray3;
+    var __await2;
+    var __asyncGenerator2;
+    var __asyncDelegator2;
+    var __asyncValues2;
+    var __makeTemplateObject2;
+    var __importStar2;
+    var __importDefault2;
+    var __classPrivateFieldGet2;
+    var __classPrivateFieldSet2;
+    var __classPrivateFieldIn2;
+    var __createBinding2;
+    (function(factory) {
+      var root = typeof global === "object" ? global : typeof self === "object" ? self : typeof this === "object" ? this : {};
+      if (typeof define === "function" && define.amd) {
+        define("tslib", ["exports"], function(exports2) {
+          factory(createExporter(root, createExporter(exports2)));
+        });
+      } else if (typeof module2 === "object" && typeof module2.exports === "object") {
+        factory(createExporter(root, createExporter(module2.exports)));
+      } else {
+        factory(createExporter(root));
+      }
+      function createExporter(exports2, previous) {
+        if (exports2 !== root) {
+          if (typeof Object.create === "function") {
+            Object.defineProperty(exports2, "__esModule", { value: true });
+          } else {
+            exports2.__esModule = true;
+          }
+        }
+        return function(id, v) {
+          return exports2[id] = previous ? previous(id, v) : v;
+        };
+      }
+    })(function(exporter) {
+      var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d, b) {
+        d.__proto__ = b;
+      } || function(d, b) {
+        for (var p in b)
+          if (Object.prototype.hasOwnProperty.call(b, p))
+            d[p] = b[p];
+      };
+      __extends2 = function(d, b) {
+        if (typeof b !== "function" && b !== null)
+          throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+      __assign7 = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+          s = arguments[i];
+          for (var p in s)
+            if (Object.prototype.hasOwnProperty.call(s, p))
+              t[p] = s[p];
+        }
+        return t;
+      };
+      __rest2 = function(s, e) {
+        var t = {};
+        for (var p in s)
+          if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+            t[p] = s[p];
+        if (s != null && typeof Object.getOwnPropertySymbols === "function")
+          for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+              t[p[i]] = s[p[i]];
+          }
+        return t;
+      };
+      __decorate2 = function(decorators, target, key2, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key2) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function")
+          r = Reflect.decorate(decorators, target, key2, desc);
+        else
+          for (var i = decorators.length - 1; i >= 0; i--)
+            if (d = decorators[i])
+              r = (c < 3 ? d(r) : c > 3 ? d(target, key2, r) : d(target, key2)) || r;
+        return c > 3 && r && Object.defineProperty(target, key2, r), r;
+      };
+      __param2 = function(paramIndex, decorator) {
+        return function(target, key2) {
+          decorator(target, key2, paramIndex);
+        };
+      };
+      __esDecorate2 = function(ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {
+        function accept(f) {
+          if (f !== void 0 && typeof f !== "function")
+            throw new TypeError("Function expected");
+          return f;
+        }
+        var kind = contextIn.kind, key2 = kind === "getter" ? "get" : kind === "setter" ? "set" : "value";
+        var target = !descriptorIn && ctor ? contextIn["static"] ? ctor : ctor.prototype : null;
+        var descriptor = descriptorIn || (target ? Object.getOwnPropertyDescriptor(target, contextIn.name) : {});
+        var _, done = false;
+        for (var i = decorators.length - 1; i >= 0; i--) {
+          var context = {};
+          for (var p in contextIn)
+            context[p] = p === "access" ? {} : contextIn[p];
+          for (var p in contextIn.access)
+            context.access[p] = contextIn.access[p];
+          context.addInitializer = function(f) {
+            if (done)
+              throw new TypeError("Cannot add initializers after decoration has completed");
+            extraInitializers.push(accept(f || null));
+          };
+          var result = (0, decorators[i])(kind === "accessor" ? { get: descriptor.get, set: descriptor.set } : descriptor[key2], context);
+          if (kind === "accessor") {
+            if (result === void 0)
+              continue;
+            if (result === null || typeof result !== "object")
+              throw new TypeError("Object expected");
+            if (_ = accept(result.get))
+              descriptor.get = _;
+            if (_ = accept(result.set))
+              descriptor.set = _;
+            if (_ = accept(result.init))
+              initializers.push(_);
+          } else if (_ = accept(result)) {
+            if (kind === "field")
+              initializers.push(_);
+            else
+              descriptor[key2] = _;
+          }
+        }
+        if (target)
+          Object.defineProperty(target, contextIn.name, descriptor);
+        done = true;
+      };
+      __runInitializers2 = function(thisArg, initializers, value) {
+        var useValue = arguments.length > 2;
+        for (var i = 0; i < initializers.length; i++) {
+          value = useValue ? initializers[i].call(thisArg, value) : initializers[i].call(thisArg);
+        }
+        return useValue ? value : void 0;
+      };
+      __propKey2 = function(x) {
+        return typeof x === "symbol" ? x : "".concat(x);
+      };
+      __setFunctionName2 = function(f, name, prefix) {
+        if (typeof name === "symbol")
+          name = name.description ? "[".concat(name.description, "]") : "";
+        return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
+      };
+      __metadata2 = function(metadataKey, metadataValue) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function")
+          return Reflect.metadata(metadataKey, metadataValue);
+      };
+      __awaiter2 = function(thisArg, _arguments, P, generator) {
+        function adopt(value) {
+          return value instanceof P ? value : new P(function(resolve) {
+            resolve(value);
+          });
+        }
+        return new (P || (P = Promise))(function(resolve, reject) {
+          function fulfilled(value) {
+            try {
+              step(generator.next(value));
+            } catch (e) {
+              reject(e);
+            }
+          }
+          function rejected(value) {
+            try {
+              step(generator["throw"](value));
+            } catch (e) {
+              reject(e);
+            }
+          }
+          function step(result) {
+            result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+          }
+          step((generator = generator.apply(thisArg, _arguments || [])).next());
+        });
+      };
+      __generator2 = function(thisArg, body) {
+        var _ = { label: 0, sent: function() {
+          if (t[0] & 1)
+            throw t[1];
+          return t[1];
+        }, trys: [], ops: [] }, f, y, t, g;
+        return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() {
+          return this;
+        }), g;
+        function verb(n) {
+          return function(v) {
+            return step([n, v]);
+          };
+        }
+        function step(op) {
+          if (f)
+            throw new TypeError("Generator is already executing.");
+          while (g && (g = 0, op[0] && (_ = 0)), _)
+            try {
+              if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done)
+                return t;
+              if (y = 0, t)
+                op = [op[0] & 2, t.value];
+              switch (op[0]) {
+                case 0:
+                case 1:
+                  t = op;
+                  break;
+                case 4:
+                  _.label++;
+                  return { value: op[1], done: false };
+                case 5:
+                  _.label++;
+                  y = op[1];
+                  op = [0];
+                  continue;
+                case 7:
+                  op = _.ops.pop();
+                  _.trys.pop();
+                  continue;
+                default:
+                  if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
+                    _ = 0;
+                    continue;
+                  }
+                  if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
+                    _.label = op[1];
+                    break;
+                  }
+                  if (op[0] === 6 && _.label < t[1]) {
+                    _.label = t[1];
+                    t = op;
+                    break;
+                  }
+                  if (t && _.label < t[2]) {
+                    _.label = t[2];
+                    _.ops.push(op);
+                    break;
+                  }
+                  if (t[2])
+                    _.ops.pop();
+                  _.trys.pop();
+                  continue;
+              }
+              op = body.call(thisArg, _);
+            } catch (e) {
+              op = [6, e];
+              y = 0;
+            } finally {
+              f = t = 0;
+            }
+          if (op[0] & 5)
+            throw op[1];
+          return { value: op[0] ? op[1] : void 0, done: true };
+        }
+      };
+      __exportStar2 = function(m, o) {
+        for (var p in m)
+          if (p !== "default" && !Object.prototype.hasOwnProperty.call(o, p))
+            __createBinding2(o, m, p);
+      };
+      __createBinding2 = Object.create ? function(o, m, k, k2) {
+        if (k2 === void 0)
+          k2 = k;
+        var desc = Object.getOwnPropertyDescriptor(m, k);
+        if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+          desc = { enumerable: true, get: function() {
+            return m[k];
+          } };
+        }
+        Object.defineProperty(o, k2, desc);
+      } : function(o, m, k, k2) {
+        if (k2 === void 0)
+          k2 = k;
+        o[k2] = m[k];
+      };
+      __values2 = function(o) {
+        var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+        if (m)
+          return m.call(o);
+        if (o && typeof o.length === "number")
+          return {
+            next: function() {
+              if (o && i >= o.length)
+                o = void 0;
+              return { value: o && o[i++], done: !o };
+            }
+          };
+        throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+      };
+      __read2 = function(o, n) {
+        var m = typeof Symbol === "function" && o[Symbol.iterator];
+        if (!m)
+          return o;
+        var i = m.call(o), r, ar = [], e;
+        try {
+          while ((n === void 0 || n-- > 0) && !(r = i.next()).done)
+            ar.push(r.value);
+        } catch (error) {
+          e = { error };
+        } finally {
+          try {
+            if (r && !r.done && (m = i["return"]))
+              m.call(i);
+          } finally {
+            if (e)
+              throw e.error;
+          }
+        }
+        return ar;
+      };
+      __spread2 = function() {
+        for (var ar = [], i = 0; i < arguments.length; i++)
+          ar = ar.concat(__read2(arguments[i]));
+        return ar;
+      };
+      __spreadArrays2 = function() {
+        for (var s = 0, i = 0, il = arguments.length; i < il; i++)
+          s += arguments[i].length;
+        for (var r = Array(s), k = 0, i = 0; i < il; i++)
+          for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+        return r;
+      };
+      __spreadArray3 = function(to, from, pack) {
+        if (pack || arguments.length === 2)
+          for (var i = 0, l = from.length, ar; i < l; i++) {
+            if (ar || !(i in from)) {
+              if (!ar)
+                ar = Array.prototype.slice.call(from, 0, i);
+              ar[i] = from[i];
+            }
+          }
+        return to.concat(ar || Array.prototype.slice.call(from));
+      };
+      __await2 = function(v) {
+        return this instanceof __await2 ? (this.v = v, this) : new __await2(v);
+      };
+      __asyncGenerator2 = function(thisArg, _arguments, generator) {
+        if (!Symbol.asyncIterator)
+          throw new TypeError("Symbol.asyncIterator is not defined.");
+        var g = generator.apply(thisArg, _arguments || []), i, q = [];
+        return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function() {
+          return this;
+        }, i;
+        function verb(n) {
+          if (g[n])
+            i[n] = function(v) {
+              return new Promise(function(a, b) {
+                q.push([n, v, a, b]) > 1 || resume(n, v);
+              });
+            };
+        }
+        function resume(n, v) {
+          try {
+            step(g[n](v));
+          } catch (e) {
+            settle(q[0][3], e);
+          }
+        }
+        function step(r) {
+          r.value instanceof __await2 ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);
+        }
+        function fulfill(value) {
+          resume("next", value);
+        }
+        function reject(value) {
+          resume("throw", value);
+        }
+        function settle(f, v) {
+          if (f(v), q.shift(), q.length)
+            resume(q[0][0], q[0][1]);
+        }
+      };
+      __asyncDelegator2 = function(o) {
+        var i, p;
+        return i = {}, verb("next"), verb("throw", function(e) {
+          throw e;
+        }), verb("return"), i[Symbol.iterator] = function() {
+          return this;
+        }, i;
+        function verb(n, f) {
+          i[n] = o[n] ? function(v) {
+            return (p = !p) ? { value: __await2(o[n](v)), done: false } : f ? f(v) : v;
+          } : f;
+        }
+      };
+      __asyncValues2 = function(o) {
+        if (!Symbol.asyncIterator)
+          throw new TypeError("Symbol.asyncIterator is not defined.");
+        var m = o[Symbol.asyncIterator], i;
+        return m ? m.call(o) : (o = typeof __values2 === "function" ? __values2(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function() {
+          return this;
+        }, i);
+        function verb(n) {
+          i[n] = o[n] && function(v) {
+            return new Promise(function(resolve, reject) {
+              v = o[n](v), settle(resolve, reject, v.done, v.value);
+            });
+          };
+        }
+        function settle(resolve, reject, d, v) {
+          Promise.resolve(v).then(function(v2) {
+            resolve({ value: v2, done: d });
+          }, reject);
+        }
+      };
+      __makeTemplateObject2 = function(cooked, raw) {
+        if (Object.defineProperty) {
+          Object.defineProperty(cooked, "raw", { value: raw });
+        } else {
+          cooked.raw = raw;
+        }
+        return cooked;
+      };
+      var __setModuleDefault = Object.create ? function(o, v) {
+        Object.defineProperty(o, "default", { enumerable: true, value: v });
+      } : function(o, v) {
+        o["default"] = v;
+      };
+      __importStar2 = function(mod) {
+        if (mod && mod.__esModule)
+          return mod;
+        var result = {};
+        if (mod != null) {
+          for (var k in mod)
+            if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k))
+              __createBinding2(result, mod, k);
+        }
+        __setModuleDefault(result, mod);
+        return result;
+      };
+      __importDefault2 = function(mod) {
+        return mod && mod.__esModule ? mod : { "default": mod };
+      };
+      __classPrivateFieldGet2 = function(receiver, state, kind, f) {
+        if (kind === "a" && !f)
+          throw new TypeError("Private accessor was defined without a getter");
+        if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+          throw new TypeError("Cannot read private member from an object whose class did not declare it");
+        return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+      };
+      __classPrivateFieldSet2 = function(receiver, state, value, kind, f) {
+        if (kind === "m")
+          throw new TypeError("Private method is not writable");
+        if (kind === "a" && !f)
+          throw new TypeError("Private accessor was defined without a setter");
+        if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+          throw new TypeError("Cannot write private member to an object whose class did not declare it");
+        return kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+      };
+      __classPrivateFieldIn2 = function(state, receiver) {
+        if (receiver === null || typeof receiver !== "object" && typeof receiver !== "function")
+          throw new TypeError("Cannot use 'in' operator on non-object");
+        return typeof state === "function" ? receiver === state : state.has(receiver);
+      };
+      exporter("__extends", __extends2);
+      exporter("__assign", __assign7);
+      exporter("__rest", __rest2);
+      exporter("__decorate", __decorate2);
+      exporter("__param", __param2);
+      exporter("__esDecorate", __esDecorate2);
+      exporter("__runInitializers", __runInitializers2);
+      exporter("__propKey", __propKey2);
+      exporter("__setFunctionName", __setFunctionName2);
+      exporter("__metadata", __metadata2);
+      exporter("__awaiter", __awaiter2);
+      exporter("__generator", __generator2);
+      exporter("__exportStar", __exportStar2);
+      exporter("__createBinding", __createBinding2);
+      exporter("__values", __values2);
+      exporter("__read", __read2);
+      exporter("__spread", __spread2);
+      exporter("__spreadArrays", __spreadArrays2);
+      exporter("__spreadArray", __spreadArray3);
+      exporter("__await", __await2);
+      exporter("__asyncGenerator", __asyncGenerator2);
+      exporter("__asyncDelegator", __asyncDelegator2);
+      exporter("__asyncValues", __asyncValues2);
+      exporter("__makeTemplateObject", __makeTemplateObject2);
+      exporter("__importStar", __importStar2);
+      exporter("__importDefault", __importDefault2);
+      exporter("__classPrivateFieldGet", __classPrivateFieldGet2);
+      exporter("__classPrivateFieldSet", __classPrivateFieldSet2);
+      exporter("__classPrivateFieldIn", __classPrivateFieldIn2);
+    });
   }
 });
 
@@ -9349,8 +9857,8 @@ var require_feather = __commonJS({
           var getOwnPropertyNamesModule = __webpack_require__("./node_modules/core-js/internals/object-get-own-property-names.js");
           var getOwnPropertySymbolsModule = __webpack_require__("./node_modules/core-js/internals/object-get-own-property-symbols.js");
           var anObject = __webpack_require__("./node_modules/core-js/internals/an-object.js");
-          var Reflect = global2.Reflect;
-          module3.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
+          var Reflect2 = global2.Reflect;
+          module3.exports = Reflect2 && Reflect2.ownKeys || function ownKeys(it) {
             var keys = getOwnPropertyNamesModule.f(anObject(it));
             var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
             return getOwnPropertySymbols ? keys.concat(getOwnPropertySymbols(it)) : keys;
@@ -19345,6 +19853,7 @@ var MyAdapter = class {
     this.promises = {};
     this.adapter = vault.adapter;
     this.vault = vault;
+    this.lastBasePath = this.plugin.settings.basePath;
     this.promises.readFile = this.readFile.bind(this);
     this.promises.writeFile = this.writeFile.bind(this);
     this.promises.readdir = this.readdir.bind(this);
@@ -19369,6 +19878,11 @@ var MyAdapter = class {
       }
     } else {
       if (path2.endsWith(this.gitDir + "/index")) {
+        if (this.plugin.settings.basePath != this.lastBasePath) {
+          this.clearIndex();
+          this.lastBasePath = this.plugin.settings.basePath;
+          return this.adapter.readBinary(path2);
+        }
         return (_a2 = this.index) != null ? _a2 : this.adapter.readBinary(path2);
       }
       const file = this.vault.getAbstractFileByPath(path2);
@@ -19438,7 +19952,7 @@ var MyAdapter = class {
       } else {
         const stat = await this.adapter.stat(path2);
         if (stat == void 0) {
-          throw { "code": "ENOENT" };
+          throw { code: "ENOENT" };
         }
         this.indexctime = stat.ctime;
         this.indexmtime = stat.mtime;
@@ -19481,7 +19995,7 @@ var MyAdapter = class {
           isSymbolicLink: () => false
         };
       } else {
-        throw { "code": "ENOENT" };
+        throw { code: "ENOENT" };
       }
     }
   }
@@ -19504,13 +20018,15 @@ var MyAdapter = class {
         mtime: this.indexmtime
       });
     }
+    this.clearIndex();
+  }
+  clearIndex() {
     this.index = void 0;
     this.indexctime = void 0;
     this.indexmtime = void 0;
   }
   get gitDir() {
-    var _a2;
-    return (_a2 = this.plugin.settings.gitDir) != null ? _a2 : ".git";
+    return this.plugin.settings.gitDir || ".git";
   }
   maybeLog(text2) {
   }
@@ -19665,9 +20181,13 @@ var IsomorphicGit = class extends GitManager {
       },
       onAuthFailure: async () => {
         new import_obsidian5.Notice("Authentication failed. Please try with different credentials");
-        const username = await new GeneralModal({ placeholder: "Specify your username" }).open();
+        const username = await new GeneralModal({
+          placeholder: "Specify your username"
+        }).open();
         if (username) {
-          const password = await new GeneralModal({ placeholder: "Specify your password/personal access token" }).open();
+          const password = await new GeneralModal({
+            placeholder: "Specify your password/personal access token"
+          }).open();
           if (password) {
             this.plugin.localStorage.setUsername(username);
             this.plugin.localStorage.setPassword(password);
@@ -19690,7 +20210,13 @@ var IsomorphicGit = class extends GitManager {
             body = await collect2(body);
             body = body.buffer;
           }
-          const res = await (0, import_obsidian5.requestUrl)({ url, method, headers, body, throw: false });
+          const res = await (0, import_obsidian5.requestUrl)({
+            url,
+            method,
+            headers,
+            body,
+            throw: false
+          });
           return {
             url,
             method,
@@ -19734,8 +20260,13 @@ var IsomorphicGit = class extends GitManager {
       throw error;
     }
   }
-  async commitAll({ message, status: status2, unstagedFiles }) {
+  async commitAll({
+    message,
+    status: status2,
+    unstagedFiles
+  }) {
     try {
+      await this.checkAuthorInfo();
       await this.stageAll({ status: status2, unstagedFiles });
       return this.commit(message);
     } catch (error) {
@@ -19745,6 +20276,7 @@ var IsomorphicGit = class extends GitManager {
   }
   async commit(message) {
     try {
+      await this.checkAuthorInfo();
       this.plugin.setState(PluginState.commit);
       const formatMessage = await this.formatCommitMessage(message);
       const hadConflict = this.plugin.localStorage.getConflict() === "true";
@@ -19785,10 +20317,20 @@ var IsomorphicGit = class extends GitManager {
       throw error;
     }
   }
-  async stageAll({ dir, status: status2, unstagedFiles }) {
+  async stageAll({
+    dir,
+    status: status2,
+    unstagedFiles
+  }) {
     try {
       if (status2) {
-        await Promise.all(status2.changed.map((file) => file.working_dir !== "D" ? this.wrapFS(isomorphic_git_default.add({ ...this.getRepo(), filepath: file.path })) : isomorphic_git_default.remove({ ...this.getRepo(), filepath: file.path })));
+        await Promise.all(status2.changed.map((file) => file.working_dir !== "D" ? this.wrapFS(isomorphic_git_default.add({
+          ...this.getRepo(),
+          filepath: file.path
+        })) : isomorphic_git_default.remove({
+          ...this.getRepo(),
+          filepath: file.path
+        })));
       } else {
         const filesToStage = unstagedFiles != null ? unstagedFiles : await this.getUnstagedFiles(dir != null ? dir : ".");
         await Promise.all(filesToStage.map(({ filepath, deleted }) => deleted ? isomorphic_git_default.remove({ ...this.getRepo(), filepath }) : this.wrapFS(isomorphic_git_default.add({ ...this.getRepo(), filepath }))));
@@ -19808,7 +20350,10 @@ var IsomorphicGit = class extends GitManager {
       throw error;
     }
   }
-  async unstageAll({ dir, status: status2 }) {
+  async unstageAll({
+    dir,
+    status: status2
+  }) {
     try {
       let staged;
       if (status2) {
@@ -19826,13 +20371,20 @@ var IsomorphicGit = class extends GitManager {
   async discard(filepath) {
     try {
       this.plugin.setState(PluginState.add);
-      await this.wrapFS(isomorphic_git_default.checkout({ ...this.getRepo(), filepaths: [filepath], force: true }));
+      await this.wrapFS(isomorphic_git_default.checkout({
+        ...this.getRepo(),
+        filepaths: [filepath],
+        force: true
+      }));
     } catch (error) {
       this.plugin.displayError(error);
       throw error;
     }
   }
-  async discardAll({ dir, status: status2 }) {
+  async discardAll({
+    dir,
+    status: status2
+  }) {
     let files = [];
     if (status2) {
       if (dir != void 0) {
@@ -19844,7 +20396,11 @@ var IsomorphicGit = class extends GitManager {
       files = (await this.getUnstagedFiles(dir)).map(({ filepath }) => filepath);
     }
     try {
-      await this.wrapFS(isomorphic_git_default.checkout({ ...this.getRepo(), filepaths: files, force: true }));
+      await this.wrapFS(isomorphic_git_default.checkout({
+        ...this.getRepo(),
+        filepaths: files,
+        force: true
+      }));
     } catch (error) {
       this.plugin.displayError(error);
       throw error;
@@ -19873,22 +20429,25 @@ var IsomorphicGit = class extends GitManager {
       const localCommit = await this.resolveRef("HEAD");
       await this.fetch();
       const branchInfo = await this.branchInfo();
-      await this.wrapFS(isomorphic_git_default.merge({
+      await this.checkAuthorInfo();
+      const mergeRes = await this.wrapFS(isomorphic_git_default.merge({
         ...this.getRepo(),
         ours: branchInfo.current,
         theirs: branchInfo.tracking,
         abortOnConflict: false
       }));
-      await this.wrapFS(isomorphic_git_default.checkout({
-        ...this.getRepo(),
-        ref: branchInfo.current,
-        onProgress: (progress) => {
-          if (progressNotice !== void 0) {
-            progressNotice.noticeEl.innerText = this.getProgressText("Checkout", progress);
-          }
-        },
-        remote: branchInfo.remote
-      }));
+      if (!mergeRes.alreadyMerged) {
+        await this.wrapFS(isomorphic_git_default.checkout({
+          ...this.getRepo(),
+          ref: branchInfo.current,
+          onProgress: (progress) => {
+            if (progressNotice !== void 0) {
+              progressNotice.noticeEl.innerText = this.getProgressText("Checkout", progress);
+            }
+          },
+          remote: branchInfo.remote
+        }));
+      }
       progressNotice == null ? void 0 : progressNotice.hide();
       const upstreamCommit = await this.resolveRef("HEAD");
       this.plugin.lastUpdate = Date.now();
@@ -20080,7 +20639,12 @@ var IsomorphicGit = class extends GitManager {
   }
   async setRemote(name, url) {
     try {
-      await this.wrapFS(isomorphic_git_default.addRemote({ ...this.getRepo(), remote: name, url, force: true }));
+      await this.wrapFS(isomorphic_git_default.addRemote({
+        ...this.getRepo(),
+        remote: name,
+        url,
+        force: true
+      }));
     } catch (error) {
       this.plugin.displayError(error);
       throw error;
@@ -20116,9 +20680,17 @@ var IsomorphicGit = class extends GitManager {
     return;
   }
   async getFileChangesCount(commitHash1, commitHash2) {
-    return this.walkDifference({ walkers: [isomorphic_git_default.TREE({ ref: commitHash1 }), isomorphic_git_default.TREE({ ref: commitHash2 })] });
+    return this.walkDifference({
+      walkers: [
+        isomorphic_git_default.TREE({ ref: commitHash1 }),
+        isomorphic_git_default.TREE({ ref: commitHash2 })
+      ]
+    });
   }
-  async walkDifference({ walkers, dir: base }) {
+  async walkDifference({
+    walkers,
+    dir: base
+  }) {
     const res = await this.wrapFS(isomorphic_git_default.walk({
       ...this.getRepo(),
       trees: walkers,
@@ -20236,10 +20808,14 @@ var IsomorphicGit = class extends GitManager {
     }
   }
   async getDiffString(filePath, stagedChanges = false) {
+    const vaultPath = this.getVaultPath(filePath);
     const map = async (file, [A]) => {
       if (filePath == file) {
         const oid = await A.oid();
-        const contents = await isomorphic_git_default.readBlob({ ...this.getRepo(), oid });
+        const contents = await isomorphic_git_default.readBlob({
+          ...this.getRepo(),
+          oid
+        });
         return contents.blob;
       }
     };
@@ -20250,18 +20826,25 @@ var IsomorphicGit = class extends GitManager {
     })).first();
     const stagedContent = new TextDecoder().decode(stagedBlob);
     if (stagedChanges) {
-      const headBlob = await readBlob({ ...this.getRepo(), filepath: filePath, oid: await this.resolveRef("HEAD") });
-      const headContent = new TextDecoder().decode(headBlob.blob);
-      const diff2 = createPatch(filePath, headContent, stagedContent);
+      const headContent = await this.resolveRef("HEAD").then((oid) => readBlob({
+        ...this.getRepo(),
+        filepath: filePath,
+        oid
+      })).then((headBlob) => new TextDecoder().decode(headBlob.blob)).catch((err) => {
+        if (err instanceof isomorphic_git_default.Errors.NotFoundError)
+          return void 0;
+        throw err;
+      });
+      const diff2 = createPatch(vaultPath, headContent != null ? headContent : "", stagedContent);
       return diff2;
     } else {
       let workdirContent;
-      if (await app.vault.adapter.exists(filePath)) {
-        workdirContent = await app.vault.adapter.read(filePath);
+      if (await app.vault.adapter.exists(vaultPath)) {
+        workdirContent = await app.vault.adapter.read(vaultPath);
       } else {
         workdirContent = "";
       }
-      const diff2 = createPatch(filePath, stagedContent, workdirContent);
+      const diff2 = createPatch(vaultPath, stagedContent, workdirContent);
       return diff2;
     }
   }
@@ -20281,6 +20864,13 @@ var IsomorphicGit = class extends GitManager {
       vault_path: this.getVaultPath(row[this.FILE])
     };
   }
+  async checkAuthorInfo() {
+    const name = await this.getConfig("user.name");
+    const email = await this.getConfig("user.email");
+    if (!name || !email) {
+      throw "Git author information is not set. Please set it in the settings.";
+    }
+  }
   showNotice(message, infinity = true) {
     if (!this.plugin.settings.disablePopups) {
       return new import_obsidian5.Notice(message, infinity ? this.noticeLength : void 0);
@@ -20291,7 +20881,10 @@ function fromValue2(value) {
   let queue = [value];
   return {
     next() {
-      return Promise.resolve({ done: queue.length === 0, value: queue.pop() });
+      return Promise.resolve({
+        done: queue.length === 0,
+        value: queue.pop()
+      });
     },
     return() {
       queue = [];
@@ -20345,11 +20938,12 @@ async function collect2(iterable) {
 // src/simpleGit.ts
 init_polyfill_buffer();
 var import_child_process2 = __toModule(require("child_process"));
+var import_debug2 = __toModule(require_browser());
 var import_obsidian6 = __toModule(require("obsidian"));
 var path = __toModule(require("path"));
 var import_path = __toModule(require("path"));
 
-// node_modules/.pnpm/simple-git@3.15.1_supports-color@7.2.0/node_modules/simple-git/dist/esm/index.js
+// node_modules/.pnpm/simple-git@3.16.1_supports-color@7.2.0/node_modules/simple-git/dist/esm/index.js
 init_polyfill_buffer();
 var import_file_exists = __toModule(require_dist());
 var import_debug = __toModule(require_browser());
@@ -21388,9 +21982,9 @@ function createLogger(label, verbose, initialStep, infoDebugger = createLog()) {
   }
   function step(phase) {
     const stepPrefix = phase && `[${phase}]` || "";
-    const debug2 = debugDebugger && prefixedLogger(debugDebugger, stepPrefix) || NOOP;
-    const info = prefixedLogger(infoDebugger, `${labelPrefix} ${stepPrefix}`, debug2);
-    return Object.assign(debugDebugger ? debug2 : info, {
+    const debug22 = debugDebugger && prefixedLogger(debugDebugger, stepPrefix) || NOOP;
+    const info = prefixedLogger(infoDebugger, `${labelPrefix} ${stepPrefix}`, debug22);
+    return Object.assign(debugDebugger ? debug22 : info, {
       label,
       sibling,
       info,
@@ -21736,6 +22330,32 @@ var init_change_working_directory = __esm2({
     init_task();
   }
 });
+function checkoutTask(args) {
+  const commands = ["checkout", ...args];
+  if (commands[1] === "-b" && commands.includes("-B")) {
+    commands[1] = remove2(commands, "-B");
+  }
+  return straightThroughStringTask(commands);
+}
+function checkout_default() {
+  return {
+    checkout() {
+      return this._runTask(checkoutTask(getTrailingOptions(arguments, 1)), trailingFunctionArgument(arguments));
+    },
+    checkoutBranch(branchName, startPoint) {
+      return this._runTask(checkoutTask(["-b", branchName, startPoint, ...getTrailingOptions(arguments)]), trailingFunctionArgument(arguments));
+    },
+    checkoutLocalBranch(branchName) {
+      return this._runTask(checkoutTask(["-b", branchName, ...getTrailingOptions(arguments)]), trailingFunctionArgument(arguments));
+    }
+  };
+}
+var init_checkout = __esm2({
+  "src/lib/tasks/checkout.ts"() {
+    init_utils();
+    init_task();
+  }
+});
 function parseCommitResult(stdOut) {
   const result = {
     author: null,
@@ -21787,11 +22407,6 @@ var init_parse_commit = __esm2({
       })
     ];
   }
-});
-var commit_exports = {};
-__export2(commit_exports, {
-  commitTask: () => commitTask,
-  default: () => commit_default
 });
 function commitTask(message, files, customArgs) {
   const commands = [
@@ -22501,7 +23116,7 @@ var init_parse_push = __esm2({
           local
         });
       }),
-      new LineParser(/^[*-=]\s+([^:]+):(\S+)\s+\[(.+)]$/, (result, [local, remote, type]) => {
+      new LineParser(/^[=*-]\s+([^:]+):(\S+)\s+\[(.+)]$/, (result, [local, remote, type]) => {
         result.pushed.push(pushResultPushedItem(local, remote, type));
       }),
       new LineParser(/^Branch '([^']+)' set up to track remote branch '([^']+)' from '([^']+)'/, (result, [local, remote, remoteName]) => {
@@ -22801,6 +23416,7 @@ var init_simple_git_api = __esm2({
   "src/lib/simple-git-api.ts"() {
     init_task_callback();
     init_change_working_directory();
+    init_checkout();
     init_commit();
     init_config();
     init_grep();
@@ -22875,7 +23491,7 @@ var init_simple_git_api = __esm2({
         return this._runTask(statusTask(getTrailingOptions(arguments)), trailingFunctionArgument(arguments));
       }
     };
-    Object.assign(SimpleGitApi.prototype, commit_default(), config_default(), grep_default(), log_default(), version_default());
+    Object.assign(SimpleGitApi.prototype, checkout_default(), commit_default(), config_default(), grep_default(), log_default(), version_default());
   }
 });
 var scheduler_exports = {};
@@ -23561,7 +24177,6 @@ var require_git = __commonJS2({
     var { checkIsRepoTask: checkIsRepoTask2 } = (init_check_is_repo(), __toCommonJS(check_is_repo_exports));
     var { cloneTask: cloneTask2, cloneMirrorTask: cloneMirrorTask2 } = (init_clone(), __toCommonJS(clone_exports));
     var { cleanWithOptionsTask: cleanWithOptionsTask2, isCleanOptionsArray: isCleanOptionsArray2 } = (init_clean(), __toCommonJS(clean_exports));
-    var { commitTask: commitTask2 } = (init_commit(), __toCommonJS(commit_exports));
     var { diffSummaryTask: diffSummaryTask2 } = (init_diff(), __toCommonJS(diff_exports));
     var { fetchTask: fetchTask2 } = (init_fetch(), __toCommonJS(fetch_exports));
     var { moveTask: moveTask2 } = (init_move(), __toCommonJS(move_exports));
@@ -23659,16 +24274,6 @@ var require_git = __commonJS2({
     };
     Git2.prototype.addAnnotatedTag = function(tagName, tagMessage) {
       return this._runTask(addAnnotatedTagTask2(tagName, tagMessage), trailingFunctionArgument2(arguments));
-    };
-    Git2.prototype.checkout = function() {
-      const commands = ["checkout", ...getTrailingOptions2(arguments, true)];
-      return this._runTask(straightThroughStringTask2(commands), trailingFunctionArgument2(arguments));
-    };
-    Git2.prototype.checkoutBranch = function(branchName, startPoint, then) {
-      return this.checkout(["-b", branchName, startPoint], trailingFunctionArgument2(arguments));
-    };
-    Git2.prototype.checkoutLocalBranch = function(branchName, then) {
-      return this.checkout(["-b", branchName], trailingFunctionArgument2(arguments));
     };
     Git2.prototype.deleteLocalBranch = function(branchName, forceDelete, then) {
       return this._runTask(deleteBranchTask2(branchName, typeof forceDelete === "boolean" ? forceDelete : false), trailingFunctionArgument2(arguments));
@@ -23872,15 +24477,28 @@ function preventProtocolOverride(arg, next) {
   }
   throw new GitPluginError(void 0, "unsafe", "Configuring protocol.allow is not permitted without enabling allowUnsafeExtProtocol");
 }
+function preventUploadPack(arg, method) {
+  if (/^\s*--(upload|receive)-pack/.test(arg)) {
+    throw new GitPluginError(void 0, "unsafe", `Use of --upload-pack or --receive-pack is not permitted without enabling allowUnsafePack`);
+  }
+  if (method === "clone" && /^\s*-u\b/.test(arg)) {
+    throw new GitPluginError(void 0, "unsafe", `Use of clone with option -u is not permitted without enabling allowUnsafePack`);
+  }
+  if (method === "push" && /^\s*--exec\b/.test(arg)) {
+    throw new GitPluginError(void 0, "unsafe", `Use of push with option --exec is not permitted without enabling allowUnsafePack`);
+  }
+}
 function blockUnsafeOperationsPlugin({
-  allowUnsafeProtocolOverride = false
+  allowUnsafeProtocolOverride = false,
+  allowUnsafePack = false
 } = {}) {
   return {
     type: "spawn.args",
-    action(args, _context) {
+    action(args, context) {
       args.forEach((current, index2) => {
         const next = index2 < args.length ? args[index2 + 1] : "";
         allowUnsafeProtocolOverride || preventProtocolOverride(current, next);
+        allowUnsafePack || preventUploadPack(current, context.method);
       });
       return args;
     }
@@ -24164,9 +24782,10 @@ var SimpleGit = class extends GitManager {
         const [key2, value] = envVar.split("=");
         process.env[key2] = value;
       }
-      const debug2 = require_browser();
-      debug2.enable("simple-git");
-      await this.git.cwd(await this.git.revparse("--show-toplevel"));
+      import_debug2.default.enable("simple-git");
+      if (await this.git.checkIsRepo()) {
+        await this.git.cwd(await this.git.revparse("--show-toplevel"));
+      }
     }
   }
   async status() {
@@ -24318,14 +24937,21 @@ var SimpleGit = class extends GitManager {
         }
       } else if (this.plugin.settings.syncMethod === "reset") {
         try {
-          await this.git.raw(["update-ref", `refs/heads/${branchInfo.current}`, upstreamCommit], (err) => this.onError(err));
+          await this.git.raw([
+            "update-ref",
+            `refs/heads/${branchInfo.current}`,
+            upstreamCommit
+          ], (err) => this.onError(err));
           await this.unstageAll({});
         } catch (err) {
           this.plugin.displayError(`Sync failed (${this.plugin.settings.syncMethod}): ${err.message}`);
         }
       }
       const afterMergeCommit = await this.git.revparse([branchInfo.current], (err) => this.onError(err));
-      const filesChanged = await this.git.diff([`${localCommit}..${afterMergeCommit}`, "--name-only"]);
+      const filesChanged = await this.git.diff([
+        `${localCommit}..${afterMergeCommit}`,
+        "--name-only"
+      ]);
       return filesChanged.split(/\r\n|\r|\n/).filter((value) => value.length > 0).map((e) => {
         return {
           path: e,
@@ -24345,9 +24971,13 @@ var SimpleGit = class extends GitManager {
     const remoteChangedFiles = (await this.git.diffSummary([currentBranch2, trackingBranch, "--"], (err) => this.onError(err))).changed;
     this.plugin.setState(PluginState.push);
     if (this.plugin.settings.updateSubmodules) {
-      await this.git.env({ ...process.env, "OBSIDIAN_GIT": 1 }).subModule(["foreach", "--recursive", `tracking=$(git for-each-ref --format='%(upstream:short)' "$(git symbolic-ref -q HEAD)"); echo $tracking; if [ ! -z "$(git diff --shortstat $tracking)" ]; then git push; fi`], (err) => this.onError(err));
+      await this.git.env({ ...process.env, OBSIDIAN_GIT: 1 }).subModule([
+        "foreach",
+        "--recursive",
+        `tracking=$(git for-each-ref --format='%(upstream:short)' "$(git symbolic-ref -q HEAD)"); echo $tracking; if [ ! -z "$(git diff --shortstat $tracking)" ]; then git push; fi`
+      ], (err) => this.onError(err));
     }
-    await this.git.env({ ...process.env, "OBSIDIAN_GIT": 1 }).push((err) => this.onError(err));
+    await this.git.env({ ...process.env, OBSIDIAN_GIT: 1 }).push((err) => this.onError(err));
     return remoteChangedFiles;
   }
   async canPush() {
@@ -24404,7 +25034,7 @@ var SimpleGit = class extends GitManager {
     if (this.plugin.settings.submoduleRecurseCheckout) {
       const submodulePaths = await this.getSubmodulePaths();
       for (const submodulePath of submodulePaths) {
-        let branchSummary = await this.git.cwd({ path: submodulePath, root: false }).branch();
+        const branchSummary = await this.git.cwd({ path: submodulePath, root: false }).branch();
         if (Object.keys(branchSummary.branches).includes(branch2)) {
           await this.git.cwd({ path: submodulePath, root: false }).checkout(branch2, (err) => this.onError(err));
         }
@@ -24540,7 +25170,9 @@ var ObsidianGitSettingsTab = class extends import_obsidian7.PluginSettingTab {
     containerEl.empty();
     containerEl.createEl("h2", { text: "Git Backup settings" });
     if (!gitReady) {
-      containerEl.createEl("p", { text: "Git is not ready. When all settings are correct you can configure auto backup, etc." });
+      containerEl.createEl("p", {
+        text: "Git is not ready. When all settings are correct you can configure auto backup, etc."
+      });
     }
     if (gitReady) {
       containerEl.createEl("br");
@@ -24660,9 +25292,9 @@ var ObsidianGitSettingsTab = class extends import_obsidian7.PluginSettingTab {
       if (plugin.gitManager instanceof SimpleGit)
         new import_obsidian7.Setting(containerEl).setName("Sync Method").setDesc("Selects the method used for handling new changes found in your remote git repository.").addDropdown((dropdown) => {
           const options = {
-            "merge": "Merge",
-            "rebase": "Rebase",
-            "reset": "Other sync service (Only updates the HEAD without touching the working directory)"
+            merge: "Merge",
+            rebase: "Rebase",
+            reset: "Other sync service (Only updates the HEAD without touching the working directory)"
           };
           dropdown.addOptions(options);
           dropdown.setValue(plugin.settings.syncMethod);
@@ -24713,7 +25345,9 @@ var ObsidianGitSettingsTab = class extends import_obsidian7.PluginSettingTab {
     }));
     containerEl.createEl("br");
     if (plugin.gitManager instanceof IsomorphicGit) {
-      containerEl.createEl("h3", { text: "Authentication/Commit Author" });
+      containerEl.createEl("h3", {
+        text: "Authentication/Commit Author"
+      });
     } else {
       containerEl.createEl("h3", { text: "Commit Author" });
     }
@@ -25024,7 +25658,6 @@ init_polyfill_buffer();
 var import_obsidian11 = __toModule(require("obsidian"));
 var DEFAULT_SETTINGS = {
   commitMessage: "vault backup: {{date}}",
-  autoCommitMessage: void 0,
   commitDateFormat: "YYYY-MM-DD HH:mm:ss",
   autoSaveInterval: 0,
   autoPushInterval: 0,
@@ -25047,7 +25680,9 @@ var DEFAULT_SETTINGS = {
   showedMobileNotice: false,
   refreshSourceControlTimer: 7e3,
   showBranchStatusBar: true,
-  setLastSaveToLastCommit: false
+  setLastSaveToLastCommit: false,
+  submoduleRecurseCheckout: false,
+  gitDir: ""
 };
 var GIT_VIEW_CONFIG = {
   type: "git-view",
@@ -25068,7 +25703,16 @@ var LocalStorageSettings = class {
     this.prefix = this.plugin.manifest.id + ":";
   }
   migrate() {
-    const keys = ["password", "hostname", "conflict", "lastAutoPull", "lastAutoBackup", "lastAutoPush", "gitPath", "pluginDisabled"];
+    const keys = [
+      "password",
+      "hostname",
+      "conflict",
+      "lastAutoPull",
+      "lastAutoBackup",
+      "lastAutoPush",
+      "gitPath",
+      "pluginDisabled"
+    ];
     for (const key2 of keys) {
       const old = localStorage.getItem(this.prefix + key2);
       if (app.loadLocalStorage(this.prefix + key2) == null && old != null) {
@@ -25217,13 +25861,13 @@ async function getData(manager) {
 // src/ui/diff/diffView.ts
 init_polyfill_buffer();
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/diff2html.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/diff2html.js
 init_polyfill_buffer();
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/diff-parser.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/diff-parser.js
 init_polyfill_buffer();
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/types.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/types.js
 init_polyfill_buffer();
 var LineType;
 (function(LineType2) {
@@ -25245,7 +25889,7 @@ var DiffStyleType = {
   CHAR: "char"
 };
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/utils.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/utils.js
 init_polyfill_buffer();
 var specials = [
   "-",
@@ -25283,7 +25927,7 @@ function hashCode(text2) {
   return hash2;
 }
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/diff-parser.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/diff-parser.js
 var __spreadArray = function(to, from, pack) {
   if (pack || arguments.length === 2)
     for (var i = 0, l = from.length, ar; i < l; i++) {
@@ -25461,7 +26105,7 @@ function parse(diffInput, config) {
     var prevLine = diffLines2[lineIndex - 1];
     var nxtLine = diffLines2[lineIndex + 1];
     var afterNxtLine = diffLines2[lineIndex + 2];
-    if (line.startsWith("diff")) {
+    if (line.startsWith("diff --git") || line.startsWith("diff --combined")) {
       startFile();
       var gitDiffStart = /^diff --git "?([a-ciow]\/.+)"? "?([a-ciow]\/.+)"?/;
       if (values = gitDiffStart.exec(line)) {
@@ -25472,6 +26116,19 @@ function parse(diffInput, config) {
         throw new Error("Where is my file !!!");
       }
       currentFile.isGitDiff = true;
+      return;
+    }
+    if (line.startsWith("Binary files") && !(currentFile === null || currentFile === void 0 ? void 0 : currentFile.isGitDiff)) {
+      startFile();
+      var unixDiffBinaryStart = /^Binary files "?([a-ciow]\/.+)"? and "?([a-ciow]\/.+)"? differ/;
+      if (values = unixDiffBinaryStart.exec(line)) {
+        possibleOldName = getFilename(values[1], void 0, config.dstPrefix);
+        possibleNewName = getFilename(values[2], void 0, config.srcPrefix);
+      }
+      if (currentFile === null) {
+        throw new Error("Where is my file !!!");
+      }
+      currentFile.isBinary = true;
       return;
     }
     if (!currentFile || !currentFile.isGitDiff && currentFile && line.startsWith(oldFileNameHeader) && nxtLine.startsWith(newFileNameHeader) && afterNxtLine.startsWith(hunkHeaderPrefix)) {
@@ -25579,13 +26236,13 @@ function parse(diffInput, config) {
   return files;
 }
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/file-list-renderer.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/file-list-renderer.js
 init_polyfill_buffer();
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/render-utils.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/render-utils.js
 init_polyfill_buffer();
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/rematch.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/rematch.js
 init_polyfill_buffer();
 function levenshtein(a, b) {
   if (a.length === 0) {
@@ -25679,7 +26336,7 @@ function newMatcherFn(distance2) {
   return group;
 }
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/render-utils.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/render-utils.js
 var __assign = function() {
   __assign = Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -25869,7 +26526,7 @@ function diffHighlight(diffLine1, diffLine2, isCombined, config) {
   };
 }
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/file-list-renderer.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/file-list-renderer.js
 var baseTemplatesPath = "file-summary";
 var iconsBaseTemplatesPath = "icon";
 function render(diffFiles, hoganUtils) {
@@ -25891,7 +26548,7 @@ function render(diffFiles, hoganUtils) {
   });
 }
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/line-by-line-renderer.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/line-by-line-renderer.js
 init_polyfill_buffer();
 var __assign2 = function() {
   __assign2 = Object.assign || function(t) {
@@ -26087,7 +26744,7 @@ var LineByLineRenderer = function() {
 }();
 var line_by_line_renderer_default = LineByLineRenderer;
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/side-by-side-renderer.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/side-by-side-renderer.js
 init_polyfill_buffer();
 var __assign3 = function() {
   __assign3 = Object.assign || function(t) {
@@ -26296,11 +26953,11 @@ var SideBySideRenderer = function() {
 }();
 var side_by_side_renderer_default = SideBySideRenderer;
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/hoganjs-utils.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/hoganjs-utils.js
 init_polyfill_buffer();
 var Hogan3 = __toModule(require_hogan());
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/diff2html-templates.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/diff2html-templates.js
 init_polyfill_buffer();
 var Hogan2 = __toModule(require_hogan());
 var defaultTemplates = {};
@@ -26380,7 +27037,16 @@ defaultTemplates["generic-block-header"] = new Hogan2.Template({ code: function(
   t.b('        <div class="');
   t.b(t.v(t.f("contentClass", c, p, 0)));
   t.b('">');
-  t.b(t.t(t.f("blockHeader", c, p, 0)));
+  if (t.s(t.f("blockHeader", c, p, 1), c, p, 0, 156, 173, "{{ }}")) {
+    t.rs(c, p, function(c2, p2, t2) {
+      t2.b(t2.t(t2.f("blockHeader", c2, p2, 0)));
+    });
+    c.pop();
+  }
+  if (!t.s(t.f("blockHeader", c, p, 1), c, p, 1, 0, 0, "")) {
+    t.b("&nbsp;");
+  }
+  ;
   t.b("</div>");
   t.b("\n" + i);
   t.b("    </td>");
@@ -26696,7 +27362,7 @@ defaultTemplates["tag-file-renamed"] = new Hogan2.Template({ code: function(c, p
   return t.fl();
 }, partials: {}, subs: {} });
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/hoganjs-utils.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/hoganjs-utils.js
 var __assign4 = function() {
   __assign4 = Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -26742,7 +27408,7 @@ var HoganJsUtils = function() {
 }();
 var hoganjs_utils_default = HoganJsUtils;
 
-// node_modules/.pnpm/diff2html@3.4.22/node_modules/diff2html/lib-esm/diff2html.js
+// node_modules/.pnpm/diff2html@3.4.31/node_modules/diff2html/lib-esm/diff2html.js
 var __assign5 = function() {
   __assign5 = Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -26822,7 +27488,10 @@ var DiffView = class extends import_obsidian13.ItemView {
         const header = `--- /dev/null
 +++ ${this.state.file}
 @@ -0,0 +1,${content.split("\n").length} @@`;
-        diff2 = [...header.split("\n"), ...content.split("\n").map((line) => `+${line}`)].join("\n");
+        diff2 = [
+          ...header.split("\n"),
+          ...content.split("\n").map((line) => `+${line}`)
+        ].join("\n");
       }
       const diffEl = this.parser.parseFromString(html(diff2), "text/html").querySelector(".d2h-file-diff");
       this.contentEl.append(diffEl);
@@ -26908,7 +27577,7 @@ var import_obsidian22 = __toModule(require("obsidian"));
 // src/ui/sidebar/gitView.svelte
 init_polyfill_buffer();
 
-// node_modules/.pnpm/svelte@3.55.0/node_modules/svelte/internal/index.mjs
+// node_modules/.pnpm/svelte@3.55.1/node_modules/svelte/internal/index.mjs
 init_polyfill_buffer();
 function noop() {
 }
@@ -27158,13 +27827,22 @@ function add_render_callback(fn) {
 var seen_callbacks = new Set();
 var flushidx = 0;
 function flush() {
+  if (flushidx !== 0) {
+    return;
+  }
   const saved_component = current_component;
   do {
-    while (flushidx < dirty_components.length) {
-      const component = dirty_components[flushidx];
-      flushidx++;
-      set_current_component(component);
-      update(component.$$);
+    try {
+      while (flushidx < dirty_components.length) {
+        const component = dirty_components[flushidx];
+        flushidx++;
+        set_current_component(component);
+        update(component.$$);
+      }
+    } catch (e) {
+      dirty_components.length = 0;
+      flushidx = 0;
+      throw e;
     }
     set_current_component(null);
     dirty_components.length = 0;
@@ -27535,23 +28213,58 @@ var SvelteComponent = class {
   }
 };
 
+// node_modules/.pnpm/tslib@2.5.0/node_modules/tslib/modules/index.js
+init_polyfill_buffer();
+var import_tslib = __toModule(require_tslib());
+var {
+  __extends,
+  __assign: __assign6,
+  __rest,
+  __decorate,
+  __param,
+  __esDecorate,
+  __runInitializers,
+  __propKey,
+  __setFunctionName,
+  __metadata,
+  __awaiter,
+  __generator,
+  __exportStar,
+  __createBinding,
+  __values,
+  __read,
+  __spread,
+  __spreadArrays,
+  __spreadArray: __spreadArray2,
+  __await,
+  __asyncGenerator,
+  __asyncDelegator,
+  __asyncValues,
+  __makeTemplateObject,
+  __importStar,
+  __importDefault,
+  __classPrivateFieldGet,
+  __classPrivateFieldSet,
+  __classPrivateFieldIn
+} = import_tslib.default;
+
 // src/ui/sidebar/gitView.svelte
 var import_obsidian21 = __toModule(require("obsidian"));
 
-// node_modules/.pnpm/svelte@3.55.0/node_modules/svelte/index.mjs
+// node_modules/.pnpm/svelte@3.55.1/node_modules/svelte/index.mjs
 init_polyfill_buffer();
 
-// node_modules/.pnpm/svelte@3.55.0/node_modules/svelte/transition/index.mjs
+// node_modules/.pnpm/svelte@3.55.1/node_modules/svelte/transition/index.mjs
 init_polyfill_buffer();
 
-// node_modules/.pnpm/svelte@3.55.0/node_modules/svelte/easing/index.mjs
+// node_modules/.pnpm/svelte@3.55.1/node_modules/svelte/easing/index.mjs
 init_polyfill_buffer();
 function cubicOut(t) {
   const f = t - 1;
   return f * f * f + 1;
 }
 
-// node_modules/.pnpm/svelte@3.55.0/node_modules/svelte/transition/index.mjs
+// node_modules/.pnpm/svelte@3.55.1/node_modules/svelte/transition/index.mjs
 function slide(node, { delay: delay2 = 0, duration = 400, easing = cubicOut } = {}) {
   const style = getComputedStyle(node);
   const opacity = +style.opacity;
@@ -27629,10 +28342,10 @@ var DiscardModal = class extends import_obsidian16.Modal {
 init_polyfill_buffer();
 var import_obsidian18 = __toModule(require("obsidian"));
 
-// node_modules/.pnpm/obsidian-community-lib@2.0.2/node_modules/obsidian-community-lib/dist/index.js
+// node_modules/.pnpm/obsidian-community-lib@2.0.2_6i3pfqogrrmqkwm5tm4xxq6xdu/node_modules/obsidian-community-lib/dist/index.js
 init_polyfill_buffer();
 
-// node_modules/.pnpm/obsidian-community-lib@2.0.2/node_modules/obsidian-community-lib/dist/utils.js
+// node_modules/.pnpm/obsidian-community-lib@2.0.2_6i3pfqogrrmqkwm5tm4xxq6xdu/node_modules/obsidian-community-lib/dist/utils.js
 init_polyfill_buffer();
 var feather = __toModule(require_feather());
 var import_obsidian17 = __toModule(require("obsidian"));
@@ -30461,76 +31174,82 @@ function instance5($$self, $$props, $$invalidate) {
   onDestroy(() => {
     removeEventListener("git-view-refresh", refresh);
   });
-  async function commit2() {
-    $$invalidate(5, loading = true);
-    if (status2) {
-      if (await plugin.hasTooBigFiles(status2.staged)) {
-        plugin.setState(PluginState.idle);
-        return false;
+  function commit2() {
+    return __awaiter(this, void 0, void 0, function* () {
+      $$invalidate(5, loading = true);
+      if (status2) {
+        if (yield plugin.hasTooBigFiles(status2.staged)) {
+          plugin.setState(PluginState.idle);
+          return false;
+        }
+        plugin.gitManager.commit(commitMessage).then(() => {
+          if (commitMessage !== plugin.settings.commitMessage) {
+            $$invalidate(2, commitMessage = "");
+          }
+          plugin.setUpAutoBackup();
+        }).finally(triggerRefresh);
       }
-      plugin.gitManager.commit(commitMessage).then(() => {
-        if (commitMessage !== plugin.settings.commitMessage) {
-          $$invalidate(2, commitMessage = "");
-        }
-        plugin.setUpAutoBackup();
-      }).finally(triggerRefresh);
-    }
+    });
   }
-  async function backup() {
-    $$invalidate(5, loading = true);
-    if (status2) {
-      plugin.createBackup(false, false, commitMessage).then(() => {
-        if (commitMessage !== plugin.settings.commitMessage) {
-          $$invalidate(2, commitMessage = "");
-        }
-      }).finally(triggerRefresh);
-    }
+  function backup() {
+    return __awaiter(this, void 0, void 0, function* () {
+      $$invalidate(5, loading = true);
+      if (status2) {
+        plugin.createBackup(false, false, commitMessage).then(() => {
+          if (commitMessage !== plugin.settings.commitMessage) {
+            $$invalidate(2, commitMessage = "");
+          }
+        }).finally(triggerRefresh);
+      }
+    });
   }
-  async function refresh() {
-    if (!plugin.gitReady) {
-      $$invalidate(6, status2 = void 0);
-      return;
-    }
-    $$invalidate(6, status2 = plugin.cachedStatus);
-    if (plugin.lastPulledFiles && plugin.lastPulledFiles != lastPulledFiles) {
-      $$invalidate(7, lastPulledFiles = plugin.lastPulledFiles);
-      $$invalidate(11, lastPulledFilesHierarchy = {
-        title: "",
-        path: "",
-        vaultPath: "",
-        children: plugin.gitManager.getTreeStructure(lastPulledFiles)
-      });
-    }
-    if (status2) {
-      const sort = (a, b) => {
-        return a.vault_path.split("/").last().localeCompare(b.vault_path.split("/").last());
-      };
-      status2.changed.sort(sort);
-      status2.staged.sort(sort);
-      if (status2.changed.length + status2.staged.length > 500) {
+  function refresh() {
+    return __awaiter(this, void 0, void 0, function* () {
+      if (!plugin.gitReady) {
         $$invalidate(6, status2 = void 0);
-        if (!plugin.loading) {
-          plugin.displayError("Too many changes to display");
+        return;
+      }
+      $$invalidate(6, status2 = plugin.cachedStatus);
+      if (plugin.lastPulledFiles && plugin.lastPulledFiles != lastPulledFiles) {
+        $$invalidate(7, lastPulledFiles = plugin.lastPulledFiles);
+        $$invalidate(11, lastPulledFilesHierarchy = {
+          title: "",
+          path: "",
+          vaultPath: "",
+          children: plugin.gitManager.getTreeStructure(lastPulledFiles)
+        });
+      }
+      if (status2) {
+        const sort = (a, b) => {
+          return a.vault_path.split("/").last().localeCompare(b.vault_path.split("/").last());
+        };
+        status2.changed.sort(sort);
+        status2.staged.sort(sort);
+        if (status2.changed.length + status2.staged.length > 500) {
+          $$invalidate(6, status2 = void 0);
+          if (!plugin.loading) {
+            plugin.displayError("Too many changes to display");
+          }
+        } else {
+          $$invalidate(9, changeHierarchy = {
+            title: "",
+            path: "",
+            vaultPath: "",
+            children: plugin.gitManager.getTreeStructure(status2.changed)
+          });
+          $$invalidate(10, stagedHierarchy = {
+            title: "",
+            path: "",
+            vaultPath: "",
+            children: plugin.gitManager.getTreeStructure(status2.staged)
+          });
         }
       } else {
-        $$invalidate(9, changeHierarchy = {
-          title: "",
-          path: "",
-          vaultPath: "",
-          children: plugin.gitManager.getTreeStructure(status2.changed)
-        });
-        $$invalidate(10, stagedHierarchy = {
-          title: "",
-          path: "",
-          vaultPath: "",
-          children: plugin.gitManager.getTreeStructure(status2.staged)
-        });
+        $$invalidate(9, changeHierarchy = void 0);
+        $$invalidate(10, stagedHierarchy = void 0);
       }
-    } else {
-      $$invalidate(9, changeHierarchy = void 0);
-      $$invalidate(10, stagedHierarchy = void 0);
-    }
-    $$invalidate(5, loading = plugin.loading);
+      $$invalidate(5, loading = plugin.loading);
+    });
   }
   function stageAll() {
     $$invalidate(5, loading = true);
@@ -31002,7 +31721,11 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
       callback: async () => {
         const repoExists = await this.app.vault.adapter.exists(`${this.settings.basePath}/.git`);
         if (repoExists) {
-          const modal = new GeneralModal({ options: ["NO", "YES"], placeholder: "Do you really want to delete the repository (.git directory)? This action cannot be undone.", onlySelection: true });
+          const modal = new GeneralModal({
+            options: ["NO", "YES"],
+            placeholder: "Do you really want to delete the repository (.git directory)? This action cannot be undone.",
+            onlySelection: true
+          });
           const shouldDelete = await modal.open() === "YES";
           if (shouldDelete) {
             await this.app.vault.adapter.rmdir(`${this.settings.basePath}/.git`, true);
@@ -31061,6 +31784,23 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
         this.deleteBranch();
       }
     });
+    this.addCommand({
+      id: "discard-all",
+      name: "CAUTION: Discard all changes",
+      callback: async () => {
+        if (!await this.isAllInitialized())
+          return false;
+        const modal = new GeneralModal({
+          options: ["NO", "YES"],
+          placeholder: "Do you want to discard all changes to tracked files? This action cannot be undone.",
+          onlySelection: true
+        });
+        const shouldDiscardAll = await modal.open() === "YES";
+        if (shouldDiscardAll) {
+          this.promiseQueue.addTask(() => this.discardAll());
+        }
+      }
+    });
     this.registerEvent(this.app.workspace.on("file-menu", (menu, file, source) => {
       this.handleFileMenu(menu, file, source);
     }));
@@ -31117,7 +31857,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           if (file instanceof import_obsidian23.TFile) {
             await this.gitManager.stage(file.path, true);
           } else {
-            await this.gitManager.stageAll({ dir: this.gitManager.getPath(file.path, true) });
+            await this.gitManager.stageAll({
+              dir: this.gitManager.getPath(file.path, true)
+            });
           }
           this.displayMessage(`Staged ${file.path}`);
         });
@@ -31129,7 +31871,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           if (file instanceof import_obsidian23.TFile) {
             await this.gitManager.unstage(file.path, true);
           } else {
-            await this.gitManager.unstageAll({ dir: this.gitManager.getPath(file.path, true) });
+            await this.gitManager.unstageAll({
+              dir: this.gitManager.getPath(file.path, true)
+            });
           }
           this.displayMessage(`Unstaged ${file.path}`);
         });
@@ -31197,9 +31941,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
   async loadLastAuto() {
     var _a2, _b, _c;
     return {
-      "backup": new Date((_a2 = this.localStorage.getLastAutoBackup()) != null ? _a2 : ""),
-      "pull": new Date((_b = this.localStorage.getLastAutoPull()) != null ? _b : ""),
-      "push": new Date((_c = this.localStorage.getLastAutoPush()) != null ? _c : "")
+      backup: new Date((_a2 = this.localStorage.getLastAutoBackup()) != null ? _a2 : ""),
+      pull: new Date((_b = this.localStorage.getLastAutoPull()) != null ? _b : ""),
+      push: new Date((_c = this.localStorage.getLastAutoPush()) != null ? _c : "")
     };
   }
   async init() {
@@ -31218,7 +31962,7 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           this.displayError("Cannot run git command");
           break;
         case "missing-repo":
-          new import_obsidian23.Notice("Can't find a valid git repository. Please create one via the given command or clone an existing repo.");
+          new import_obsidian23.Notice("Can't find a valid git repository. Please create one via the given command or clone an existing repo.", 1e4);
           break;
         case "valid":
           this.gitReady = true;
@@ -31278,14 +32022,22 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           dir = ".";
         }
         if (dir === ".") {
-          const modal2 = new GeneralModal({ options: ["NO", "YES"], placeholder: `Does your remote repo contain a ${app.vault.configDir} directory at the root?`, onlySelection: true });
+          const modal2 = new GeneralModal({
+            options: ["NO", "YES"],
+            placeholder: `Does your remote repo contain a ${app.vault.configDir} directory at the root?`,
+            onlySelection: true
+          });
           const containsConflictDir = await modal2.open();
           if (containsConflictDir === void 0) {
             new import_obsidian23.Notice("Aborted clone");
             return;
           } else if (containsConflictDir === "YES") {
             const confirmOption2 = "DELETE ALL YOUR LOCAL CONFIG AND PLUGINS";
-            const modal3 = new GeneralModal({ options: ["Abort clone", confirmOption2], placeholder: `To avoid conflicts, the local ${app.vault.configDir} directory needs to be deleted.`, onlySelection: true });
+            const modal3 = new GeneralModal({
+              options: ["Abort clone", confirmOption2],
+              placeholder: `To avoid conflicts, the local ${app.vault.configDir} directory needs to be deleted.`,
+              onlySelection: true
+            });
             const shouldDelete = await modal3.open() === confirmOption2;
             if (shouldDelete) {
               await this.app.vault.adapter.rmdir(app.vault.configDir, true);
@@ -31308,11 +32060,21 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           }
         }
         new import_obsidian23.Notice(`Cloning new repo into "${dir}"`);
-        await this.gitManager.clone(url, dir, depthInt);
+        const oldBase = this.settings.basePath;
+        const customDir = dir && dir !== ".";
+        if (customDir) {
+          this.settings.basePath = dir;
+        }
+        try {
+          await this.gitManager.clone(url, dir, depthInt);
+        } catch (error) {
+          this.settings.basePath = oldBase;
+          this.saveSettings();
+          throw error;
+        }
         new import_obsidian23.Notice("Cloned new repo.");
         new import_obsidian23.Notice("Please restart Obsidian");
-        if (dir && dir !== ".") {
-          this.settings.basePath = dir;
+        if (customDir) {
           this.saveSettings();
         }
       }
@@ -31349,7 +32111,11 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     if (this.settings.syncMethod == "reset" && this.settings.pullBeforePush) {
       await this.pull();
     }
-    if (!await this.commit({ fromAutoBackup, requestCustomMessage, commitMessage }))
+    if (!await this.commit({
+      fromAutoBackup,
+      requestCustomMessage,
+      commitMessage
+    }))
       return;
     if (!this.settings.disablePush) {
       if (await this.gitManager.canPush()) {
@@ -31397,7 +32163,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
         changedFiles = await this.gitManager.getStagedFiles();
       } else {
         unstagedFiles = await this.gitManager.getUnstagedFiles();
-        changedFiles = unstagedFiles.map(({ filepath }) => ({ vault_path: this.gitManager.getVaultPath(filepath) }));
+        changedFiles = unstagedFiles.map(({ filepath }) => ({
+          vault_path: this.gitManager.getVaultPath(filepath)
+        }));
       }
     }
     if (await this.hasTooBigFiles(changedFiles)) {
@@ -31422,7 +32190,11 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
       if (onlyStaged) {
         committedFiles = await this.gitManager.commit(cmtMessage);
       } else {
-        committedFiles = await this.gitManager.commitAll({ message: cmtMessage, status: status2, unstagedFiles });
+        committedFiles = await this.gitManager.commitAll({
+          message: cmtMessage,
+          status: status2,
+          unstagedFiles
+        });
       }
       let roughly = false;
       if (committedFiles === void 0) {
@@ -31564,7 +32336,9 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     var _a2;
     if (!await this.isAllInitialized())
       return;
-    const newBranch = await new GeneralModal({ placeholder: "Create new branch" }).open();
+    const newBranch = await new GeneralModal({
+      placeholder: "Create new branch"
+    }).open();
     if (newBranch != void 0) {
       await this.gitManager.createBranch(newBranch);
       this.displayMessage(`Created new branch ${newBranch}`);
@@ -31579,12 +32353,20 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
     const branchInfo = await this.gitManager.branchInfo();
     if (branchInfo.current)
       branchInfo.branches.remove(branchInfo.current);
-    const branch2 = await new GeneralModal({ options: branchInfo.branches, placeholder: "Delete branch", onlySelection: true }).open();
+    const branch2 = await new GeneralModal({
+      options: branchInfo.branches,
+      placeholder: "Delete branch",
+      onlySelection: true
+    }).open();
     if (branch2 != void 0) {
       let force = false;
       const merged = await this.gitManager.branchIsMerged(branch2);
       if (!merged) {
-        const forceAnswer = await new GeneralModal({ options: ["YES", "NO"], placeholder: "This branch isn't merged into HEAD. Force delete?", onlySelection: true }).open();
+        const forceAnswer = await new GeneralModal({
+          options: ["YES", "NO"],
+          placeholder: "This branch isn't merged into HEAD. Force delete?",
+          onlySelection: true
+        }).open();
         if (forceAnswer !== "YES") {
           return;
         }
@@ -31641,6 +32423,12 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
       const diff2 = this.settings.autoPullInterval - Math.round((now2.getTime() - lastAutos.pull.getTime()) / 1e3 / 60);
       this.startAutoPull(diff2 <= 0 ? 0 : diff2);
     }
+  }
+  async discardAll() {
+    await this.gitManager.discardAll({
+      status: this.cachedStatus
+    });
+    new import_obsidian23.Notice("All local changes have been discarded. New files remain untouched.");
   }
   clearAutos() {
     this.clearAutoBackup();
@@ -31783,13 +32571,19 @@ I strongly recommend to use "Source mode" for viewing the conflicted files. For 
         remotes = await this.gitManager.getRemotes();
       }
     }
-    const nameModal = new GeneralModal({ options: remotes, placeholder: "Select or create a new remote by typing its name and selecting it" });
+    const nameModal = new GeneralModal({
+      options: remotes,
+      placeholder: "Select or create a new remote by typing its name and selecting it"
+    });
     const remoteName = selectedRemote != null ? selectedRemote : await nameModal.open();
     if (remoteName) {
       this.displayMessage("Fetching remote branches");
       await this.gitManager.fetch(remoteName);
       const branches = await this.gitManager.getRemoteBranches(remoteName);
-      const branchModal = new GeneralModal({ options: branches, placeholder: "Select or create a new remote branch by typing its name and selecting it" });
+      const branchModal = new GeneralModal({
+        options: branches,
+        placeholder: "Select or create a new remote branch by typing its name and selecting it"
+      });
       return await branchModal.open();
     }
   }
@@ -31797,7 +32591,10 @@ I strongly recommend to use "Source mode" for viewing the conflicted files. For 
     if (!await this.isAllInitialized())
       return;
     const remotes = await this.gitManager.getRemotes();
-    const nameModal = new GeneralModal({ options: remotes, placeholder: "Select a remote" });
+    const nameModal = new GeneralModal({
+      options: remotes,
+      placeholder: "Select a remote"
+    });
     const remoteName = await nameModal.open();
     if (remoteName) {
       this.gitManager.removeRemote(remoteName);

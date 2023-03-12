@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "36ff424327974826",
+        "id": "b26b614ded19efef",
         "type": "tabs",
         "children": [
           {
-            "id": "0babd4f059654bbb",
+            "id": "8b9ab81723d0237a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "how_to",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md"
               }
             }
           },
@@ -155,37 +155,39 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "0babd4f059654bbb",
+  "active": "8b9ab81723d0237a",
   "lastOpenFiles": [
-    "Landscape Diagram.canvas",
-    "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
+    "300 - Landscape/Example - Container Diagram.md",
+    "300 - Landscape/Landscape Diagram.canvas",
+    "Settings.md",
+    "50 - Areas/Data/Database Schema.md",
+    "1 - Inbox/Example - User Stories to Software Architecture.md",
+    "1 - Inbox/Example - Solution Architecture Document for a Banking System.md",
+    "50 - Areas/Example Principle.md",
+    "50 - Areas/How to/How to - Create An Outline Using AI.md",
     "0 - Atlas/What is - Map of Content.md",
     "0 - Atlas/What is - Atlas folder.md",
+    "0 - Atlas/MoC - What Is files.md",
+    "0 - Atlas/MoC - Technical Reference Model.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "0 - Atlas/MoC - of Projects.md",
+    "README.md",
+    "1 - Inbox/What is - Inbox folder.md",
+    "50 - Areas/How to",
+    "References.md",
+    "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
     "100 - References/TOGAF 10th Edition.md",
     "100 - References/_Templates/adr-template.md",
     "400 - Logs/ADR 1 - Hosting Environment.md",
-    "README.md",
     "500 - Requirements/Whats is - Requirements.md",
     "500 - Requirements/eCommerce Website Example - Functional Requirements.md",
     "500 - Requirements/Requirement - User Registration.md",
     "500 - Requirements/Requirement - Shopping Cart.md",
     "500 - Requirements/Requirement - Product Details.md",
     "500 - Requirements/Requirement - Checkout Process.md",
-    "500 - Requirements/Requirement - Browse and Search.md",
-    "400 - Logs/ADR 3 - Payment Provider Integration.md",
-    "400 - Logs/ADR 2 - Product Catalog Database.md",
-    "400 - Logs/Example - ADR.md",
-    "400 - Logs/What is - Architecture Decision Record.md",
-    "400 - Logs/Decision Record.md",
-    "0 - Atlas/MoC - of MoCs.md",
     "600 - Data",
-    "300 - Landscape/eCommerce Website Example - Container Diagram.md",
-    "300 - Landscape/Context Diagram - eCommerce Website.md",
     "300 - Landscape/Context Diagram - eCommerce Website.html",
-    "100 - References/_Templates/Component Object.md",
     "500 - Requirements",
-    "References.md",
-    "Settings.md",
     "50 - Areas/L1 - Context/Banking System Context Model.canvas",
     "100 - References/_Prompts/default",
     "100 - References/_Prompts/local",
@@ -193,7 +195,6 @@
     "100 - References/_Prompts/trash/default",
     "100 - References/_Prompts/trash",
     "100 - References/_Prompts",
-    "400 - Logs",
     "1 - Inbox/Untitled.canvas",
     "100 - References/_Attachments/C4 Model Image.png"
   ]

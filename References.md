@@ -2,7 +2,6 @@
 
 # ADR Template
 https://github.com/adr/madr/blob/main/template/adr-template.md
-
 MADR - https://github.com/adr/madr
 
 

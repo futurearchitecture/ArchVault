@@ -1,9 +1,9 @@
 # Arch Vault
 Knowledge Management for Technical Architects
 
-This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of technical architecture such as Solution, Software and Data by using automation.
+This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of technical architecture such as Solution, Software and Data by using various types of automation including AI.
 
-The main idea is that this Vault can be open and used immediately after downloading or cloning  it.
+The intention is that this Vault can be open and used after downloading or cloning  it with little configuration.
 
 **Recommendation** - Please update the Community Plugins before use.
 
@@ -41,7 +41,7 @@ The main idea is that this Vault can be open and used immediately after download
 
 
 ## Multiple Users
-This Vault has been specifically design with mulitple users in mind that share the same vault using Git.
+This Vault has been specifically design with mulitple users in mind that share the same vault using a Git based repository.
 
 ## Obsidian Markdown Format
 The Markdown written in this Vault is intended for use in Obsidian and not GitHub and so features such as bi-directional links will not work.
@@ -58,7 +58,6 @@ Root Folders all have a number before them so they stay in the PARA order.
 
 ### _ Folders
 Underscores are placed as the first character for some folders as they are used in the configuration of this vault.
-
 
 ## Map of Contents / MoC
 MoC - prefix for Map of Content files. The [[What is - Map of Content]] explains in greater depth.

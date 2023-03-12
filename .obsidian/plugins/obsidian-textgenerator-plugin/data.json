@@ -1,5 +1,5 @@
 {
-  "api_key": "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",
+  "api_key": "",
   "engine": "text-davinci-003",
   "max_tokens": 1000,
   "temperature": 0.9,
@@ -21,16 +21,17 @@
     "generate-text": true,
     "generate-text-with-metadata": true,
     "insert-generated-text-From-template": true,
-    "create-generated-text-From-template": false,
-    "insert-text-From-template": false,
-    "create-text-From-template": false,
+    "create-generated-text-From-template": true,
+    "insert-text-From-template": true,
+    "create-text-From-template": true,
     "show-model-From-template": true,
     "set_max_tokens": true,
     "set-model": true,
     "packageManager": true,
-    "create-template": false,
+    "create-template": true,
     "get-title": true,
-    "auto-suggest": true
+    "auto-suggest": true,
+    "generated-text-to-clipboard-From-template": true
   },
   "autoSuggestOptions": {
     "status": true,

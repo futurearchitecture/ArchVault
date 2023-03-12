@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
+                "file": "Settings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
+                "file": "Settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
+                "file": "Settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600 - Data/eCommerce Website Example - Dataflow Diagram.md"
+                "file": "Settings.md"
               }
             }
           },
@@ -157,9 +157,12 @@
   },
   "active": "8b9ab81723d0237a",
   "lastOpenFiles": [
+    "README.md",
+    "Settings.md",
+    "References.md",
+    "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
     "300 - Landscape/Example - Container Diagram.md",
     "300 - Landscape/Landscape Diagram.canvas",
-    "Settings.md",
     "50 - Areas/Data/Database Schema.md",
     "1 - Inbox/Example - User Stories to Software Architecture.md",
     "1 - Inbox/Example - Solution Architecture Document for a Banking System.md",
@@ -171,11 +174,8 @@
     "0 - Atlas/MoC - Technical Reference Model.md",
     "0 - Atlas/MoC - of Tasks.md",
     "0 - Atlas/MoC - of Projects.md",
-    "README.md",
     "1 - Inbox/What is - Inbox folder.md",
     "50 - Areas/How to",
-    "References.md",
-    "600 - Data/eCommerce Website Example - Dataflow Diagram.md",
     "100 - References/TOGAF 10th Edition.md",
     "100 - References/_Templates/adr-template.md",
     "400 - Logs/ADR 1 - Hosting Environment.md",

@@ -1,4 +1,4 @@
-
+I would like to acknowledge that I have used techniques from the following.
 
 # ADR Template
 https://github.com/adr/madr/blob/main/template/adr-template.md

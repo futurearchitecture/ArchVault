@@ -1,3 +1,8 @@
+---
+AutoNoteMover: disable
+---
+
+
 # Introduction
 This document contains the setting for this Vault.
 
@@ -105,4 +110,9 @@ https://obsidian-tasks-group.github.io/obsidian-tasks/
 [nhaouari/obsidian-textgenerator-plugin: Text generator is a handy plugin for Obsidian that helps you generate text content using GPT-3 (OpenAI). (github.com)](https://github.com/nhaouari/obsidian-textgenerator-plugin)
 
 *Please note you will need to obtain your own OpenAI Key for this plugin to work*
+
+Model - text-davinci-003
+Max Tokens - 1000
+Tempature - 0.9
+Frequency Penalty - 0.1
 

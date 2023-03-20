@@ -3,7 +3,7 @@
 
 
 
-identify the user stories from ![[Requirement - User Registration]]
+GPT Prompt: identify the user stories from ![[Requirement - User Registration]]
 
 As an unregistered user, I want to register for a new account so that I can access the website's features.
 
@@ -15,7 +15,7 @@ As a user, I want to receive a confirmation email after registering so that I ca
 
 As an administrator, I want to be able to manage and view all user registrations so that I can monitor activity and prevent unauthorized access. 
 
-generate a detailed list of the components of the system 
+GPT Prompt: generate a detailed list of the components of the system 
 
 -Database to store user information 
 -Registration page
@@ -29,7 +29,7 @@ generate a detailed list of the components of the system
 -Secure encryption on stored user information 
 -System to generate confirmation emails
 
-generate a c4 style component diagram in detail in mermaid script 
+GPT Prompt: generate a c4 style component diagram in detail in mermaid script 
 
 ```mermaid
 graph TD
@@ -46,7 +46,7 @@ LoginPage--> |Store user information| Database
 Database--> |Secure encryption on user info| Encryption
 ``` 
 
-generate a list of microservices in detail 
+GPT Prompt: generate a list of microservices in detail 
 
 1. User Registration Service 
 2. User Login Service 
@@ -58,7 +58,7 @@ generate a list of microservices in detail
 8. User Password Reset Service
 
 
-generate a detail list of functions for each microservice 
+GPT Prompt: generate a detail list of functions for each microservice 
 
 1. User Registration Service 
  - Receive user input for registration
@@ -109,7 +109,7 @@ generate a detail list of functions for each microservice
 - Store new passwords securely in the database
 
 
-generate a data model in detail for each microservice 
+GPT Prompt: generate a data model in detail for each microservice 
 
 1. User Registration Service
 Data Model:

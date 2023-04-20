@@ -17,6 +17,7 @@
     "includeMentions": true,
     "includeHighlights": true
   },
+  "timeout": 30000,
   "options": {
     "generate-text": true,
     "generate-text-with-metadata": true,
@@ -40,6 +41,12 @@
     "triggerPhrase": "  ",
     "stop": ".",
     "showStatus": true
+  },
+  "extractorsOptions": {
+    "PDFExtractor": true,
+    "WebPageExtractor": true,
+    "YoutubeExtractor": true,
+    "AudioExtractor": false
   },
   "displayErrorInEditor": false,
   "models": {}

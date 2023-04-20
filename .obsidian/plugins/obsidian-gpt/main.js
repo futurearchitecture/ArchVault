@@ -92,6 +92,7 @@ const getAI21Completion = (apiKey, prompt, settings) => __awaiter(void 0, void 0
 var ChatGPTModelType;
 (function (ChatGPTModelType) {
     ChatGPTModelType["Default"] = "gpt-3.5-turbo";
+    ChatGPTModelType["GPT4"] = "gpt-4";
 })(ChatGPTModelType || (ChatGPTModelType = {}));
 const defaultChatGPTSettings = {
     modelType: ChatGPTModelType.Default,
@@ -104,7 +105,7 @@ const defaultChatGPTSettings = {
     stop: [],
 };
 const getChatGPTCompletion = (apiKey, messages, settings, suffix) => __awaiter(void 0, void 0, void 0, function* () {
-    var _a, _b, _c, _d;
+    var _a, _b, _c;
     const apiUrl = `https://api.openai.com/v1/chat/completions`;
     const headers = {
         Authorization: `Bearer ${apiKey}`,
@@ -112,6 +113,7 @@ const getChatGPTCompletion = (apiKey, messages, settings, suffix) => __awaiter(v
     };
     const { modelType, systemMessage } = settings, params = __rest(settings, ["modelType", "systemMessage"]);
     let body = Object.assign(Object.assign({ messages, model: modelType }, pythonifyKeys(params)), { stop: settings.stop.length > 0 ? settings.stop : undefined, suffix: suffix ? suffix : undefined });
+    console.log(body);
     const requestParam = {
         url: apiUrl,
         method: "POST",
@@ -126,7 +128,7 @@ const getChatGPTCompletion = (apiKey, messages, settings, suffix) => __awaiter(v
         .catch((err) => {
         console.error(err);
     });
-    return (_d = (_c = (_b = (_a = res === null || res === void 0 ? void 0 : res.choices) === null || _a === void 0 ? void 0 : _a[0]) === null || _b === void 0 ? void 0 : _b.message) === null || _c === void 0 ? void 0 : _c.content) !== null && _d !== void 0 ? _d : null;
+    return (_c = (_b = (_a = res === null || res === void 0 ? void 0 : res.choices) === null || _a === void 0 ? void 0 : _a[0]) === null || _b === void 0 ? void 0 : _b.message) === null || _c === void 0 ? void 0 : _c.content;
 });
 
 var CohereModelType;
@@ -246,16 +248,6 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("ChatGPT API Key")
-            .setDesc("Enter your OpenAI API Key (to use with ChatGPT)")
-            .addText((text) => text
-            .setPlaceholder("API Key")
-            .setValue(chatgpt.apiKey)
-            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            chatgpt.apiKey = value;
-            yield this.plugin.saveSettings();
-        })));
-        new obsidian.Setting(containerEl)
             .setName("AI21 API Key")
             .setDesc("Enter your AI21 API Key")
             .addText((text) => text
@@ -273,6 +265,14 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
             .setValue(cohere.apiKey)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             cohere.apiKey = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Chat Completion Separator")
+            .addText((text) => text
+            .setValue(this.plugin.settings.chatSeparator)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.chatSeparator = value;
             yield this.plugin.saveSettings();
         })));
         containerEl.createEl("h3", { text: "Completion & Prompt Tags" });
@@ -323,11 +323,59 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Chat Completion Separator")
-            .addText((text) => text
-            .setValue(this.plugin.settings.chatSeparator)
+            .setName("Tag Chat Completions?")
+            .setDesc("Optionally put a tag around text which was generated via chat completion")
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.tagChatCompletions)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            this.plugin.settings.chatSeparator = value;
+            this.plugin.settings.tagChatCompletions = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Opening Chat Completion Tag")
+            .addText((text) => text
+            .setPlaceholder("<ChatCompletion>")
+            .setValue(this.plugin.settings.tagChatCompletionsHandlerTags.openingTag)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.tagChatCompletionsHandlerTags.openingTag =
+                value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Closing Chat Completion Tag")
+            .addText((text) => text
+            .setPlaceholder("</ChatCompletion>")
+            .setValue(this.plugin.settings.tagChatCompletionsHandlerTags.closingTag)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.tagChatCompletionsHandlerTags.closingTag =
+                value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Tag Chat Prompts?")
+            .setDesc("Optionally put a tag around text which was used as chat prompt")
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.tagChatPrompts)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.tagChatPrompts = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Opening Chat Prompt Tag")
+            .addText((text) => text
+            .setPlaceholder("<Prompt>")
+            .setValue(this.plugin.settings.tagChatPromptsHandlerTags.openingTag)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.tagChatPromptsHandlerTags.openingTag = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("Closing Chat Prompt Tag")
+            .addText((text) => text
+            .setPlaceholder("</Prompt>")
+            .setValue(this.plugin.settings.tagChatPromptsHandlerTags.closingTag)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.tagChatPromptsHandlerTags.closingTag = value;
             yield this.plugin.saveSettings();
         })));
     }
@@ -345,7 +393,6 @@ const DEFAULT_SETTINGS = {
     activeModel: SupportedModels.GPT3,
     models: {
         chatgpt: {
-            apiKey: "",
             settings: defaultChatGPTSettings,
         },
         gpt3: {
@@ -371,8 +418,18 @@ const DEFAULT_SETTINGS = {
         openingTag: "<Prompt>",
         closingTag: "</Prompt>",
     },
+    tagChatPrompts: false,
+    tagChatPromptsHandlerTags: {
+        openingTag: "<ChatPrompt>",
+        closingTag: "</ChatPrompt>",
+    },
+    tagChatCompletions: false,
+    tagChatCompletionsHandlerTags: {
+        openingTag: "<ChatCompletion>",
+        closingTag: "</ChatCompletion>",
+    },
     insertToken: "[insert]",
-    chatSeparator: "|||",
+    chatSeparator: "===",
 };
 
 function createCommonjsModule(fn) {
@@ -30186,7 +30243,8 @@ const ChatGPTSettingsForm = ({ plugin }) => {
     return (react.createElement("form", null,
         react.createElement("label", { htmlFor: "modelType" }, "Model Type:"),
         react.createElement("select", { name: "modelType", id: "modelType", value: state.modelType, onChange: handleInputChange },
-            react.createElement("option", { value: ChatGPTModelType.Default }, "Default")),
+            react.createElement("option", { value: ChatGPTModelType.Default }, "Default"),
+            react.createElement("option", { value: ChatGPTModelType.GPT4 }, "GPT-4")),
         react.createElement("br", null),
         react.createElement("label", { htmlFor: "modelName" }, "Max Tokens:"),
         react.createElement("input", { type: "number", name: "maxTokens", id: "maxTokens", value: state.maxTokens, onChange: handleInputChange, min: "1", max: "2048" }),
@@ -30433,8 +30491,10 @@ class GPTPlugin extends obsidian.Plugin {
                         content: selection,
                     },
                 ];
-                const message = yield getChatGPTCompletion(chatgpt.apiKey, messages, chatgpt.settings);
-                completion = "\n\n" + message;
+                completion = yield getChatGPTCompletion(gpt3.apiKey, messages, chatgpt.settings);
+                if (completion) {
+                    completion = "\n\n" + completion;
+                }
             }
             notice.hide();
             return completion;
@@ -30442,7 +30502,7 @@ class GPTPlugin extends obsidian.Plugin {
     }
     getChatCompletion(selection) {
         return __awaiter(this, void 0, void 0, function* () {
-            const { chatgpt } = this.settings.models;
+            const { chatgpt, gpt3 } = this.settings.models;
             const messagesText = selection.split(this.settings.chatSeparator);
             let messages = [
                 {
@@ -30456,7 +30516,9 @@ class GPTPlugin extends obsidian.Plugin {
                     };
                 }),
             ];
-            const completion = yield getChatGPTCompletion(chatgpt.apiKey, messages, chatgpt.settings);
+            const notice = gettingCompletionNotice(this.settings.activeModel);
+            const completion = yield getChatGPTCompletion(gpt3.apiKey, messages, chatgpt.settings);
+            notice.hide();
             return completion;
         });
     }
@@ -30464,16 +30526,24 @@ class GPTPlugin extends obsidian.Plugin {
         errorGettingCompletionNotice();
     }
     formatCompletion(prompt, completion, isChatCompletion = false) {
-        const { tagCompletions, tagCompletionsHandlerTags, tagPrompts, tagPromptsHandlerTags, } = this.settings;
-        if (tagCompletions) {
-            completion = `${tagCompletionsHandlerTags.openingTag}${completion}${tagCompletionsHandlerTags.closingTag}`;
-        }
-        if (tagPrompts) {
-            prompt = `${tagPromptsHandlerTags.openingTag}${prompt}${tagPromptsHandlerTags.closingTag}`;
-        }
+        const { tagCompletions, tagCompletionsHandlerTags, tagPrompts, tagPromptsHandlerTags, tagChatCompletions, tagChatCompletionsHandlerTags, tagChatPrompts, tagChatPromptsHandlerTags, } = this.settings;
         if (isChatCompletion) {
+            if (tagChatCompletions) {
+                completion = `${tagChatCompletionsHandlerTags.openingTag}${completion}${tagChatCompletionsHandlerTags.closingTag}`;
+            }
+            if (tagChatPrompts) {
+                prompt = `${tagChatPromptsHandlerTags.openingTag}${prompt}${tagChatPromptsHandlerTags.closingTag}`;
+            }
             prompt += "\n\n" + this.settings.chatSeparator + "\n\n";
             completion += "\n\n" + this.settings.chatSeparator + "\n\n";
+        }
+        else {
+            if (tagCompletions) {
+                completion = `${tagCompletionsHandlerTags.openingTag}${completion}${tagCompletionsHandlerTags.closingTag}`;
+            }
+            if (tagPrompts) {
+                prompt = `${tagPromptsHandlerTags.openingTag}${prompt}${tagPromptsHandlerTags.closingTag}`;
+            }
         }
         return prompt + completion;
     }

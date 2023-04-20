@@ -1,5 +1,6 @@
 Tags: #What_is 
 
+The Project Folder forms part of [[PARA Method]]. 
 
 The Reference folder is a place to store all the reference materials and resources that you need for your work or personal projects, but that are not directly related to any specific task or goal. The Reference folder is a central repository for all the information and materials that you might need to consult or reference at some point in the future.
 

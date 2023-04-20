@@ -60,6 +60,16 @@
     "openingTag": "<Prompt>",
     "closingTag": "</Prompt>"
   },
+  "tagChatPrompts": false,
+  "tagChatPromptsHandlerTags": {
+    "openingTag": "<ChatPrompt>",
+    "closingTag": "</ChatPrompt>"
+  },
+  "tagChatCompletions": false,
+  "tagChatCompletionsHandlerTags": {
+    "openingTag": "<ChatCompletion>",
+    "closingTag": "</ChatCompletion>"
+  },
   "insertToken": "[insert]",
   "chatSeparator": "|||"
 }

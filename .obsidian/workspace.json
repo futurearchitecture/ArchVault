@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da7a56a9b4729bd9",
+        "id": "642202dd5d13e014",
         "type": "tabs",
         "children": [
           {
-            "id": "ad86fa5999b9b871",
+            "id": "729bbc4c54c96f59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "50 - Areas/Types of ChatGPT Prompt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,6 +65,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b6107d8a6400c129",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "50 - Areas/Types of ChatGPT Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "50 - Areas/Types of ChatGPT Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "50 - Areas/Types of ChatGPT Prompt.md"
               }
             }
           },
@@ -139,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -157,35 +165,35 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "ad86fa5999b9b871",
+  "active": "729bbc4c54c96f59",
   "lastOpenFiles": [
+    "100 - References/_Prompts/default/getClassDiagram.md",
+    "50 - Areas/Types of ChatGPT Prompt.md",
+    "100 - References/Open AI - Prompt Engineering.md",
     "1 - Inbox/Example - Demo.md",
-    "400 - Logs/RAID.md",
-    "500 - Requirements/Requirement - Product Details.md",
-    "1 - Inbox/Example - User Stories to Code.md",
-    "1 - Inbox/Example - U to C.md",
+    "1 - Inbox/What is - Inbox folder.md",
+    "0 - Atlas/What is - Map of Content.md",
     "0 - Atlas/What is - Atlas folder.md",
     "0 - Atlas/MoC - What Is files.md",
-    "0 - Atlas/Verona - Food.md",
-    "1 - Inbox/What is - Inbox folder.md",
-    "1 - Inbox/Test ChatGPT 4.md",
+    "50 - Areas/What is - Areas Folder.md",
+    "400 - Logs/What is - Architecture Decision Record.md",
+    "200 - Standards/What is - Technical Reference Model.md",
+    "100 - References/What is - References Folder.md",
+    "10 - Projects/What is - Projects Folder.md",
+    "0 - Atlas/MoC - of Tasks.md",
+    "10 - Projects/Project AAAA - Functional Requirements.md",
+    "1 - Inbox/Example - User Stories to Code.md",
     "1 - Inbox/Example - Solution Architecture Document for a Banking System.md",
-    "500 - Requirements/Requirement - Checkout Process.md",
-    "500 - Requirements/Requirement - Browse and Search.md",
-    "500 - Requirements/eCommerce Website Example - Functional Requirements.md",
-    "300 - Landscape/Landscape Diagram.canvas",
-    "300 - Landscape/Example - SQL to JSON.md",
-    "200 - Standards/List of Domains - Technical Reference Model.md",
-    "200 - Standards/Example Principle.md",
-    "500 - Requirements/Requirements - Sequence Diagrams.md",
-    "500 - Requirements/Requirement - Shopping Cart.md",
-    "200 - Standards/Example Policy.md",
-    "100 - References/TOGAF 10th Edition.md",
-    "100 - References/PARA Method.md",
-    "100 - References/GPT 3 Parameters.md",
+    "100 - References/_Prompts/default/getEmailNeg.md",
+    "100 - References/_Prompts/default/getContextDiagram.md",
+    "100 - References/_Prompts/default/getContainerDiagram.md",
+    "100 - References/_Prompts/default/getComponentDiagram.md",
+    "100 - References/_Prompts/default/summarize.md",
+    "100 - References/_Prompts/default/simplify.md",
     "100 - References/C4 Model.md",
-    "50 - Areas/Data Product Pattern.md",
-    "400 - Logs/ADR 3 - Payment Provider Integration.md",
+    "600 - Data Stores/eCommerce Website Example - Dataflow Diagram.md",
+    "100 - References/GPT 3 Parameters.md",
+    "300 - Landscape/Landscape Diagram.canvas",
     "50 - Areas/How to",
     "600 - Data Stores",
     "300 - Landscape/Context Diagram - eCommerce Website.html",

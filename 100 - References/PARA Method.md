@@ -1,7 +1,7 @@
 
 Tags: #Reference/Web
 
-Web Reference: https://fortelabs.com/blog/para/
+Reference: https://fortelabs.com/blog/para/
 
 The Para method is a framework developed by Forte Labs, that aims to help people become more productive, organized, and effective in their work.
 

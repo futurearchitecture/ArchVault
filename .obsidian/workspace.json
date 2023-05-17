@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "642202dd5d13e014",
+        "id": "e435af5beddd6024",
         "type": "tabs",
         "children": [
           {
-            "id": "729bbc4c54c96f59",
+            "id": "d6dfed43deb26d2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50 - Areas/Types of ChatGPT Prompt.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "50 - Areas/Types of ChatGPT Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "50 - Areas/Types of ChatGPT Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "50 - Areas/Types of ChatGPT Prompt.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,11 +156,20 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "729bbc4c54c96f59",
+  "active": "d6dfed43deb26d2d",
   "lastOpenFiles": [
-    "100 - References/_Prompts/default/getClassDiagram.md",
-    "50 - Areas/Types of ChatGPT Prompt.md",
+    "1 - Inbox/Table.md",
+    "README.md",
+    "Settings.md",
+    "References.md",
+    "100 - References/LangChain.md",
     "100 - References/Open AI - Prompt Engineering.md",
+    "100 - References/GPT 3 Parameters.md",
+    "0 - Atlas/MoC - of MoCs.md",
+    "50 - Areas/Types of ChatGPT Prompt.md",
+    "1 - Inbox/Example YAML Prompt File.yaml",
+    "1 - Inbox/Example YAML Prompt File.yaml.md",
+    "100 - References/_Prompts/default/getClassDiagram.md",
     "1 - Inbox/Example - Demo.md",
     "1 - Inbox/What is - Inbox folder.md",
     "0 - Atlas/What is - Map of Content.md",
@@ -185,14 +185,6 @@
     "1 - Inbox/Example - User Stories to Code.md",
     "1 - Inbox/Example - Solution Architecture Document for a Banking System.md",
     "100 - References/_Prompts/default/getEmailNeg.md",
-    "100 - References/_Prompts/default/getContextDiagram.md",
-    "100 - References/_Prompts/default/getContainerDiagram.md",
-    "100 - References/_Prompts/default/getComponentDiagram.md",
-    "100 - References/_Prompts/default/summarize.md",
-    "100 - References/_Prompts/default/simplify.md",
-    "100 - References/C4 Model.md",
-    "600 - Data Stores/eCommerce Website Example - Dataflow Diagram.md",
-    "100 - References/GPT 3 Parameters.md",
     "300 - Landscape/Landscape Diagram.canvas",
     "50 - Areas/How to",
     "600 - Data Stores",
@@ -204,7 +196,6 @@
     "100 - References/_Prompts/trash/dalle-2",
     "100 - References/_Prompts/trash/default",
     "100 - References/_Prompts/trash",
-    "100 - References/_Prompts",
     "1 - Inbox/Untitled.canvas",
     "100 - References/_Attachments/C4 Model Image.png"
   ]

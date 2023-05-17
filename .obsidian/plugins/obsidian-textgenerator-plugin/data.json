@@ -1,4 +1,5 @@
 {
+  "endpoint": "https://api.openai.com",
   "api_key": "",
   "engine": "text-davinci-003",
   "max_tokens": 1000,
@@ -8,6 +9,8 @@
   "showStatusBar": true,
   "outputToBlockQuote": false,
   "promptsPath": "100 - References/_Prompts",
+  "prefix": "\n\n",
+  "stream": false,
   "context": {
     "includeTitle": false,
     "includeStaredBlocks": true,
@@ -17,7 +20,7 @@
     "includeMentions": true,
     "includeHighlights": true
   },
-  "timeout": 30000,
+  "requestTimeout": 300000,
   "options": {
     "generate-text": true,
     "generate-text-with-metadata": true,
@@ -49,5 +52,6 @@
     "AudioExtractor": false
   },
   "displayErrorInEditor": false,
+  "timeout": 30000,
   "models": {}
 }

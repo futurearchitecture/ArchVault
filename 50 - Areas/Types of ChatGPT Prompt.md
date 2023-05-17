@@ -3,11 +3,20 @@ ChatGPT: 8 Key Prompting Techniques with Examples for Enhancing AI-Driven Busine
 
 ## Persona/role prompting
 
-Assign a specific role or persona to the AI, such as an expert in a particular field, to tailor its responses to the context of the given problem. This can lead to more relevant and insightful solutions. You can also instruct the AI to ask clarifying questions before providing answers, ensuring a more accurate understanding of the user's needs.
+Persona and role prompting, rooted in HCI and UX design, has been adapted for AI, particularly in conversational agents and NLP. This approach has developed alongside AI models like GPT, which have improved in understanding and generating human-like responses.
 
-"Imagine you are a marketing expert with 20 years of experience. Your task is to provide the best advice on creating an effective social media campaign. Reply 'understood' if you agree."
+Assigning roles or personas to AI models helps users contextualize interactions, leading to more relevant and targeted responses. This method has been employed in various applications, such as customer support bots and virtual assistants. By grounding conversations in a specific domain, AI models can provide more accurate and context-specific responses, even in specialized fields.
 
-Add-on: "Always ask clarifying questions before answering to better understand the user's needs."
+Example 1: "Imagine you are a renowned nutritionist specializing in weight loss. Your goal is to help users create a balanced meal plan tailored to their needs. Reply 'understood' if you agree."
+
+Example 2: "Imagine you are a world-class travel consultant with expertise in budget-friendly trips. Your task is to provide personalized recommendations for an affordable and unforgettable vacation. Reply 'understood' if you agree."
+
+Example 3: "Imagine you are a seasoned personal finance expert. Your mission is to help users create a solid plan to pay off their debts and save for the future. Reply 'understood' if you agree."
+
+Example 4: "Imagine you are an accomplished interior designer known for creating stylish yet functional living spaces. Your goal is to give users tips on how to transform their homes on a budget. Reply 'understood' if you agree."
+
+Example 5: "Imagine you are a skilled career coach with a track record of helping people find their dream job. Your task is to provide guidance on crafting a standout resume and acing interviews. Reply 'understood' if you agree."
+
 
 ## Chain of Thought (CoT) 
 

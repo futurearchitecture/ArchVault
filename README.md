@@ -41,7 +41,7 @@ The intention is that this Vault can be open and used after downloading or cloni
 
 
 ## Multiple Users
-This Vault has been specifically design with mulitple users in mind that share the same vault using a Git based repository.
+This Vault has been specifically design with multiple users in mind that share the same vault using a Git based repository.
 
 ## Obsidian Markdown Format
 The Markdown written in this Vault is intended for use in Obsidian and not GitHub and so features such as bi-directional links will not work.

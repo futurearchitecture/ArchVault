@@ -43,7 +43,8 @@
     "numberOfSuggestions": 5,
     "triggerPhrase": "  ",
     "stop": ".",
-    "showStatus": true
+    "showStatus": true,
+    "isEnabled": true
   },
   "extractorsOptions": {
     "PDFExtractor": true,

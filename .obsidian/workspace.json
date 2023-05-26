@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e435af5beddd6024",
+        "id": "26201d9d46a2f993",
         "type": "tabs",
         "children": [
           {
-            "id": "d6dfed43deb26d2d",
+            "id": "1120fcf75bfec118",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0472c12e79fc4df9",
@@ -138,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -156,8 +157,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d6dfed43deb26d2d",
+  "active": "1120fcf75bfec118",
   "lastOpenFiles": [
+    "10 - Projects/What is - Projects Folder.md",
     "1 - Inbox/Table.md",
     "README.md",
     "Settings.md",
@@ -179,7 +181,6 @@
     "400 - Logs/What is - Architecture Decision Record.md",
     "200 - Standards/What is - Technical Reference Model.md",
     "100 - References/What is - References Folder.md",
-    "10 - Projects/What is - Projects Folder.md",
     "0 - Atlas/MoC - of Tasks.md",
     "10 - Projects/Project AAAA - Functional Requirements.md",
     "1 - Inbox/Example - User Stories to Code.md",

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"file","file":"Data/Personal Baking Customer.md","id":"333ed60c23267b64","x":-240,"y":-640,"width":400,"height":400,"color":"#1302f7"},
+		{"type":"file","file":"Data/Internet Banking System.md","id":"4dac6568f57d4c1e","x":-240,"y":80,"width":400,"height":400,"color":"1"},
+		{"id":"23f564fe5791ec06","x":-240,"y":-120,"width":400,"height":50,"type":"file","file":"Data/Relationship - Personal Baking Customer and Internet  Banking System.md"}
+	],
+	"edges":[
+		{"id":"2cc4b2cfdb2ae82f","fromNode":"333ed60c23267b64","fromSide":"bottom","toNode":"4dac6568f57d4c1e","toSide":"top"}
+	]
+}

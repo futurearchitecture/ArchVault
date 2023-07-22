@@ -6,6 +6,10 @@ AutoNoteMover: disable
 # Introduction
 This document contains the setting for this Vault.
 
+## Evolution
+One of the best features of Obsidian, if not the best feature is the Graph. Having a lot of folders does become a problem to organise but the Graph and the use of Tags is a much better option. So a lot of the folders have gone or have been renamed. The structure now comes from a few rules. The changes have been document here [[Release Notes]]
+
+
 # Options
 
 ## Editor

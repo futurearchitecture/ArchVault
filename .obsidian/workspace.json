@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "26201d9d46a2f993",
+        "id": "ae2108231c5e1b7e",
         "type": "tabs",
         "children": [
           {
-            "id": "1120fcf75bfec118",
+            "id": "fb589448ad5e1e1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Release Notes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,21 +49,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "etl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "aa5afa536bda9978",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -73,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0472c12e79fc4df9",
@@ -90,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Release Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Release Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Release Notes.md"
+              }
             }
           },
           {
@@ -139,12 +139,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,47 +156,47 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "1120fcf75bfec118",
+  "active": "fb589448ad5e1e1c",
   "lastOpenFiles": [
-    "10 - Projects/What is - Projects Folder.md",
-    "1 - Inbox/Table.md",
     "README.md",
+    "Release Notes.md",
+    "Acknowledgements.md",
     "Settings.md",
-    "References.md",
-    "100 - References/LangChain.md",
-    "100 - References/Open AI - Prompt Engineering.md",
-    "100 - References/GPT 3 Parameters.md",
-    "0 - Atlas/MoC - of MoCs.md",
-    "50 - Areas/Types of ChatGPT Prompt.md",
-    "1 - Inbox/Example YAML Prompt File.yaml",
-    "1 - Inbox/Example YAML Prompt File.yaml.md",
-    "100 - References/_Prompts/default/getClassDiagram.md",
-    "1 - Inbox/Example - Demo.md",
-    "1 - Inbox/What is - Inbox folder.md",
-    "0 - Atlas/What is - Map of Content.md",
-    "0 - Atlas/What is - Atlas folder.md",
-    "0 - Atlas/MoC - What Is files.md",
-    "50 - Areas/What is - Areas Folder.md",
-    "400 - Logs/What is - Architecture Decision Record.md",
-    "200 - Standards/What is - Technical Reference Model.md",
-    "100 - References/What is - References Folder.md",
-    "0 - Atlas/MoC - of Tasks.md",
-    "10 - Projects/Project AAAA - Functional Requirements.md",
-    "1 - Inbox/Example - User Stories to Code.md",
-    "1 - Inbox/Example - Solution Architecture Document for a Banking System.md",
-    "100 - References/_Prompts/default/getEmailNeg.md",
-    "300 - Landscape/Landscape Diagram.canvas",
+    "Annex/AI Prompts/default/getClassDiagram.md",
+    "Archives/What is - Projects Folder.md",
+    "Archives/What is - Areas Folder.md",
+    "Annex",
+    "Annex/Attachments/C4 Model Image.png",
+    "Tasks/All Closed Tasks.md",
+    "Tasks/All Open Tasks.md",
+    "Tasks/How to - Manage Tasks.md",
+    "Data/What is - Architecture Decision Record.md",
+    "Data/ADR 3 - Payment Provider Integration.md",
+    "Data/ADR 2 - Product Catalog Database.md",
+    "Data/ADR 1 - Hosting Environment.md",
+    "Data/Example YAML Prompt File.yaml",
+    "Data/from diagrams import Diagram, Cluster.py",
+    "Data/Example - User Stories to Code.md",
+    "Data/Example - Solution Architecture Document for a Banking System.md",
+    "Data/Example - Demo.md",
+    "Data/Requirement - Product Details.md",
+    "Data/eCommerce Website Example - Functional Requirements.md",
+    "Data/System BBBB.md",
+    "Data/System AAAA.md",
+    "Data/Landscape Diagram.canvas",
+    "300 - Landscape/Example - SQL to JSON.md",
+    "Data/Code Example.md",
+    "Data/Container Example.md",
+    "Data/Component Example.md",
+    "Data/Personal Baking Customer.md",
+    "Data/Banking System Context Model.canvas",
+    "Data",
+    "Inbox/Example YAML Prompt File.yaml",
     "50 - Areas/How to",
     "600 - Data Stores",
     "300 - Landscape/Context Diagram - eCommerce Website.html",
-    "500 - Requirements",
-    "300 - Landscape/L1 - Context/Banking System Context Model.canvas",
-    "100 - References/_Prompts/default",
-    "100 - References/_Prompts/local",
-    "100 - References/_Prompts/trash/dalle-2",
-    "100 - References/_Prompts/trash/default",
-    "100 - References/_Prompts/trash",
-    "1 - Inbox/Untitled.canvas",
-    "100 - References/_Attachments/C4 Model Image.png"
+    "Requirements",
+    "Annex/AI Prompts/default",
+    "1 - Inbox/Untitled.canvas"
   ]
 }

@@ -8,7 +8,7 @@
   "prompt": "",
   "showStatusBar": true,
   "outputToBlockQuote": false,
-  "promptsPath": "100 - References/_Prompts",
+  "promptsPath": "Annex\\AI Prompt",
   "prefix": "\n\n",
   "stream": false,
   "context": {
@@ -38,19 +38,21 @@
     "generated-text-to-clipboard-From-template": true
   },
   "autoSuggestOptions": {
-    "status": true,
+    "isEnabled": true,
     "delay": 300,
     "numberOfSuggestions": 5,
     "triggerPhrase": "  ",
     "stop": ".",
     "showStatus": true,
-    "isEnabled": true
+    "status": true
   },
   "extractorsOptions": {
     "PDFExtractor": true,
     "WebPageExtractor": true,
     "YoutubeExtractor": true,
-    "AudioExtractor": false
+    "AudioExtractor": true,
+    "ImageExtractor": true,
+    "ImageExtractorEmbded": true
   },
   "displayErrorInEditor": false,
   "timeout": 30000,

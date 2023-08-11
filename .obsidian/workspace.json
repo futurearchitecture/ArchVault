@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Release Notes.md",
+                "file": "Data/ADR 1 - Hosting Environment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Release Notes.md",
+                "file": "Data/ADR 1 - Hosting Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Release Notes.md",
+                "file": "Data/ADR 1 - Hosting Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Release Notes.md"
+                "file": "Data/ADR 1 - Hosting Environment.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,37 +159,37 @@
   },
   "active": "fb589448ad5e1e1c",
   "lastOpenFiles": [
-    "README.md",
-    "Release Notes.md",
     "Acknowledgements.md",
+    "Tasks/How to - Manage Tasks.md",
+    "Tasks/All Open Tasks.md",
+    "Tasks/All Closed Tasks.md",
+    "References/C4 Model.md",
+    "Annex/Templates/Component Object.md",
+    "Annex/Templates/adr-template.md",
+    "Annex/Attachments/C4 Model Image.png",
+    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
+    "Data/Requirement - Sequence Diagrams.md",
+    "Data/System BBBB.md",
+    "Data/What is - Architecture Decision Record.md",
+    "Data/What is - Requirements.md",
+    "Atlas/MoC - What Is files.md",
+    "Atlas/MoC - Technical Reference Model.md",
+    "Atlas/MoC - of Tasks.md",
+    "Atlas/MoC - of Projects.md",
+    "Atlas/MoC - of MoCs.md",
+    "Atlas/MoC - Banking System.md",
+    "Release Notes.md",
+    "README.md",
     "Settings.md",
     "Annex/AI Prompts/default/getClassDiagram.md",
     "Archives/What is - Projects Folder.md",
     "Archives/What is - Areas Folder.md",
     "Annex",
-    "Annex/Attachments/C4 Model Image.png",
-    "Tasks/All Closed Tasks.md",
-    "Tasks/All Open Tasks.md",
-    "Tasks/How to - Manage Tasks.md",
-    "Data/What is - Architecture Decision Record.md",
     "Data/ADR 3 - Payment Provider Integration.md",
     "Data/ADR 2 - Product Catalog Database.md",
-    "Data/ADR 1 - Hosting Environment.md",
     "Data/Example YAML Prompt File.yaml",
     "Data/from diagrams import Diagram, Cluster.py",
-    "Data/Example - User Stories to Code.md",
-    "Data/Example - Solution Architecture Document for a Banking System.md",
-    "Data/Example - Demo.md",
-    "Data/Requirement - Product Details.md",
-    "Data/eCommerce Website Example - Functional Requirements.md",
-    "Data/System BBBB.md",
-    "Data/System AAAA.md",
     "Data/Landscape Diagram.canvas",
-    "300 - Landscape/Example - SQL to JSON.md",
-    "Data/Code Example.md",
-    "Data/Container Example.md",
-    "Data/Component Example.md",
-    "Data/Personal Baking Customer.md",
     "Data/Banking System Context Model.canvas",
     "Data",
     "Inbox/Example YAML Prompt File.yaml",

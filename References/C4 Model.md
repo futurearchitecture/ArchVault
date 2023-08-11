@@ -1,6 +1,10 @@
-Tags: #Reference/Web #Standards/Diagrams
+---
+tags:
+  - Reference/Web
+  - Standards/Diagrams
+"References:": https://c4model.com/
+---
 
-Reference: https://c4model.com/
 
 
 The C4 model is a visual notation for representing and communicating the architecture of software systems. It was created by Simon Brown, a software architecture consultant, as a way to help software development teams to describe and understand the structure of their software systems at different levels of abstraction.

@@ -1,6 +1,6 @@
 
 ## Canvas
-[[Banking System Context Model.canvas|Banking System Context Model]]
+[[Context Model - Banking System.canvas|Banking System Context Model]]
 
 
 ## Main Systems
@@ -8,7 +8,7 @@
 
 
 ## Customer Types
-[[Personal Baking Customer]]
+[[Personal Banking Customer]]
 
 ## Relationships
 [[Relationship - Personal Baking Customer and Internet  Banking System]]

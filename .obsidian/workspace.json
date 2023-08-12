@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae2108231c5e1b7e",
+        "id": "9a011198c9453cac",
         "type": "tabs",
         "children": [
           {
-            "id": "fb589448ad5e1e1c",
+            "id": "4d1617082b002852",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/ADR 1 - Hosting Environment.md",
+                "file": "Annex/Templates/C4 Component.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0472c12e79fc4df9",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/ADR 1 - Hosting Environment.md",
+                "file": "Annex/Templates/C4 Component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/ADR 1 - Hosting Environment.md",
+                "file": "Annex/Templates/C4 Component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/ADR 1 - Hosting Environment.md"
+                "file": "Annex/Templates/C4 Component.md"
               }
             }
           },
@@ -157,47 +157,48 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "fb589448ad5e1e1c",
+  "active": "4d1617082b002852",
   "lastOpenFiles": [
-    "Acknowledgements.md",
-    "Tasks/How to - Manage Tasks.md",
+    "Annex/Templates/C4 Container.md",
+    "Annex/Templates/C4 Component.md",
+    "Annex/Templates/Default.md",
+    "Annex/Templates/Object Relationship.md",
+    "Annex/Templates/ADR.md",
+    "Annex/Templates/C4 Person.md",
+    "Annex/Templates/C4 Context.md",
+    "Archives/What is - Archives Folder.md",
+    "Data/Internet Banking System.md",
+    "Data/Example Pattern.md",
+    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
     "Tasks/All Open Tasks.md",
     "Tasks/All Closed Tasks.md",
-    "References/C4 Model.md",
-    "Annex/Templates/Component Object.md",
-    "Annex/Templates/adr-template.md",
+    "Tasks/How to - Manage Tasks.md",
+    "Data/Example - User Stories to Code.md",
+    "Data/Example - Solution Architecture Document for a Banking System.md",
+    "Data/Example - Demo.md",
+    "Data/e-commerce_deployment_diagram.png",
+    "Data/e-commerce_deployment_diagram",
+    "Data/About ArchVault.md",
+    "Atlas/Context Model - Banking System.canvas",
     "Annex/Attachments/C4 Model Image.png",
-    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
-    "Data/Requirement - Sequence Diagrams.md",
-    "Data/System BBBB.md",
-    "Data/What is - Architecture Decision Record.md",
-    "Data/What is - Requirements.md",
-    "Atlas/MoC - What Is files.md",
-    "Atlas/MoC - Technical Reference Model.md",
-    "Atlas/MoC - of Tasks.md",
-    "Atlas/MoC - of Projects.md",
-    "Atlas/MoC - of MoCs.md",
-    "Atlas/MoC - Banking System.md",
+    "Settings.md",
     "Release Notes.md",
     "README.md",
-    "Settings.md",
-    "Annex/AI Prompts/default/getClassDiagram.md",
-    "Archives/What is - Projects Folder.md",
-    "Archives/What is - Areas Folder.md",
+    "Acknowledgements.md",
+    "Annex/AI Prompts/default/getContextDiagram.md",
+    "References/What is - Technical Reference Model.md",
+    "References/List of Domains - Technical Reference Model.md",
+    "References/Example Principle.md",
+    "Atlas/System Landscape.canvas",
     "Annex",
-    "Data/ADR 3 - Payment Provider Integration.md",
-    "Data/ADR 2 - Product Catalog Database.md",
     "Data/Example YAML Prompt File.yaml",
     "Data/from diagrams import Diagram, Cluster.py",
-    "Data/Landscape Diagram.canvas",
-    "Data/Banking System Context Model.canvas",
     "Data",
     "Inbox/Example YAML Prompt File.yaml",
     "50 - Areas/How to",
     "600 - Data Stores",
     "300 - Landscape/Context Diagram - eCommerce Website.html",
     "Requirements",
-    "Annex/AI Prompts/default",
     "1 - Inbox/Untitled.canvas"
   ]
 }

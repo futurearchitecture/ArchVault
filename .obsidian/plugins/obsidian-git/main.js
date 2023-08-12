@@ -37390,6 +37390,15 @@ function create_else_block(ctx) {
       set_style(div0, "padding-right", "5px");
       set_style(div0, "display", "flex");
       attr(div1, "class", "tree-item-icon nav-folder-collapse-indicator collapse-icon");
+      toggle_class(
+        div1,
+        "is-collapsed",
+        /*closed*/
+        ctx[4][
+          /*entity*/
+          ctx[8].title
+        ]
+      );
       attr(div2, "class", "tree-item-inner nav-folder-title-content svelte-1lnl15d");
       attr(div3, "class", "tree-item-self is-clickable nav-folder-title");
       attr(
@@ -37432,6 +37441,18 @@ function create_else_block(ctx) {
     },
     p(new_ctx, dirty) {
       ctx = new_ctx;
+      if (!current || dirty & /*closed, hierarchy*/
+      17) {
+        toggle_class(
+          div1,
+          "is-collapsed",
+          /*closed*/
+          ctx[4][
+            /*entity*/
+            ctx[8].title
+          ]
+        );
+      }
       if ((!current || dirty & /*hierarchy*/
       1) && t2_value !== (t2_value = /*entity*/
       ctx[8].title + ""))
@@ -38219,6 +38240,12 @@ function create_fragment3(ctx) {
       if (if_block1)
         if_block1.c();
       attr(div0, "class", "tree-item-icon nav-folder-collapse-indicator collapse-icon");
+      toggle_class(
+        div0,
+        "is-collapsed",
+        /*isCollapsed*/
+        ctx[4]
+      );
       attr(div1, "class", "tree-item-inner nav-folder-title-content");
       attr(div1, "aria-label", div1_aria_label_value = /*log*/
       ctx[0].message);
@@ -38264,6 +38291,15 @@ function create_fragment3(ctx) {
       }
     },
     p(ctx2, [dirty]) {
+      if (!current || dirty & /*isCollapsed*/
+      16) {
+        toggle_class(
+          div0,
+          "is-collapsed",
+          /*isCollapsed*/
+          ctx2[4]
+        );
+      }
       if (
         /*log*/
         ctx2[0].refs.length > 0
@@ -39871,6 +39907,15 @@ function create_else_block3(ctx) {
       set_style(div0, "padding-right", "5px");
       set_style(div0, "display", "flex");
       attr(div1, "class", "tree-item-icon nav-folder-collapse-indicator collapse-icon");
+      toggle_class(
+        div1,
+        "is-collapsed",
+        /*closed*/
+        ctx[5][
+          /*entity*/
+          ctx[15].title
+        ]
+      );
       attr(div2, "class", "tree-item-inner nav-folder-title-content svelte-1lnl15d");
       set_style(div3, "width", "11px");
       attr(div4, "class", "buttons");
@@ -39922,6 +39967,18 @@ function create_else_block3(ctx) {
     },
     p(new_ctx, dirty) {
       ctx = new_ctx;
+      if (!current || dirty & /*closed, hierarchy*/
+      33) {
+        toggle_class(
+          div1,
+          "is-collapsed",
+          /*closed*/
+          ctx[5][
+            /*entity*/
+            ctx[15].title
+          ]
+        );
+      }
       if ((!current || dirty & /*hierarchy*/
       1) && t2_value !== (t2_value = /*entity*/
       ctx[15].title + ""))
@@ -40878,6 +40935,8 @@ function create_if_block8(ctx) {
       if (if_block2)
         if_block2.c();
       attr(div0, "class", "tree-item-icon nav-folder-collapse-indicator collapse-icon");
+      toggle_class(div0, "is-collapsed", !/*stagedOpen*/
+      ctx[13]);
       attr(div1, "class", "tree-item-inner nav-folder-title-content");
       attr(div2, "data-icon", "minus");
       attr(div2, "aria-label", "Unstage");
@@ -40890,6 +40949,8 @@ function create_if_block8(ctx) {
       toggle_class(div7, "is-collapsed", !/*stagedOpen*/
       ctx[13]);
       attr(div8, "class", "tree-item-icon nav-folder-collapse-indicator collapse-icon");
+      toggle_class(div8, "is-collapsed", !/*changesOpen*/
+      ctx[12]);
       attr(div9, "class", "tree-item-inner nav-folder-title-content");
       attr(div10, "data-icon", "undo");
       attr(div10, "aria-label", "Discard");
@@ -40980,6 +41041,11 @@ function create_if_block8(ctx) {
       }
     },
     p(ctx2, dirty) {
+      if (!current || dirty[0] & /*stagedOpen*/
+      8192) {
+        toggle_class(div0, "is-collapsed", !/*stagedOpen*/
+        ctx2[13]);
+      }
       if ((!current || dirty[0] & /*status*/
       64) && t4_value !== (t4_value = /*status*/
       ctx2[6].staged.length + ""))
@@ -41011,6 +41077,11 @@ function create_if_block8(ctx) {
       8192) {
         toggle_class(div7, "is-collapsed", !/*stagedOpen*/
         ctx2[13]);
+      }
+      if (!current || dirty[0] & /*changesOpen*/
+      4096) {
+        toggle_class(div8, "is-collapsed", !/*changesOpen*/
+        ctx2[12]);
       }
       if ((!current || dirty[0] & /*status*/
       64) && t12_value !== (t12_value = /*status*/
@@ -43660,6 +43731,7 @@ var ObsidianGit = class extends import_obsidian30.Plugin {
       }
       this.offlineMode = false;
       this.setState(0 /* idle */);
+      dispatchEvent(new CustomEvent("git-refresh"));
       return true;
     }
   }

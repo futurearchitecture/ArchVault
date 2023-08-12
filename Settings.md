@@ -1,122 +1,73 @@
 ---
 AutoNoteMover: disable
 ---
+# Vault Settings Overview
 
+## Introduction
+This guide details the settings applied to the current Vault.
 
-# Introduction
-This document contains the setting for this Vault.
+## Structural Evolution
+Obsidian's Graph feature stands out, making it superior to the traditional folder system. To simplify and optimise organisation, many folders have been removed or renamed, with a greater emphasis on Tags. For detailed changes, see the [[Release Notes]].
 
-## Evolution
-One of the best features of Obsidian, if not the best feature is the Graph. Having a lot of folders does become a problem to organise but the Graph and the use of Tags is a much better option. So a lot of the folders have gone or have been renamed. The structure now comes from a few rules. The changes have been document here [[Release Notes]]
-
-
-# Options
+# General Settings
 
 ## Editor
-- Show Frontmatter = Yes 
+- Display Frontmatter: Enabled
 
-## Files & Links
+## File & Link Preferences
+- **New Notes**: Default location - "0 - Inbox"
+- **New Attachments**: Default location - "100 - References/_Attachments"
 
-### Default Location for new Notes
-- Dropdown  = In the folder specified below
-	- Folder to create new notes in = 0 - Inbox
+## Visual Preferences
+- **Theme**: "Things". Check it out [here](https://github.com/colineckert/obsidian-things).
 
-### Default Location for New Attachments
-- Dropdown  = In the folder specified below
-	- Attachment Folder Path = [100 - References/_Attachments] 
+# Plugins in Use
 
+## Core Plugins
+- **Daily Notes**: Disabled
+- **Template**: Files stored in "100 - References/_Templates"
 
-### Appearance
-- Themes = Things - [GitHub - colineckert/obsidian-things: An Obsidian theme inspired by the beautifully-designed app, Things.](https://github.com/colineckert/obsidian-things)
+## Community Plugins
 
+**1. Auto Note Mover**:
+Automatically moves notes to relevant folders based on specific tags or file names. 
+- [Plugin Info & Download](https://github.com/farux/obsidian-auto-note-mover)
+- **Settings**:
+   - Tag-based Moves:
+     - `#MoC` to "Atlas"
+     - `#Archived` to "Archives"
+     - `#Reference/Web` to "References"
+     - And more...
+   - File Name-based Moves:
+     - "Project" files to "Data"
 
-# Core Plugins
-- Daily Notes = off
+**2. Dataview**: 
+Allows vault queries similar to SQL and generates a Map of Contents.
+- [Plugin Info & Download](https://github.com/blacksmithgu/obsidian-dataview)
 
-- Template
-	- Template Folder Location = '100 - References/_Templates'
+**3. Editing Toolbar**: 
+Facilitates a smoother transition for users from platforms like 'Microsoft Word'.
+- [Plugin Info & Download](https://github.com/cumany/obsidian-editing-toolbar)
 
+**4. GPT Plugin**:
+- [Plugin Info & Download](https://github.com/jmilldotdev/obsidian-gpt)
+- **Important**: An OpenAI Key is required.
 
-# Community Plugins
-These are the Plugins that are installed with this Vault. It is recommend to run an update after opening this Vault in Obsidian.
+**5. Natural Language Dates**:
+Handles dates in a more intuitive way.
+- [Plugin Info & Download](https://github.com/argenos/nldates-obsidian)
 
-## Auto Note Mover
+**6. Obsidian Git**: 
+Automatically backs up changes to a Git Repository. Note: Default settings are active.
+- [Plugin Info & Download](https://github.com/denolehov/obsidian-git)
 
-Once a specific hash tag is applied a note is automatically moved to the appropriate folders.
+**7. Tasks**: 
+Efficiently manage tasks throughout the Vault.
+- [Plugin Info & Download](https://obsidian-tasks-group.github.io/obsidian-tasks/)
 
-https://github.com/farux/obsidian-auto-note-mover
-
-### Settings
-
-The Auto Mover plugin moves files to a specific location when a tag is assigned.
-
-| Tag | Folder | 
-|---|---|
-| #MoC   |0 - Atlas    |
-| #Archived | 1000 - Archives|
-| #Reference/Web | 100 - References |
-| #Tasks| 900 - Tasks |
-|#Standards      | 200 - Standards |
-
-The Auto Mover plugin moves files to a specific location when text in the file name matches.
-
-| File Name | Folder |
-| --- | --- |
-| Project | 10 - Projects | 
-
-
-## Dataview
-
-Dataview is a query the vault using a language very similar to SQL. Dataview is used to generate the content of the Map of Contents
-
-https://github.com/blacksmithgu/obsidian-dataview
-
-
-## Editing Toolbar
-
-Markdown and Obsidian can both have steep learning curves. Having a 'Microsoft Word' style toolbar can help ease these learning curve. 
-
-[GitHub - cumany/obsidian-editing-toolbar: An obsidian toolbar plugin, modified from the Cmenu plugin](https://github.com/cumany/obsidian-editing-toolbar)
-
-
-## GPT 
-
-https://github.com/jmilldotdev/obsidian-gpt
-
-*Please note you will need to obtain your own OpenAI Key for this plugin to work*
-
-
-## Natural Language Dates
-
-[argenos/nldates-obsidian: Work with dates in natural language in Obsidian (github.com)](https://github.com/argenos/nldates-obsidian)
-
-
-
-
-## Obsidian Git
-
-This Plugin will save what has changed to a Git Repo.
-
-**Please Note** - that the default settings are in place.
-
-https://github.com/denolehov/obsidian-git
-
-
-## Tasks
-
-Manage Tasks across the Vault 
-
-https://obsidian-tasks-group.github.io/obsidian-tasks/
-
-
-## Text Generator
-
-[nhaouari/obsidian-textgenerator-plugin: Text generator is a handy plugin for Obsidian that helps you generate text content using GPT-3 (OpenAI). (github.com)](https://github.com/nhaouari/obsidian-textgenerator-plugin)
-
-*Please note you will need to obtain your own OpenAI Key for this plugin to work*
-
-Model - text-davinci-003
-Max Tokens - 1000
-Tempature - 0.9
-Frequency Penalty - 0.1
+**8. Text Generator**: 
+Generates content using GPT-4.
+- [Plugin Info & Download](https://github.com/nhaouari/obsidian-textgenerator-plugin)
+- **Note**: You'll need your OpenAI Key. 
+- **Settings**: Model - GPT4, Max Tokens - 1000, Temperature - 0.9, Frequency Penalty - 0.1
 

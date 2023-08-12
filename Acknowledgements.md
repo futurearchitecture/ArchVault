@@ -1,21 +1,16 @@
-I would like to acknowledge that I have used techniques from the following.
 
-# ADR Template
-https://github.com/adr/madr/blob/main/template/adr-template.md
-MADR - https://github.com/adr/madr
+I've incorporated techniques from the following resources:
 
+1. **ADR Template** by MADR:
+   - [Template](https://github.com/adr/madr/blob/main/template/adr-template.md)
+   - [Main Repository](https://github.com/adr/madr)
 
-# C4 Model 
-https://c4model.com/
-Simon Brown
+2. **C4 Model** by Simon Brown:
+   - [Official Site](https://c4model.com/)
 
+3. **MoC (Map of Content)** by Nick Milo:
+   - [Overview](https://notes.linkingyourthinking.com/Cards/MOCs+Overview)
 
-# MoC
-Map of Content - https://notes.linkingyourthinking.com/Cards/MOCs+Overview
-Nick Milo
+4. **PARA Method** by ForteLabs:
+   - [Detailed Article](https://fortelabs.com/blog/para/)
 
-
-
-# PARA
-The PARA Method - https://fortelabs.com/blog/para/
-by ForteLabs 

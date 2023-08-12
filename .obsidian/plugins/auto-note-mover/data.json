@@ -4,32 +4,32 @@
   "statusBar_trigger_indicator": true,
   "folder_tag_pattern": [
     {
-      "folder": "0 - Atlas",
+      "folder": "Atlas",
       "tag": "#MoC",
       "pattern": ""
     },
     {
-      "folder": "1000 - Archives",
+      "folder": "Archives",
       "tag": "#Archived",
       "pattern": ""
     },
     {
-      "folder": "100 - References",
+      "folder": "References",
       "tag": "#Reference",
       "pattern": ""
     },
     {
-      "folder": "200 - Tasks",
+      "folder": "Tasks",
       "tag": "#Tasks",
       "pattern": ""
     },
     {
-      "folder": "10 - Projects",
+      "folder": "Data",
       "tag": "",
       "pattern": "^Project"
     },
     {
-      "folder": "200 - Standards",
+      "folder": "Standards",
       "tag": "#Standards",
       "pattern": ""
     }

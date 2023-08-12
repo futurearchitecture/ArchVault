@@ -1,4 +1,4 @@
-MoC: [[MoC - Technical Reference Model]]
+MoC: [[MoC - of Technical Reference Model]]
 Tags: #What_is #Standards/TRM 
 Web Reference: https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap19.html
 

@@ -1,4 +1,4 @@
-MoC: [[MoC - Technical Reference Model]]
+MoC: [[MoC - of Technical Reference Model]]
 Tags: #Standards/TRM 
 
 The TOGAF Technical Reference Model (TRM) provides a standard for organizing and classifying the various types of IT infrastructure and application components that make up an enterprise architecture.

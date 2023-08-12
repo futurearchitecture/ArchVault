@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "multitext",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Interfaces": "multitext",
+    "Connections": "multitext",
+    "status": "multitext",
+    "Stat": "multitext",
+    "Datae": "date",
+    "Date": "date",
+    "decide": "multitext",
+    "consult": "multitext",
+    "Map of Content": "multitext"
+  }
+}

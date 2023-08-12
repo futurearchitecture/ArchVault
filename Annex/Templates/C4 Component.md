@@ -1,4 +1,8 @@
-Tags: #Object/Component
+---
+tags:
+  - Object/Component
+---
+
 
 Name:
 Description:

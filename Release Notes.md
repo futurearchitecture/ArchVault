@@ -1,74 +1,44 @@
 
-## Version 3.0
+## Version 3.0 Overview
 
-Version 3.0 comes with a major upgrade. One of Obsidians super power features, perhaps it's best, is the Graph so in this updated ArchVault will use the power of the Graph and Tags more and use fewer folders.
+In our new Version 3.0, we've made significant changes to leverage Obsidian's Graph, a standout feature. With this update, ArchVault will rely more on the Graph and Tags, reducing the dependency on folders. The whole Vault has only eight folders and this number is likely to go down in future version.
 
-Using fewer folders has advantages in that it's difficult to create duplicates of files and it become harder to misplace them.
+**Benefits**:
+- Reduced chances of duplicating files.
+- Minimised risk of misplacing files.
+- As your collection of notes grows, you won't have to change your workflow much. It's all about optimising with less!
 
-This also means that from the outset knowledge will be found using the search tools, tags, graph or Dataview which are good habits because as the amount of knowledge you accumulate grows your existing workflow will not need to adjust as much. Less does indeed mean more!
-## Tags
-Tags have a refined purpose in that they are used 
+## Using Tags
 
-For example, words like 'AI' or the Project you are working on make great categories.
+Tags are now more focused. They're great for categories like 'AI' or specific projects you're working on.
 
-#### Project Tags
-Project Tags come in two variants 
-- Project Name
-- Project Phase
+#### Projects and Tags
+Tags related to projects can reflect:
+- The Project's Name.
+- The current Phase of the project.
 
-## Backlinks
-Backlinks are the best way to link items of knowledge together.
+## Backlinks and How to Use Them
 
-For example, if you use a Backlink using words such as 'ChatGPT' or 'AI' which could encompass lots of notes it will make the Graph messy and difficult to navigate, so makes sense to use them as Tags instead. 
-# New Folders 
-## Data
-The Data Folder is now default for new files created in the Vault.
+Backlinks are ideal for connecting related knowledge pieces. However, using broad terms like 'ChatGPT' or 'AI' as backlinks can clutter the Graph, so it's recommended to use such terms as Tags.
 
-The intention is that the Data folder will hold the majority of the files of knowledge that will be accumulated over time.
-## Annex
-Is a set of folders that contain items that support the vault, such as,
-- Templates - for Markdown files
-- Attachments - images and so on that are attached to a Markdown page
-- AI Prompts - AI Prompts templates used by the Text Generator plugin.
+## New Folder Structure
 
+### 1. Data Folder
+- This is the primary folder for new files.
+- It's designed to hold most of your knowledge-based files over time.
 
+### 2. Annex
+This folder holds supportive content for the vault:
+- **Templates** - Markdown file templates.
+- **Attachments** - Items like images linked to a Markdown page.
+- **AI Prompts** - Templates for the Text Generator plugin.
 
-## Numbers of folder removed
-for clearer referencing
+### Changes Made to Folders
 
-
-# Retired Folders
-
-## Projects
-[[What is - Projects Folder]] is now archived. 
-Project content was all moved to the Data Folder
-
-## Areas
-[[What is - Areas Folder]] is now archived
-
-## Landscapes
-All content of this folder was moved to the Data folder
-Folder is deleted
-New #Landscape tag created.
-
-
-## Data Stores
-Data Stores content was all moved to the Data Folder
-
-## Inbox
-The Inbox folder has been removed and replaced by the Data folder.
-
-
-## Logs
-Logs folder has also been removed. The log themselves will also sit in the Data folder.
-
-
-
-# Moved and Renamed Folders
-
-References\_Prompts --> Annex\AI Prompts
-
-References\_Attachment\ --> Annex\Attachment
-
-References\_Templates --> Annex\Templates
+- Several folders have been removed for simplicity.
+- Folders like "Projects", "Areas", "Landscapes", "Data Stores", "Inbox", "Logs", and "Standards" have either been archived or their content has been moved to the Data folder.
+- Folders have been relocated and renamed for better organization: 
+  - References\_Prompts is now Annex\AI Prompts
+  - References\_Attachment\ is now Annex\Attachment
+  - References\_Templates is now Annex\Templates
 

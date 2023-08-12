@@ -1,7 +1,7 @@
 # ArchVault
 Knowledge Management for Technical Architects
 
-This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of technical architecture such as Solution, Software and Data by using various types of automation including AI.
+This is a project to create an [Obsidian.md](https://obsidian.md/) Vault to aid all types of Technical Architecture such as Solution, Software and Data by using various types of automation including AI.
 
 The intention is that this Vault can be open and used after downloading or cloning  it with little configuration.
 
@@ -49,7 +49,7 @@ The Markdown written in this Vault is intended for use in Obsidian and not GitHu
 
 ## What are the 'What is' files?
 The 'What is' files are used to explain what certain parts of the Vault are used for.
-A good place to start is the [[MoC - What Is files]] which is a FAQ of sorts.
+A good place to start is the [[MoC - of What Is files]] which is a FAQ of sorts.
 
 ## Folders
 

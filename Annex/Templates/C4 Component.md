@@ -1,6 +1,6 @@
 ---
 tags:
-  - Object/Component
+  - C4/Component
 ---
 
 

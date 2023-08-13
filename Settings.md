@@ -71,3 +71,7 @@ Generates content using GPT-4.
 - **Note**: You'll need your OpenAI Key. 
 - **Settings**: Model - GPT4, Max Tokens - 1000, Temperature - 0.9, Frequency Penalty - 0.1
 
+# Tag Directory
+
+A comprehensive list of Tags and how to use them is in the [[Tags Directory]].
+

@@ -1,4 +1,4 @@
-Tags: #Object/Person
+Tags: #C4/Person
 
 Name:
 Description:

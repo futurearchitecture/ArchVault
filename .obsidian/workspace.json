@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Annex/Templates/C4 Component.md",
+                "file": "References/Tags Directory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#infra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Annex/Templates/C4 Component.md",
+                "file": "References/Tags Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Annex/Templates/C4 Component.md",
+                "file": "References/Tags Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Annex/Templates/C4 Component.md"
+                "file": "References/Tags Directory.md"
               }
             }
           },
@@ -139,12 +139,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,8 +158,11 @@
   },
   "active": "4d1617082b002852",
   "lastOpenFiles": [
-    "Annex/Templates/C4 Container.md",
+    "Settings.md",
+    "References/Tags Directory.md",
+    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
     "Annex/Templates/C4 Component.md",
+    "Annex/Templates/C4 Container.md",
     "Annex/Templates/Default.md",
     "Annex/Templates/Object Relationship.md",
     "Annex/Templates/ADR.md",
@@ -169,7 +171,6 @@
     "Archives/What is - Archives Folder.md",
     "Data/Internet Banking System.md",
     "Data/Example Pattern.md",
-    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
     "Tasks/All Open Tasks.md",
     "Tasks/All Closed Tasks.md",
     "Tasks/How to - Manage Tasks.md",
@@ -181,14 +182,12 @@
     "Data/About ArchVault.md",
     "Atlas/Context Model - Banking System.canvas",
     "Annex/Attachments/C4 Model Image.png",
-    "Settings.md",
     "Release Notes.md",
     "README.md",
     "Acknowledgements.md",
     "Annex/AI Prompts/default/getContextDiagram.md",
     "References/What is - Technical Reference Model.md",
     "References/List of Domains - Technical Reference Model.md",
-    "References/Example Principle.md",
     "Atlas/System Landscape.canvas",
     "Annex",
     "Data/Example YAML Prompt File.yaml",

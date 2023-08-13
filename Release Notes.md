@@ -1,7 +1,7 @@
 
 ## Version 3.0 Overview
 
-In our new Version 3.0, we've made significant changes to leverage Obsidian's Graph, a standout feature. With this update, ArchVault will rely more on the Graph and Tags, reducing the dependency on folders. The whole Vault has only eight folders and this number is likely to go down in future version.
+In the new Version 3.0, there are significant changes to leverage Obsidian's Graph, a standout feature. With this update, ArchVault will rely more on the Graph and Tags, reducing the dependency on folders. The whole Vault has only eight folders and this number is likely to decrease in future versions.
 
 **Benefits**:
 - Reduced chances of duplicating files.

@@ -51,10 +51,6 @@ The Markdown written in this Vault is intended for use in Obsidian and not GitHu
 The 'What is' files are used to explain what certain parts of the Vault are used for.
 A good place to start is the [[MoC - of What Is files]] which is a FAQ of sorts.
 
-## Folders
-
-### Root Folders
-Root Folders all have a number before them so they stay in the PARA order.
 
 ## Map of Contents / MoC
 MoC - prefix for Map of Content files. The [[What is - Map of Content]] explains in greater depth.

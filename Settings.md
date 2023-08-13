@@ -15,8 +15,8 @@ Obsidian's Graph feature stands out, making it superior to the traditional folde
 - Display Frontmatter: Enabled
 
 ## File & Link Preferences
-- **New Notes**: Default location - "0 - Inbox"
-- **New Attachments**: Default location - "100 - References/_Attachments"
+- **New Notes**: Default location - "Data"
+- **New Attachments**: Default location - "Annex/Attachments"
 
 ## Visual Preferences
 - **Theme**: "Things". Check it out [here](https://github.com/colineckert/obsidian-things).
@@ -25,7 +25,7 @@ Obsidian's Graph feature stands out, making it superior to the traditional folde
 
 ## Core Plugins
 - **Daily Notes**: Disabled
-- **Template**: Files stored in "100 - References/_Templates"
+- **Template**: Files stored in "Annex/Templates"
 
 ## Community Plugins
 

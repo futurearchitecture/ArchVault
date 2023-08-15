@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References/Tags Directory.md",
+                "file": "Atlas/List - Solution Architecture Patterns.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "732482d144c5daf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/System - Ecommerce Example - Search Functionality Service.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 277.5
   },
   "right": {
     "id": "0472c12e79fc4df9",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References/Tags Directory.md",
+                "file": "Atlas/List - Solution Architecture Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "References/Tags Directory.md",
+                "file": "Atlas/List - Solution Architecture Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "References/Tags Directory.md"
+                "file": "Atlas/List - Solution Architecture Patterns.md"
               }
             }
           },
@@ -139,11 +152,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,37 +171,38 @@
   },
   "active": "4d1617082b002852",
   "lastOpenFiles": [
-    "Settings.md",
     "References/Tags Directory.md",
-    "Data/Relationship - Personal Baking Customer and Internet  Banking System.md",
-    "Annex/Templates/C4 Component.md",
-    "Annex/Templates/C4 Container.md",
-    "Annex/Templates/Default.md",
-    "Annex/Templates/Object Relationship.md",
+    "Atlas/List - Solution Architecture Patterns.md",
+    "Atlas/MoC - of Canvases.md",
+    "Atlas/MoC - of MoCs.md",
+    "Atlas/MoC - of Interfaces.md",
     "Annex/Templates/ADR.md",
-    "Annex/Templates/C4 Person.md",
-    "Annex/Templates/C4 Context.md",
-    "Archives/What is - Archives Folder.md",
-    "Data/Internet Banking System.md",
-    "Data/Example Pattern.md",
-    "Tasks/All Open Tasks.md",
-    "Tasks/All Closed Tasks.md",
-    "Tasks/How to - Manage Tasks.md",
-    "Data/Example - User Stories to Code.md",
-    "Data/Example - Solution Architecture Document for a Banking System.md",
-    "Data/Example - Demo.md",
+    "Data/System - Ecommerce Example - Search Functionality Service.md",
+    "Data/System - Ecommerce Example - Product Browsing Service.md",
+    "Atlas/MoC - System - Ecommerce Example.md",
+    "Atlas/MoC - of Technical Reference Model.md",
+    "Atlas/MoC - of What Is files.md",
+    "Atlas/MoC - of Tasks.md",
+    "Atlas/MoC - of Projects.md",
+    "Atlas/What is - Atlas folder.md",
+    "Atlas/What is - Map of Content.md",
+    "Annex/Attachments/C4 Model Image.png",
+    "Atlas/MoC - Banking System.md",
+    "Data/Project AAAA - Functional Requirements.md",
+    "Atlas/Context Model - Banking System.canvas",
+    "Atlas/System Landscape.canvas",
+    "Data/Requirement - User Registration.md",
+    "Data/What is - Architecture Decision Record.md",
+    "Data/Types of ChatGPT Prompt.md",
+    "Data/Requirement - Shopping Cart.md",
+    "Data/Requirement - Sequence Diagrams.md",
+    "Data/Requirement - Product Details.md",
+    "Data/Requirement - Checkout Process.md",
+    "Data/Requirement - Browse and Search.md",
+    "Data/eCommerce Website Example - Functional Requirements.md",
+    "System",
     "Data/e-commerce_deployment_diagram.png",
     "Data/e-commerce_deployment_diagram",
-    "Data/About ArchVault.md",
-    "Atlas/Context Model - Banking System.canvas",
-    "Annex/Attachments/C4 Model Image.png",
-    "Release Notes.md",
-    "README.md",
-    "Acknowledgements.md",
-    "Annex/AI Prompts/default/getContextDiagram.md",
-    "References/What is - Technical Reference Model.md",
-    "References/List of Domains - Technical Reference Model.md",
-    "Atlas/System Landscape.canvas",
     "Annex",
     "Data/Example YAML Prompt File.yaml",
     "Data/from diagrams import Diagram, Cluster.py",
@@ -197,7 +211,6 @@
     "50 - Areas/How to",
     "600 - Data Stores",
     "300 - Landscape/Context Diagram - eCommerce Website.html",
-    "Requirements",
     "1 - Inbox/Untitled.canvas"
   ]
 }

@@ -178,83 +178,85 @@ By adhering to these best practices, you'll be better positioned to maximize the
 A comprehensive list of tags for all data concepts.
 
 1. **Core Concepts**
-   - `#data/introduction`
-   - `#data/definitions`
-   - `#data/types`
+   - #data/introduction
+   - #data/definitions
+   - #data/types
 
 2. **Lifecycle**
-   - `#data/lifecycle/creation`
-   - `#data/lifecycle/collection`
-   - `#data/lifecycle/processing`
-   - `#data/lifecycle/analysis`
-   - `#data/lifecycle/distribution`
-   - `#data/lifecycle/retention`
-   - `#data/lifecycle/destruction`
+   - #data/lifecycle/creation
+   - #data/lifecycle/collection
+   - #data/lifecycle/processing
+   - #data/lifecycle/analysis
+   - #data/lifecycle/distribution
+   - #data/lifecycle/retention
+   - #data/lifecycle/destruction
 
 3. **Storage**
-   - `#data/storage/databases`
-   - `#data/storage/data-warehouses`
-   - `#data/storage/data-lakes`
-   - `#data/storage/file-systems`
-   - `#data/storage/cloud-storage`
+   - #data/storage/databases
+   - #data/storage/data-warehouses
+   - #data/storage/data-lakes
+   - #data/storage/file-systems
+   - #data/storage/cloud-storage
 
 4. **Quality**
-   - `#data/quality/cleanliness`
-   - `#data/quality/integrity`
-   - `#data/quality/accuracy`
-   - `#data/quality/consistency`
+   - #data/quality/cleanliness
+   - #data/quality/integrity
+   - #data/quality/accuracy
+   - #data/quality/consistency
 
 5. **Analysis**
-   - `#data/analysis/statistics`
-   - `#data/analysis/data-mining`
-   - `#data/analysis/visualization`
-   - `#data/analysis/predictive-modeling`
-   - `#data/analysis/machine-learning`
+   - #data/analysis/statistics
+   - #data/analysis/data-mining
+   - #data/analysis/visualization
+   - #data/analysis/predictive-modeling
+   - #data/analysis/machine-learning
 
 6. **Governance & Management**
-   - `#data/governance/policies`
-   - `#data/governance/compliance`
-   - `#data/governance/roles-responsibilities`
-   - `#data/management/master-data`
-   - `#data/management/metadata`
-   - `#data/management/data-stewardship`
+   - #data/governance/policies
+   - #data/governance/compliance
+   - #data/governance/roles-responsibilities
+   - #data/management/master-data
+   - #data/management/metadata
+   - #data/management/data-stewardship
 
 7. **Security**
-   - `#data/security/encryption`
-   - `#data/security/backup-recovery`
-   - `#data/security/data-masking`
-   - `#data/security/authorization`
+   - #data/security/encryption
+   - #data/security/backup-recovery
+   - #data/security/data-masking
+   - #data/security/authorization
 
 8. **Privacy**
-   - `#data/privacy/GDPR`
-   - `#data/privacy/CCPA`
-   - `#data/privacy/data-rights`
-   - `#data/privacy/PII-protection`
+   - #data/privacy/GDPR
+   - #data/privacy/CCPA
+   - #data/privacy/data-rights
+   - #data/privacy/PII-protection
 
 9. **Integration**
-   - `#data/integration/ETL`
-   - `#data/integration/APIs`
-   - `#data/integration/data-pipelines`
+   - #data/integration/ETL
+   - #data/integration/APIs
+   - #data/integration/data-pipelines
 
 10. **Architecture**
-   - `#data/architecture/DBMS`
-   - `#data/architecture/data-modeling`
-   - `#data/architecture/schemas`
+   - #data/architecture/DBMS
+   - #data/architecture/data-modeling
+   - #data/architecture/schemas
 
 11. **Tools & Technologies**
-   - `#data/tools/BI-tools`
-   - `#data/tools/data-wrangling`
-   - `#data/tools/reporting`
+   - #data/tools/BI-tools
+   - #data/tools/data-wrangling
+   - #data/tools/reporting
 
 12. **Ethics**
-   - `#data/ethics/bias`
-   - `#data/ethics/transparency`
-   - `#data/ethics/accountability`
+   - #data/ethics/bias
+   - #data/ethics/transparency
+   - #data/ethics/accountability
 
 13. **Specialised Fields**
-   - `#data/fields/big-data`
-   - `#data/fields/open-data`
-   - `#data/fields/streaming-data`
-   - `#data/fields/time-series-data`
-   - `#data/fields/geospatial-data`
+   - #data/fields/big-data
+   - #data/fields/open-data
+   - #data/fields/streaming-data
+   - #data/fields/time-series-data
+   - #data/fields/geospatial-data
 
+---
+Pattern Tags are in the [[List - Solution Architecture Patterns]]

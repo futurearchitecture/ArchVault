@@ -1,5 +1,9 @@
-MoC: [[MoC - of MoCs]]
-Tags: #MoC 
+---
+tags:
+  - MoC
+---
+
+
 
 # All Open Tasks
 

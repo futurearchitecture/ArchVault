@@ -11,6 +11,7 @@
     "Date": "date",
     "decide": "multitext",
     "consult": "multitext",
-    "Map of Content": "multitext"
+    "Map of Content": "multitext",
+    "System": "multitext"
   }
 }

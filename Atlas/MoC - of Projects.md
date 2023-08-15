@@ -1,4 +1,10 @@
-MoC: [[MoC - of MoCs]]
+---
+tags:
+  - MoC
+---
+
+
+
 Tags: #MoC 
 
 ```dataview

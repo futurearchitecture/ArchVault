@@ -1,5 +1,8 @@
-MoC: [[MoC - of MoCs]]
-Tags: #MoC 
+---
+tags:
+  - MoC
+---
+
 
 List of the 'What is' explanation files across this Obsidian Vault.
 

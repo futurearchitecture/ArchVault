@@ -1,12 +1,28 @@
 # Introduction
 
+It has become a norm to write documentation in Markdown next to the code in a Git based repository. What hasn't become a standard is the structure of the documentation. 
+
+ArchVault is a template for storing knowledge not just about the code but what is the code at the centre of? and how, why and what it is connected to?
+
+Developers are efficient with their time, they understand its value intrinsically, this is at the centre of why they can and should resist writing documentation, it shouldn't be because it's a box that needs to be ticked but because we know it won't have a lot of value if its hard to find and hard to maintain. 
+
+With ArchVault the knowledge you capture will have value because of the relationships it has. You will enjoy writing document because it will become part of the creative process, because it will have value and meaning. 
+
+What ArchVault isn't is a bunch of folders or naming conventions for files. ArchVault has eight folders max and that's too many, you will be able to remember what they are all for. Tags and Backlinks create the structure, they help a knowledge file describe itself. 
+
+Tags tells us what group this knowledge file belongs to 
+
+Backlinks tells us what a knowledge file is related to. 
+
+Like a map, knowledge should be found be triangulation not a rigid structure that where a file could be duplicated multiple times. Git is great at version control so let it do that, don't put a version number in a file name ever again! 
+
+
+
 ArchVault was conceived in response to a common frustration: the inefficiency and impermanence of traditional documentation methods.
 
-Gone are the days when we would spend countless hours, days, or even weeks drafting documents, only to have them buried within seemingly infinite Word files and lost in the labyrinth of SharePoint folders. It's akin to pouring immense effort into a project, only to discard it, never to be seen again!
 
-Over time, memories fade, and employees move on. The valuable knowledge they've amassed often goes with them, slipping away into oblivion. In the absence of a systematic approach, we find ourselves desperately searching, sometimes stumbling upon relevant documents but lacking context. It becomes a challenge to comprehend the interconnectedness of various facets like technology, security, and data. Moreover, deciphering the rationale behind certain decisions, understanding constraints, or grasping the thought processes becomes near-impossible. Further complicating matters are enterprise software solutions that, while serving specific purposes, fail to integrate seamlessly with other crucial information hubs or adapt to evolving knowledge.
 
-Enter Obsidian – a glimmer of hope in what is clearly chaotic. While Obsidian offers a promising solution, its initial blank slate can be daunting. Recognising this, I developed ArchVault. My goal is to collaboratively craft with the community a tool that empowers Solution Architects like us, streamlining our workflows and ensuring our insights remain accessible and contextualised.
+
 
 # Resilience of Text-Based Formats
 

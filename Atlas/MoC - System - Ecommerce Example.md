@@ -10,9 +10,9 @@ tags:
 
 A comprehensive ecommerce website and mobile app like Amazon would typically provide a wide array of services and features for the general public. Here's a list:
 
-1. [[System - Ecommerce Example - Product Browsing Service]]: Allowing users to browse various products by category, brand, etc.
+1. [[System - eCommerce - Product Browsing Service]]: Allowing users to browse various products by category, brand, etc.
   
-2. [[System - Ecommerce Example - Search Functionality Service]]: Powerful search with filters and sorting options.
+2. [[System - eCommerce - Search Functionality Service]]: Powerful search with filters and sorting options.
   
 3. [[System - Ecommerce Example - Product Details Service]]: Detailed product pages with images, descriptions, specifications, customer reviews, and Q&A.
   

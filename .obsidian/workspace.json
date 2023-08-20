@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a011198c9453cac",
+        "id": "2c1e7c1e0072bff3",
         "type": "tabs",
         "children": [
           {
-            "id": "4d1617082b002852",
+            "id": "9a6d14674648dba4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/List - Solution Architecture Patterns.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "732482d144c5daf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/System - Ecommerce Example - Search Functionality Service.md",
+                "file": "Atlas/MoC - Standards.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#infra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 336.5
   },
   "right": {
     "id": "0472c12e79fc4df9",
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/List - Solution Architecture Patterns.md",
+                "file": "Atlas/MoC - Standards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/List - Solution Architecture Patterns.md",
+                "file": "Atlas/MoC - Standards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/List - Solution Architecture Patterns.md"
+                "file": "Atlas/MoC - Standards.md"
               }
             }
           },
@@ -156,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,37 +157,37 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4d1617082b002852",
+  "active": "9a6d14674648dba4",
   "lastOpenFiles": [
-    "References/Tags Directory.md",
-    "Atlas/List - Solution Architecture Patterns.md",
-    "Atlas/MoC - of Canvases.md",
-    "Atlas/MoC - of MoCs.md",
-    "Atlas/MoC - of Interfaces.md",
-    "Annex/Templates/ADR.md",
-    "Data/System - Ecommerce Example - Search Functionality Service.md",
-    "Data/System - Ecommerce Example - Product Browsing Service.md",
-    "Atlas/MoC - System - Ecommerce Example.md",
-    "Atlas/MoC - of Technical Reference Model.md",
-    "Atlas/MoC - of What Is files.md",
-    "Atlas/MoC - of Tasks.md",
     "Atlas/MoC - of Projects.md",
-    "Atlas/What is - Atlas folder.md",
-    "Atlas/What is - Map of Content.md",
-    "Annex/Attachments/C4 Model Image.png",
-    "Atlas/MoC - Banking System.md",
-    "Data/Project AAAA - Functional Requirements.md",
-    "Atlas/Context Model - Banking System.canvas",
-    "Atlas/System Landscape.canvas",
-    "Data/Requirement - User Registration.md",
+    "Atlas/MoC - Standards.md",
+    "Atlas/MoC - of Canvases.md",
+    "Data/Project HR - Standards.md",
+    "References/Common Standards and Guidelines.md",
+    "Data/Project Call Centre - Standards.md",
+    "Data/Project eCommerce - Standards.md",
+    "Data/About ArchVault.md",
+    "Data/Component Example.md",
+    "Data/Code Example.md",
     "Data/What is - Architecture Decision Record.md",
     "Data/Types of ChatGPT Prompt.md",
-    "Data/Requirement - Shopping Cart.md",
-    "Data/Requirement - Sequence Diagrams.md",
-    "Data/Requirement - Product Details.md",
-    "Data/Requirement - Checkout Process.md",
-    "Data/Requirement - Browse and Search.md",
-    "Data/eCommerce Website Example - Functional Requirements.md",
+    "Data/System - eCommerce - Dataflow Diagram.md",
+    "Data/System - eCommerce - Product Browsing Service.md",
+    "Data/System - eCommerce - Search Functionality Service.md",
+    "Data/Project eCommerce - Requirement - User Registration.md",
+    "Data/Project eCommerce - Requirement - Shopping Cart.md",
+    "Data/Project eCommerce - Requirement - Sequence Diagrams.md",
+    "Data/Project eCommerce - Requirement - Product Details.md",
+    "Data/Project eCommerce - Requirement - Checkout Process.md",
+    "Data/Project eCommerce - Requirement - Browse and Search.md",
+    "Data/Project eCommerce - Functional Requirements.md",
+    "Data/Project eCommerce - ADR 01.md",
+    "Data/Project eCommerce - ADR 02.md",
+    "Data/ADR 2 - Product Catalog Database.md",
+    "Data/ADR 1 - Hosting Environment.md",
+    "Annex/Attachments/C4 Model Image.png",
+    "Atlas/Context Model - Banking System.canvas",
+    "Atlas/System Landscape.canvas",
     "System",
     "Data/e-commerce_deployment_diagram.png",
     "Data/e-commerce_deployment_diagram",

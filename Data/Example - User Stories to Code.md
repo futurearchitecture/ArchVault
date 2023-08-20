@@ -3,7 +3,7 @@
 
 
 
-GPT Prompt: identify the user stories from ![[Requirement - User Registration]]
+GPT Prompt: identify the user stories from ![[Project eCommerce - Requirement - User Registration]]
 
 As an unregistered user, I want to register for a new account so that I can access the website's features.
 
